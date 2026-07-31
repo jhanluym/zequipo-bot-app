@@ -1,0 +1,302 @@
+{
+  "actualizado": "2026-07-30T23:58:46.386678+00:00",
+  "total": 60,
+  "wins": 37,
+  "pct": 61.7,
+  "rango_lo": 49.0,
+  "rango_hi": 72.9,
+  "empates": 0,
+  "sin_datos": 3,
+  "combos": [
+    {
+      "nombre": "EURUSD_otc | 1min",
+      "wins": 11,
+      "total": 17,
+      "pct": 64.7,
+      "rango_lo": 41.3,
+      "rango_hi": 82.7
+    },
+    {
+      "nombre": "EURUSD_otc | 10min",
+      "wins": 11,
+      "total": 17,
+      "pct": 64.7,
+      "rango_lo": 41.3,
+      "rango_hi": 82.7
+    },
+    {
+      "nombre": "EURUSD_otc | 5min",
+      "wins": 10,
+      "total": 15,
+      "pct": 66.7,
+      "rango_lo": 41.7,
+      "rango_hi": 84.8
+    },
+    {
+      "nombre": "USDDZD_otc | 1min",
+      "wins": 0,
+      "total": 2,
+      "pct": 0.0,
+      "rango_lo": 0,
+      "rango_hi": 65.8
+    },
+    {
+      "nombre": "USDDZD_otc | 5min",
+      "wins": 0,
+      "total": 2,
+      "pct": 0.0,
+      "rango_lo": 0,
+      "rango_hi": 65.8
+    },
+    {
+      "nombre": "USDDZD_otc | 10min",
+      "wins": 1,
+      "total": 2,
+      "pct": 50.0,
+      "rango_lo": 9.5,
+      "rango_hi": 90.5
+    },
+    {
+      "nombre": "AUDUSD_otc | 1min",
+      "wins": 1,
+      "total": 1,
+      "pct": 100.0,
+      "rango_lo": 20.7,
+      "rango_hi": 100
+    },
+    {
+      "nombre": "AUDUSD_otc | 10min",
+      "wins": 1,
+      "total": 1,
+      "pct": 100.0,
+      "rango_lo": 20.7,
+      "rango_hi": 100
+    },
+    {
+      "nombre": "USDJPY_otc | 1min",
+      "wins": 1,
+      "total": 1,
+      "pct": 100.0,
+      "rango_lo": 20.7,
+      "rango_hi": 100
+    },
+    {
+      "nombre": "USDJPY_otc | 5min",
+      "wins": 1,
+      "total": 1,
+      "pct": 100.0,
+      "rango_lo": 20.7,
+      "rango_hi": 100
+    },
+    {
+      "nombre": "USDJPY_otc | 10min",
+      "wins": 0,
+      "total": 1,
+      "pct": 0.0,
+      "rango_lo": 0,
+      "rango_hi": 79.3
+    }
+  ],
+  "recientes": [
+    {
+      "id": 61,
+      "asset": "EURUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-07-30T21:40:00+00:00",
+      "entry_price": 1.11895,
+      "exit_price": 1.11844,
+      "resultado": "PERDIDA"
+    },
+    {
+      "id": 62,
+      "asset": "EURUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 5,
+      "hora": "2026-07-30T21:40:00+00:00",
+      "entry_price": 1.11895,
+      "exit_price": 1.11766,
+      "resultado": "PERDIDA"
+    },
+    {
+      "id": 63,
+      "asset": "EURUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 10,
+      "hora": "2026-07-30T21:40:00+00:00",
+      "entry_price": 1.11895,
+      "exit_price": 1.11681,
+      "resultado": "PERDIDA"
+    },
+    {
+      "id": 58,
+      "asset": "EURUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-07-30T20:36:00+00:00",
+      "entry_price": 1.12052,
+      "exit_price": 1.12025,
+      "resultado": "PERDIDA"
+    },
+    {
+      "id": 59,
+      "asset": "EURUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 5,
+      "hora": "2026-07-30T20:36:00+00:00",
+      "entry_price": 1.12052,
+      "exit_price": 1.1198,
+      "resultado": "PERDIDA"
+    },
+    {
+      "id": 60,
+      "asset": "EURUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 10,
+      "hora": "2026-07-30T20:36:00+00:00",
+      "entry_price": 1.12052,
+      "exit_price": 1.11963,
+      "resultado": "PERDIDA"
+    },
+    {
+      "id": 55,
+      "asset": "EURUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-07-30T20:10:00+00:00",
+      "entry_price": 1.12187,
+      "exit_price": 1.1221,
+      "resultado": "GANADA"
+    },
+    {
+      "id": 56,
+      "asset": "EURUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 5,
+      "hora": "2026-07-30T20:10:00+00:00",
+      "entry_price": 1.12187,
+      "exit_price": 1.12195,
+      "resultado": "GANADA"
+    },
+    {
+      "id": 57,
+      "asset": "EURUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 10,
+      "hora": "2026-07-30T20:10:00+00:00",
+      "entry_price": 1.12187,
+      "exit_price": 1.1218,
+      "resultado": "PERDIDA"
+    },
+    {
+      "id": 52,
+      "asset": "EURUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-07-30T19:48:00+00:00",
+      "entry_price": 1.12402,
+      "exit_price": 1.1243,
+      "resultado": "PERDIDA"
+    },
+    {
+      "id": 53,
+      "asset": "EURUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 5,
+      "hora": "2026-07-30T19:48:00+00:00",
+      "entry_price": 1.12402,
+      "exit_price": 1.12389,
+      "resultado": "GANADA"
+    },
+    {
+      "id": 54,
+      "asset": "EURUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 10,
+      "hora": "2026-07-30T19:48:00+00:00",
+      "entry_price": 1.12402,
+      "exit_price": 1.12369,
+      "resultado": "GANADA"
+    },
+    {
+      "id": 49,
+      "asset": "EURUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-07-30T13:22:00+00:00",
+      "entry_price": 1.12019,
+      "exit_price": 1.12021,
+      "resultado": "GANADA"
+    },
+    {
+      "id": 50,
+      "asset": "EURUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 5,
+      "hora": "2026-07-30T13:22:00+00:00",
+      "entry_price": 1.12019,
+      "exit_price": 1.11972,
+      "resultado": "PERDIDA"
+    },
+    {
+      "id": 51,
+      "asset": "EURUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 10,
+      "hora": "2026-07-30T13:22:00+00:00",
+      "entry_price": 1.12019,
+      "exit_price": 1.12033,
+      "resultado": "GANADA"
+    },
+    {
+      "id": 46,
+      "asset": "EURUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-07-30T13:09:00+00:00",
+      "entry_price": 1.12143,
+      "exit_price": 1.12131,
+      "resultado": "PERDIDA"
+    },
+    {
+      "id": 47,
+      "asset": "EURUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 5,
+      "hora": "2026-07-30T13:09:00+00:00",
+      "entry_price": 1.12143,
+      "exit_price": 1.12107,
+      "resultado": "PERDIDA"
+    },
+    {
+      "id": 48,
+      "asset": "EURUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 10,
+      "hora": "2026-07-30T13:09:00+00:00",
+      "entry_price": 1.12143,
+      "exit_price": 1.11968,
+      "resultado": "PERDIDA"
+    },
+    {
+      "id": 43,
+      "asset": "EURUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-07-30T12:26:00+00:00",
+      "entry_price": 1.12438,
+      "exit_price": 1.12413,
+      "resultado": "GANADA"
+    },
+    {
+      "id": 44,
+      "asset": "EURUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 5,
+      "hora": "2026-07-30T12:26:00+00:00",
+      "entry_price": 1.12438,
+      "exit_price": 1.12408,
+      "resultado": "GANADA"
+    }
+  ]
+}
