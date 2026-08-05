@@ -1,23 +1,6 @@
 {
-  "actualizado": "2026-08-05T18:12:08.401163+00:00",
-  "lectura_actual": {
-    "par": "EURRUB_otc",
-    "sin_datos_suficientes": false,
-    "votos_call": 3,
-    "votos_put": 0,
-    "consenso_necesario": 4,
-    "detalle": {
-      "RSI": null,
-      "BOLLINGER": null,
-      "MACD": null,
-      "ESTOCASTICO": "CALL",
-      "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
-      "CCI": "CALL"
-    },
-    "hay_senal_activa": false,
-    "direccion_activa": null
-  },
+  "actualizado": "2026-08-05T18:12:28.275495+00:00",
+  "lectura_actual": null,
   "total": 605,
   "wins": 323,
   "pct": 53.4,
