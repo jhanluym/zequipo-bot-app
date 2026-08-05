@@ -1,10 +1,10 @@
 {
-  "actualizado": "2026-08-05T18:28:47.430114+00:00",
+  "actualizado": "2026-08-05T18:29:22.843866+00:00",
   "lectura_actual": {
     "par": "EURUSD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 4,
+    "votos_put": 3,
     "consenso_necesario": 2,
     "detalle": {
       "RSI": "PUT",
@@ -13,7 +13,7 @@
       "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
       "WILLIAMS_R": "PUT",
-      "CCI": "PUT"
+      "CCI": null
     },
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
