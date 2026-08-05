@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-05T18:13:38.994259+00:00",
+  "actualizado": "2026-08-05T18:14:14.636518+00:00",
   "lectura_actual": {
     "par": "EURRUB_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 3,
+    "votos_call": 0,
     "votos_put": 0,
     "consenso_necesario": 2,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
-      "CCI": "CALL"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 605,
-  "wins": 323,
-  "pct": 53.4,
-  "rango_lo": 49.4,
-  "rango_hi": 57.3,
+  "total": 606,
+  "wins": 324,
+  "pct": 53.5,
+  "rango_lo": 49.5,
+  "rango_hi": 57.4,
   "empates": 6,
   "sin_datos": 3,
   "combos": [
@@ -83,20 +83,20 @@
       "rango_hi": 72.0
     },
     {
+      "nombre": "EURRUB_otc | 1min",
+      "wins": 3,
+      "total": 6,
+      "pct": 50.0,
+      "rango_lo": 18.8,
+      "rango_hi": 81.2
+    },
+    {
       "nombre": "CADCHF_otc | 1min",
       "wins": 2,
       "total": 6,
       "pct": 33.3,
       "rango_lo": 9.7,
       "rango_hi": 70.0
-    },
-    {
-      "nombre": "EURRUB_otc | 1min",
-      "wins": 2,
-      "total": 5,
-      "pct": 40.0,
-      "rango_lo": 11.8,
-      "rango_hi": 76.9
     },
     {
       "nombre": "AEDCNY_otc | 1min",
@@ -156,6 +156,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 615,
+      "asset": "EURRUB_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-05T18:13:00+00:00",
+      "entry_price": 85.28005,
+      "exit_price": 85.28025,
+      "resultado": "GANADA"
+    },
     {
       "id": 614,
       "asset": "EURRUB_otc",
@@ -345,16 +355,6 @@
       "entry_price": 0.70686,
       "exit_price": 0.70695,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 595,
-      "asset": "AUDUSD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-05T11:03:00+00:00",
-      "entry_price": 0.70582,
-      "exit_price": 0.70539,
-      "resultado": "GANADA"
     }
   ]
 }
