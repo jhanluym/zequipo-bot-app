@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-08-05T18:09:50.127500+00:00",
+  "actualizado": "2026-08-05T18:10:24.677957+00:00",
   "lectura_actual": {
     "par": "EURRUB_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 0,
+    "votos_call": 1,
     "votos_put": 0,
     "consenso_necesario": 4,
     "detalle": {
@@ -13,7 +13,7 @@
       "ESTOCASTICO": null,
       "CRUCE_EMA": null,
       "WILLIAMS_R": null,
-      "CCI": null
+      "CCI": "CALL"
     },
     "hay_senal_activa": false,
     "direccion_activa": null
