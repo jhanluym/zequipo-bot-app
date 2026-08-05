@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-05T18:17:43.893925+00:00",
+  "actualizado": "2026-08-05T18:18:19.620308+00:00",
   "lectura_actual": {
     "par": "EURRUB_otc",
     "sin_datos_suficientes": false,
@@ -18,11 +18,11 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 606,
+  "total": 607,
   "wins": 324,
-  "pct": 53.5,
-  "rango_lo": 49.5,
-  "rango_hi": 57.4,
+  "pct": 53.4,
+  "rango_lo": 49.4,
+  "rango_hi": 57.3,
   "empates": 6,
   "sin_datos": 3,
   "combos": [
@@ -85,10 +85,10 @@
     {
       "nombre": "EURRUB_otc | 1min",
       "wins": 3,
-      "total": 6,
-      "pct": 50.0,
-      "rango_lo": 18.8,
-      "rango_hi": 81.2
+      "total": 7,
+      "pct": 42.9,
+      "rango_lo": 15.8,
+      "rango_hi": 75.0
     },
     {
       "nombre": "CADCHF_otc | 1min",
@@ -156,6 +156,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 616,
+      "asset": "EURRUB_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-05T18:17:00+00:00",
+      "entry_price": 85.27855,
+      "exit_price": 85.27839,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 615,
       "asset": "EURRUB_otc",
@@ -344,16 +354,6 @@
       "hora": "2026-08-05T11:42:00+00:00",
       "entry_price": 0.70581,
       "exit_price": 0.70564,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 596,
-      "asset": "AUDUSD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-05T11:24:00+00:00",
-      "entry_price": 0.70686,
-      "exit_price": 0.70695,
       "resultado": "PERDIDA"
     }
   ]
