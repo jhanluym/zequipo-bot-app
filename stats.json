@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-05T20:51:40.366822+00:00",
+  "actualizado": "2026-08-05T20:52:16.516285+00:00",
   "lectura_actual": {
     "par": "USDDZD_otc",
     "sin_datos_suficientes": false,
@@ -11,18 +11,18 @@
       "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": null,
-      "CRUCE_EMA": null,
+      "CRUCE_EMA": "CALL",
       "WILLIAMS_R": null,
-      "CCI": "CALL"
+      "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 625,
-  "wins": 336,
+  "total": 626,
+  "wins": 337,
   "pct": 53.8,
-  "rango_lo": 49.8,
-  "rango_hi": 57.6,
+  "rango_lo": 49.9,
+  "rango_hi": 57.7,
   "empates": 6,
   "sin_datos": 3,
   "combos": [
@@ -76,11 +76,11 @@
     },
     {
       "nombre": "USDDZD_otc | 1min",
-      "wins": 7,
-      "total": 13,
-      "pct": 53.8,
-      "rango_lo": 29.1,
-      "rango_hi": 76.8
+      "wins": 8,
+      "total": 14,
+      "pct": 57.1,
+      "rango_lo": 32.6,
+      "rango_hi": 78.6
     },
     {
       "nombre": "EURRUB_otc | 1min",
@@ -156,6 +156,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 635,
+      "asset": "USDDZD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-05T20:51:00+00:00",
+      "entry_price": 129.064,
+      "exit_price": 129.162,
+      "resultado": "GANADA"
+    },
     {
       "id": 634,
       "asset": "USDDZD_otc",
@@ -345,16 +355,6 @@
       "entry_price": 85.27855,
       "exit_price": 85.27839,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 615,
-      "asset": "EURRUB_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-05T18:13:00+00:00",
-      "entry_price": 85.28005,
-      "exit_price": 85.28025,
-      "resultado": "GANADA"
     }
   ]
 }
