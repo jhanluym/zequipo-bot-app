@@ -1,27 +1,27 @@
 {
-  "actualizado": "2026-08-05T17:55:35.471637+00:00",
+  "actualizado": "2026-08-05T17:56:11.100823+00:00",
   "lectura_actual": {
     "par": "EURRUB_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 1,
     "votos_put": 0,
     "consenso_necesario": 4,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": "CALL",
+      "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
+      "WILLIAMS_R": null,
       "CCI": "CALL"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 604,
-  "wins": 322,
-  "pct": 53.3,
-  "rango_lo": 49.3,
+  "total": 605,
+  "wins": 323,
+  "pct": 53.4,
+  "rango_lo": 49.4,
   "rango_hi": 57.3,
   "empates": 6,
   "sin_datos": 3,
@@ -91,20 +91,20 @@
       "rango_hi": 70.0
     },
     {
+      "nombre": "EURRUB_otc | 1min",
+      "wins": 2,
+      "total": 5,
+      "pct": 40.0,
+      "rango_lo": 11.8,
+      "rango_hi": 76.9
+    },
+    {
       "nombre": "AEDCNY_otc | 1min",
       "wins": 1,
       "total": 5,
       "pct": 20.0,
       "rango_lo": 3.6,
       "rango_hi": 62.4
-    },
-    {
-      "nombre": "EURRUB_otc | 1min",
-      "wins": 1,
-      "total": 4,
-      "pct": 25.0,
-      "rango_lo": 4.6,
-      "rango_hi": 69.9
     },
     {
       "nombre": "USDDZD_otc | 5min",
@@ -156,6 +156,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 614,
+      "asset": "EURRUB_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-05T17:55:00+00:00",
+      "entry_price": 85.27995,
+      "exit_price": 85.28109,
+      "resultado": "GANADA"
+    },
     {
       "id": 613,
       "asset": "EURRUB_otc",
@@ -344,16 +354,6 @@
       "hora": "2026-08-05T11:03:00+00:00",
       "entry_price": 0.70582,
       "exit_price": 0.70539,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 594,
-      "asset": "AUDUSD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-05T10:55:00+00:00",
-      "entry_price": 0.70607,
-      "exit_price": 0.70576,
       "resultado": "GANADA"
     }
   ]
