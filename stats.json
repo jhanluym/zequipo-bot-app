@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-08-05T20:23:49.648577+00:00",
+  "actualizado": "2026-08-05T20:24:23.915404+00:00",
   "lectura_actual": {
     "par": "USDDZD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 5,
+    "votos_put": 3,
     "consenso_necesario": 2,
     "detalle": {
-      "RSI": "PUT",
-      "BOLLINGER": "PUT",
+      "RSI": null,
+      "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
