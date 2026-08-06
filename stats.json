@@ -1,22 +1,8 @@
 {
-  "actualizado": "2026-08-06T23:16:26.048107+00:00",
+  "actualizado": "2026-08-06T23:17:02.488947+00:00",
   "lectura_actual": {
-    "par": "EURRUB_otc",
-    "sin_datos_suficientes": false,
-    "votos_call": 4,
-    "votos_put": 0,
-    "consenso_necesario": 3,
-    "detalle": {
-      "RSI": null,
-      "BOLLINGER": "CALL",
-      "MACD": null,
-      "ESTOCASTICO": "CALL",
-      "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
-      "CCI": "CALL"
-    },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "par": "AUDUSD_otc",
+    "sin_datos_suficientes": true
   },
   "total": 831,
   "wins": 441,
