@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-06T18:07:53.090824+00:00",
+  "actualizado": "2026-08-06T18:08:28.371561+00:00",
   "lectura_actual": {
     "par": "EURCHF_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 1,
+    "votos_call": 3,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": null,
+      "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
+      "WILLIAMS_R": "CALL",
       "CCI": "CALL"
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "CALL"
   },
-  "total": 781,
+  "total": 782,
   "wins": 414,
-  "pct": 53.0,
-  "rango_lo": 49.5,
-  "rango_hi": 56.5,
+  "pct": 52.9,
+  "rango_lo": 49.4,
+  "rango_hi": 56.4,
   "empates": 7,
   "sin_datos": 3,
   "combos": [
@@ -109,10 +109,10 @@
     {
       "nombre": "EURCHF_otc | 1min",
       "wins": 3,
-      "total": 3,
-      "pct": 100.0,
-      "rango_lo": 43.8,
-      "rango_hi": 100
+      "total": 4,
+      "pct": 75.0,
+      "rango_lo": 30.1,
+      "rango_hi": 95.4
     },
     {
       "nombre": "USDDZD_otc | 5min",
@@ -164,6 +164,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 792,
+      "asset": "EURCHF_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-06T18:07:00+00:00",
+      "entry_price": 0.87468,
+      "exit_price": 0.87418,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 791,
       "asset": "EURCHF_otc",
@@ -352,16 +362,6 @@
       "hora": "2026-08-06T15:26:00+00:00",
       "entry_price": 1.0009,
       "exit_price": 1.00217,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 772,
-      "asset": "AUDCAD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-06T15:22:00+00:00",
-      "entry_price": 1.00184,
-      "exit_price": 1.0003,
       "resultado": "GANADA"
     }
   ]
