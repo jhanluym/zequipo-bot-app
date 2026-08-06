@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-06T21:13:46.098139+00:00",
+  "actualizado": "2026-08-06T21:14:21.789234+00:00",
   "lectura_actual": {
     "par": "EURRUB_otc",
     "sin_datos_suficientes": false,
     "votos_call": 1,
-    "votos_put": 0,
+    "votos_put": 4,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": null,
-      "MACD": "CALL",
-      "ESTOCASTICO": null,
-      "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
-      "CCI": null
+      "BOLLINGER": "PUT",
+      "MACD": null,
+      "ESTOCASTICO": "PUT",
+      "CRUCE_EMA": "CALL",
+      "WILLIAMS_R": "PUT",
+      "CCI": "PUT"
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "PUT"
   },
-  "total": 808,
-  "wins": 429,
-  "pct": 53.1,
-  "rango_lo": 49.6,
-  "rango_hi": 56.5,
+  "total": 809,
+  "wins": 430,
+  "pct": 53.2,
+  "rango_lo": 49.7,
+  "rango_hi": 56.6,
   "empates": 7,
   "sin_datos": 3,
   "combos": [
@@ -92,11 +92,11 @@
     },
     {
       "nombre": "EURRUB_otc | 1min",
-      "wins": 5,
-      "total": 10,
-      "pct": 50.0,
-      "rango_lo": 23.7,
-      "rango_hi": 76.3
+      "wins": 6,
+      "total": 11,
+      "pct": 54.5,
+      "rango_lo": 28.0,
+      "rango_hi": 78.7
     },
     {
       "nombre": "CADCHF_otc | 1min",
@@ -164,6 +164,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 819,
+      "asset": "EURRUB_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-06T21:13:00+00:00",
+      "entry_price": 85.25675,
+      "exit_price": 85.25807,
+      "resultado": "GANADA"
+    },
     {
       "id": 818,
       "asset": "EURRUB_otc",
@@ -352,16 +362,6 @@
       "hora": "2026-08-06T18:40:00+00:00",
       "entry_price": 0.87065,
       "exit_price": 0.8704,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 799,
-      "asset": "EURCHF_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-06T18:34:00+00:00",
-      "entry_price": 0.86858,
-      "exit_price": 0.86905,
       "resultado": "GANADA"
     }
   ]
