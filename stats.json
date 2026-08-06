@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-06T18:50:43.207288+00:00",
+  "actualizado": "2026-08-06T18:51:18.331406+00:00",
   "lectura_actual": {
     "par": "EURCHF_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 1,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
+      "WILLIAMS_R": null,
       "CCI": "PUT"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 791,
-  "wins": 419,
+  "total": 792,
+  "wins": 420,
   "pct": 53.0,
   "rango_lo": 49.5,
-  "rango_hi": 56.4,
+  "rango_hi": 56.5,
   "empates": 7,
   "sin_datos": 3,
   "combos": [
@@ -75,20 +75,20 @@
       "rango_hi": 85.8
     },
     {
+      "nombre": "EURCHF_otc | 1min",
+      "wins": 9,
+      "total": 14,
+      "pct": 64.3,
+      "rango_lo": 38.8,
+      "rango_hi": 83.7
+    },
+    {
       "nombre": "USDDZD_otc | 1min",
       "wins": 8,
       "total": 14,
       "pct": 57.1,
       "rango_lo": 32.6,
       "rango_hi": 78.6
-    },
-    {
-      "nombre": "EURCHF_otc | 1min",
-      "wins": 8,
-      "total": 13,
-      "pct": 61.5,
-      "rango_lo": 35.5,
-      "rango_hi": 82.3
     },
     {
       "nombre": "EURRUB_otc | 1min",
@@ -164,6 +164,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 802,
+      "asset": "EURCHF_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-06T18:50:00+00:00",
+      "entry_price": 0.87407,
+      "exit_price": 0.87369,
+      "resultado": "GANADA"
+    },
     {
       "id": 801,
       "asset": "EURCHF_otc",
@@ -353,16 +363,6 @@
       "entry_price": 1.013,
       "exit_price": 1.01218,
       "resultado": "GANADA"
-    },
-    {
-      "id": 782,
-      "asset": "AUDCAD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-06T16:18:00+00:00",
-      "entry_price": 1.01218,
-      "exit_price": 1.01299,
-      "resultado": "PERDIDA"
     }
   ]
 }
