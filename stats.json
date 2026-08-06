@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-06T19:22:56.212045+00:00",
+  "actualizado": "2026-08-06T19:23:30.455006+00:00",
   "lectura_actual": {
     "par": "EURCHF_otc",
     "sin_datos_suficientes": false,
@@ -11,9 +11,9 @@
       "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": null,
-      "CRUCE_EMA": null,
+      "CRUCE_EMA": "CALL",
       "WILLIAMS_R": null,
-      "CCI": "CALL"
+      "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
