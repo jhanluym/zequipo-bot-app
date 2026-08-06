@@ -1,15 +1,15 @@
 {
-  "actualizado": "2026-08-06T22:22:52.580296+00:00",
+  "actualizado": "2026-08-06T22:23:27.988964+00:00",
   "lectura_actual": {
     "par": "EURRUB_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 4,
+    "votos_put": 3,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": "PUT",
+      "MACD": null,
       "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
       "WILLIAMS_R": "PUT",
