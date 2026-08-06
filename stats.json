@@ -1,15 +1,15 @@
 {
-  "actualizado": "2026-08-06T22:21:43.353409+00:00",
+  "actualizado": "2026-08-06T22:22:18.455394+00:00",
   "lectura_actual": {
     "par": "EURRUB_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 1,
+    "votos_call": 0,
     "votos_put": 4,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "PUT",
+      "RSI": null,
       "BOLLINGER": null,
-      "MACD": "CALL",
+      "MACD": "PUT",
       "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
       "WILLIAMS_R": "PUT",
@@ -18,8 +18,8 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 820,
-  "wins": 437,
+  "total": 821,
+  "wins": 438,
   "pct": 53.3,
   "rango_lo": 49.9,
   "rango_hi": 56.7,
@@ -68,11 +68,11 @@
     },
     {
       "nombre": "EURRUB_otc | 1min",
-      "wins": 13,
-      "total": 22,
-      "pct": 59.1,
-      "rango_lo": 38.7,
-      "rango_hi": 76.7
+      "wins": 14,
+      "total": 23,
+      "pct": 60.9,
+      "rango_lo": 40.8,
+      "rango_hi": 77.8
     },
     {
       "nombre": "EURUSD_otc | 10min",
@@ -164,6 +164,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 831,
+      "asset": "EURRUB_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-06T22:21:00+00:00",
+      "entry_price": 85.26536,
+      "exit_price": 85.26486,
+      "resultado": "GANADA"
+    },
     {
       "id": 830,
       "asset": "EURRUB_otc",
@@ -353,16 +363,6 @@
       "entry_price": 0.8742,
       "exit_price": 0.87406,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 811,
-      "asset": "EURCHF_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-06T19:52:00+00:00",
-      "entry_price": 0.87607,
-      "exit_price": 0.87546,
-      "resultado": "GANADA"
     }
   ]
 }
