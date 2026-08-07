@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-07T03:52:29.340089+00:00",
+  "actualizado": "2026-08-07T03:53:04.358726+00:00",
   "lectura_actual": {
     "par": "AUDUSD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 5,
+    "votos_put": 1,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "PUT",
-      "BOLLINGER": "PUT",
+      "RSI": null,
+      "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
+      "WILLIAMS_R": null,
       "CCI": "PUT"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 870,
-  "wins": 463,
-  "pct": 53.2,
-  "rango_lo": 49.9,
-  "rango_hi": 56.5,
+  "total": 871,
+  "wins": 464,
+  "pct": 53.3,
+  "rango_lo": 50.0,
+  "rango_hi": 56.6,
   "empates": 7,
   "sin_datos": 3,
   "combos": [
@@ -44,11 +44,11 @@
     },
     {
       "nombre": "AUDUSD_otc | 1min",
-      "wins": 51,
-      "total": 97,
-      "pct": 52.6,
-      "rango_lo": 42.7,
-      "rango_hi": 62.2
+      "wins": 52,
+      "total": 98,
+      "pct": 53.1,
+      "rango_lo": 43.3,
+      "rango_hi": 62.6
     },
     {
       "nombre": "AUDCHF_otc | 1min",
@@ -164,6 +164,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 881,
+      "asset": "AUDUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-07T03:52:00+00:00",
+      "entry_price": 0.7207,
+      "exit_price": 0.71999,
+      "resultado": "GANADA"
+    },
     {
       "id": 880,
       "asset": "AUDUSD_otc",
@@ -353,16 +363,6 @@
       "entry_price": 0.71997,
       "exit_price": 0.72018,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 861,
-      "asset": "AUDUSD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-07T01:30:00+00:00",
-      "entry_price": 0.71994,
-      "exit_price": 0.72001,
-      "resultado": "GANADA"
     }
   ]
 }
