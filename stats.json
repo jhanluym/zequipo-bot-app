@@ -1,13 +1,13 @@
 {
-  "actualizado": "2026-08-07T03:30:56.563740+00:00",
+  "actualizado": "2026-08-07T03:31:32.264617+00:00",
   "lectura_actual": {
     "par": "EURCHF_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 4,
+    "votos_put": 5,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": null,
+      "RSI": "PUT",
       "BOLLINGER": "PUT",
       "MACD": null,
       "ESTOCASTICO": "PUT",
