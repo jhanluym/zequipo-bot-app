@@ -1,15 +1,15 @@
 {
-  "actualizado": "2026-08-07T07:50:34.022155+00:00",
+  "actualizado": "2026-08-07T07:51:08.767471+00:00",
   "lectura_actual": {
     "par": "AUDUSD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 1,
+    "votos_call": 2,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": "CALL",
       "BOLLINGER": null,
-      "MACD": null,
+      "MACD": "CALL",
       "ESTOCASTICO": null,
       "CRUCE_EMA": null,
       "WILLIAMS_R": null,
@@ -18,11 +18,11 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 900,
+  "total": 901,
   "wins": 480,
   "pct": 53.3,
-  "rango_lo": 50.1,
-  "rango_hi": 56.6,
+  "rango_lo": 50.0,
+  "rango_hi": 56.5,
   "empates": 8,
   "sin_datos": 3,
   "combos": [
@@ -45,10 +45,10 @@
     {
       "nombre": "AUDUSD_otc | 1min",
       "wins": 68,
-      "total": 127,
-      "pct": 53.5,
-      "rango_lo": 44.9,
-      "rango_hi": 62.0
+      "total": 128,
+      "pct": 53.1,
+      "rango_lo": 44.5,
+      "rango_hi": 61.6
     },
     {
       "nombre": "AUDCHF_otc | 1min",
@@ -164,6 +164,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 912,
+      "asset": "AUDUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-07T07:50:00+00:00",
+      "entry_price": 0.71512,
+      "exit_price": 0.71509,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 911,
       "asset": "AUDUSD_otc",
@@ -353,16 +363,6 @@
       "entry_price": 0.71855,
       "exit_price": 0.71895,
       "resultado": "GANADA"
-    },
-    {
-      "id": 892,
-      "asset": "AUDUSD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-07T05:28:00+00:00",
-      "entry_price": 0.71916,
-      "exit_price": 0.71849,
-      "resultado": "PERDIDA"
     }
   ]
 }
