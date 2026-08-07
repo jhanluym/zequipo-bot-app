@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-08-07T17:29:55.720213+00:00",
+  "actualizado": "2026-08-07T17:30:31.189886+00:00",
   "lectura_actual": {
     "par": "AUDUSD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 4,
+    "votos_put": 3,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": "PUT",
+      "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
@@ -23,7 +23,7 @@
   "pct": 52.6,
   "rango_lo": 49.5,
   "rango_hi": 55.7,
-  "empates": 9,
+  "empates": 10,
   "sin_datos": 3,
   "combos": [
     {
@@ -164,6 +164,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 998,
+      "asset": "AUDUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-07T17:29:00+00:00",
+      "entry_price": 0.71818,
+      "exit_price": 0.71818,
+      "resultado": "EMPATE"
+    },
     {
       "id": 997,
       "asset": "AUDUSD_otc",
@@ -352,16 +362,6 @@
       "hora": "2026-08-07T15:30:00+00:00",
       "entry_price": 0.71779,
       "exit_price": 0.71784,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 978,
-      "asset": "AUDUSD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-07T15:17:00+00:00",
-      "entry_price": 0.7197,
-      "exit_price": 0.71893,
       "resultado": "GANADA"
     }
   ]
