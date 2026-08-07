@@ -1,22 +1,22 @@
 {
-  "actualizado": "2026-08-07T02:37:44.290231+00:00",
+  "actualizado": "2026-08-07T02:38:18.750092+00:00",
   "lectura_actual": {
-    "par": "AUDUSD_otc",
+    "par": "EURCHF_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
-    "votos_put": 0,
+    "votos_call": 0,
+    "votos_put": 5,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": null,
-      "BOLLINGER": "CALL",
+      "RSI": "PUT",
+      "BOLLINGER": "PUT",
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
-      "CCI": "CALL"
+      "WILLIAMS_R": "PUT",
+      "CCI": "PUT"
     },
     "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "direccion_activa": "PUT"
   },
   "total": 856,
   "wins": 453,
