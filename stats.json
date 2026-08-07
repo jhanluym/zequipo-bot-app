@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-07T22:45:29.398564+00:00",
+  "actualizado": "2026-08-07T22:46:04.472244+00:00",
   "lectura_actual": {
     "par": "AUDUSD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 0,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "CALL",
+      "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
-      "CCI": "CALL"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 1029,
-  "wins": 540,
+  "total": 1030,
+  "wins": 541,
   "pct": 52.5,
-  "rango_lo": 49.4,
-  "rango_hi": 55.5,
+  "rango_lo": 49.5,
+  "rango_hi": 55.6,
   "empates": 11,
   "sin_datos": 3,
   "combos": [
@@ -36,11 +36,11 @@
     },
     {
       "nombre": "AUDUSD_otc | 1min",
-      "wins": 128,
-      "total": 256,
-      "pct": 50.0,
-      "rango_lo": 43.9,
-      "rango_hi": 56.1
+      "wins": 129,
+      "total": 257,
+      "pct": 50.2,
+      "rango_lo": 44.1,
+      "rango_hi": 56.3
     },
     {
       "nombre": "AUDCAD_otc | 1min",
@@ -164,6 +164,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1044,
+      "asset": "AUDUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-07T22:45:00+00:00",
+      "entry_price": 0.71124,
+      "exit_price": 0.71185,
+      "resultado": "GANADA"
+    },
     {
       "id": 1043,
       "asset": "AUDUSD_otc",
@@ -352,16 +362,6 @@
       "hora": "2026-08-07T20:46:00+00:00",
       "entry_price": 0.71245,
       "exit_price": 0.71263,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 1024,
-      "asset": "AUDUSD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-07T20:41:00+00:00",
-      "entry_price": 0.71247,
-      "exit_price": 0.71253,
       "resultado": "GANADA"
     }
   ]
