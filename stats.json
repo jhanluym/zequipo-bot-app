@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-07T22:42:32.149681+00:00",
+  "actualizado": "2026-08-07T22:43:07.210901+00:00",
   "lectura_actual": {
     "par": "AUDUSD_otc",
     "sin_datos_suficientes": false,
@@ -18,11 +18,11 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 1028,
+  "total": 1029,
   "wins": 540,
   "pct": 52.5,
-  "rango_lo": 49.5,
-  "rango_hi": 55.6,
+  "rango_lo": 49.4,
+  "rango_hi": 55.5,
   "empates": 11,
   "sin_datos": 3,
   "combos": [
@@ -37,10 +37,10 @@
     {
       "nombre": "AUDUSD_otc | 1min",
       "wins": 128,
-      "total": 255,
-      "pct": 50.2,
-      "rango_lo": 44.1,
-      "rango_hi": 56.3
+      "total": 256,
+      "pct": 50.0,
+      "rango_lo": 43.9,
+      "rango_hi": 56.1
     },
     {
       "nombre": "AUDCAD_otc | 1min",
@@ -164,6 +164,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1043,
+      "asset": "AUDUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-07T22:42:00+00:00",
+      "entry_price": 0.71169,
+      "exit_price": 0.71158,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 1042,
       "asset": "AUDUSD_otc",
@@ -353,16 +363,6 @@
       "entry_price": 0.71247,
       "exit_price": 0.71253,
       "resultado": "GANADA"
-    },
-    {
-      "id": 1023,
-      "asset": "AUDUSD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-07T20:38:00+00:00",
-      "entry_price": 0.7122,
-      "exit_price": 0.71206,
-      "resultado": "PERDIDA"
     }
   ]
 }
