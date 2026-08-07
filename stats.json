@@ -1,13 +1,13 @@
 {
-  "actualizado": "2026-08-07T15:12:55.294749+00:00",
+  "actualizado": "2026-08-07T15:13:34.201854+00:00",
   "lectura_actual": {
     "par": "AUDUSD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 4,
+    "votos_put": 3,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "PUT",
+      "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "PUT",
