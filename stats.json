@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-08T10:33:35.730166+00:00",
+  "actualizado": "2026-08-08T10:34:10.716258+00:00",
   "lectura_actual": {
     "par": "AEDCNY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 3,
+    "votos_call": 0,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
-      "CCI": "CALL"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 1143,
-  "wins": 594,
+  "total": 1144,
+  "wins": 595,
   "pct": 52.0,
   "rango_lo": 49.1,
   "rango_hi": 54.9,
@@ -67,20 +67,20 @@
       "rango_hi": 75.8
     },
     {
+      "nombre": "AEDCNY_otc | 1min",
+      "wins": 17,
+      "total": 34,
+      "pct": 50.0,
+      "rango_lo": 34.1,
+      "rango_hi": 65.9
+    },
+    {
       "nombre": "EURRUB_otc | 1min",
       "wins": 18,
       "total": 34,
       "pct": 52.9,
       "rango_lo": 36.7,
       "rango_hi": 68.5
-    },
-    {
-      "nombre": "AEDCNY_otc | 1min",
-      "wins": 16,
-      "total": 33,
-      "pct": 48.5,
-      "rango_lo": 32.5,
-      "rango_hi": 64.8
     },
     {
       "nombre": "EURUSD_otc | 10min",
@@ -164,6 +164,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1159,
+      "asset": "AEDCNY_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-08T10:33:00+00:00",
+      "entry_price": 1.87442,
+      "exit_price": 1.87513,
+      "resultado": "GANADA"
+    },
     {
       "id": 1158,
       "asset": "AEDCNY_otc",
@@ -352,16 +362,6 @@
       "hora": "2026-08-08T08:32:00+00:00",
       "entry_price": 1.88414,
       "exit_price": 1.88381,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 1139,
-      "asset": "AEDCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-08T08:29:00+00:00",
-      "entry_price": 1.88227,
-      "exit_price": 1.88211,
       "resultado": "PERDIDA"
     }
   ]
