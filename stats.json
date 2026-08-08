@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-08T06:38:50.656347+00:00",
+  "actualizado": "2026-08-08T06:39:25.428384+00:00",
   "lectura_actual": {
     "par": "AUDCAD_otc",
     "sin_datos_suficientes": false,
@@ -9,9 +9,9 @@
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": "CALL",
+      "MACD": null,
       "ESTOCASTICO": "PUT",
-      "CRUCE_EMA": null,
+      "CRUCE_EMA": "CALL",
       "WILLIAMS_R": "PUT",
       "CCI": null
     },
