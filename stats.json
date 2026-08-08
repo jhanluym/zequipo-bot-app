@@ -1,13 +1,13 @@
 {
-  "actualizado": "2026-08-08T07:06:37.723816+00:00",
+  "actualizado": "2026-08-08T07:07:13.291287+00:00",
   "lectura_actual": {
     "par": "AEDCNY_otc",
     "sin_datos_suficientes": true
   },
-  "total": 1114,
-  "wins": 578,
+  "total": 1115,
+  "wins": 579,
   "pct": 51.9,
-  "rango_lo": 48.9,
+  "rango_lo": 49.0,
   "rango_hi": 54.8,
   "empates": 12,
   "sin_datos": 3,
@@ -46,11 +46,11 @@
     },
     {
       "nombre": "EURCHF_otc | 1min",
-      "wins": 24,
-      "total": 39,
-      "pct": 61.5,
-      "rango_lo": 45.9,
-      "rango_hi": 75.1
+      "wins": 25,
+      "total": 40,
+      "pct": 62.5,
+      "rango_lo": 47.0,
+      "rango_hi": 75.8
     },
     {
       "nombre": "EURRUB_otc | 1min",
@@ -150,6 +150,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1130,
+      "asset": "EURCHF_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-08T07:06:00+00:00",
+      "entry_price": 0.9107,
+      "exit_price": 0.91211,
+      "resultado": "GANADA"
+    },
     {
       "id": 1129,
       "asset": "AUDCAD_otc",
@@ -339,16 +349,6 @@
       "entry_price": 1.16718,
       "exit_price": 1.16752,
       "resultado": "GANADA"
-    },
-    {
-      "id": 1110,
-      "asset": "EURUSD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-08T04:59:00+00:00",
-      "entry_price": 1.16773,
-      "exit_price": 1.16746,
-      "resultado": "PERDIDA"
     }
   ]
 }
