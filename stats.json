@@ -1,13 +1,13 @@
 {
-  "actualizado": "2026-08-09T06:51:27.879223+00:00",
+  "actualizado": "2026-08-09T06:52:02.546964+00:00",
   "lectura_actual": {
     "par": "CHFNOK_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 3,
+    "votos_call": 4,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": null,
+      "RSI": "CALL",
       "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "CALL",
@@ -18,11 +18,11 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 1302,
+  "total": 1303,
   "wins": 679,
-  "pct": 52.2,
+  "pct": 52.1,
   "rango_lo": 49.4,
-  "rango_hi": 54.9,
+  "rango_hi": 54.8,
   "empates": 12,
   "sin_datos": 3,
   "combos": [
@@ -117,10 +117,10 @@
     {
       "nombre": "CHFNOK_otc | 1min",
       "wins": 2,
-      "total": 7,
-      "pct": 28.6,
-      "rango_lo": 8.2,
-      "rango_hi": 64.1
+      "total": 8,
+      "pct": 25.0,
+      "rango_lo": 7.1,
+      "rango_hi": 59.1
     },
     {
       "nombre": "CADCHF_otc | 1min",
@@ -180,6 +180,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1318,
+      "asset": "CHFNOK_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-09T06:51:00+00:00",
+      "entry_price": 10.786,
+      "exit_price": 10.765,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 1317,
       "asset": "CHFNOK_otc",
@@ -369,16 +379,6 @@
       "entry_price": 1.18607,
       "exit_price": 1.18601,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 1298,
-      "asset": "AUDNZD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-09T04:34:00+00:00",
-      "entry_price": 1.18893,
-      "exit_price": 1.18909,
-      "resultado": "GANADA"
     }
   ]
 }
