@@ -1,27 +1,27 @@
 {
-  "actualizado": "2026-08-09T03:11:33.747727+00:00",
+  "actualizado": "2026-08-09T03:12:08.844793+00:00",
   "lectura_actual": {
     "par": "AUDNZD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 0,
+    "votos_put": 2,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": null,
+      "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
+      "WILLIAMS_R": "PUT",
       "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 1271,
+  "total": 1272,
   "wins": 666,
   "pct": 52.4,
-  "rango_lo": 49.7,
+  "rango_lo": 49.6,
   "rango_hi": 55.1,
   "empates": 12,
   "sin_datos": 3,
@@ -99,20 +99,20 @@
       "rango_hi": 85.8
     },
     {
+      "nombre": "AUDNZD_otc | 1min",
+      "wins": 5,
+      "total": 14,
+      "pct": 35.7,
+      "rango_lo": 16.3,
+      "rango_hi": 61.2
+    },
+    {
       "nombre": "USDDZD_otc | 1min",
       "wins": 8,
       "total": 14,
       "pct": 57.1,
       "rango_lo": 32.6,
       "rango_hi": 78.6
-    },
-    {
-      "nombre": "AUDNZD_otc | 1min",
-      "wins": 5,
-      "total": 13,
-      "pct": 38.5,
-      "rango_lo": 17.7,
-      "rango_hi": 64.5
     },
     {
       "nombre": "CADCHF_otc | 1min",
@@ -172,6 +172,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1287,
+      "asset": "AUDNZD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-09T03:11:00+00:00",
+      "entry_price": 1.18695,
+      "exit_price": 1.18714,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 1286,
       "asset": "AUDNZD_otc",
@@ -361,16 +371,6 @@
       "entry_price": 1.16331,
       "exit_price": 1.16326,
       "resultado": "GANADA"
-    },
-    {
-      "id": 1267,
-      "asset": "EURUSD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-09T00:50:00+00:00",
-      "entry_price": 1.16286,
-      "exit_price": 1.16341,
-      "resultado": "PERDIDA"
     }
   ]
 }
