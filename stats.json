@@ -1,12 +1,12 @@
 {
-  "actualizado": "2026-08-09T01:26:40.189253+00:00",
+  "actualizado": "2026-08-09T01:27:15.045524+00:00",
   "lectura_actual": {
     "par": "EURCHF_otc",
     "sin_datos_suficientes": true
   },
-  "total": 1258,
-  "wins": 657,
-  "pct": 52.2,
+  "total": 1259,
+  "wins": 658,
+  "pct": 52.3,
   "rango_lo": 49.5,
   "rango_hi": 55.0,
   "empates": 12,
@@ -14,11 +14,11 @@
   "combos": [
     {
       "nombre": "EURUSD_otc | 1min",
-      "wins": 242,
-      "total": 471,
-      "pct": 51.4,
-      "rango_lo": 46.9,
-      "rango_hi": 55.9
+      "wins": 243,
+      "total": 472,
+      "pct": 51.5,
+      "rango_lo": 47.0,
+      "rango_hi": 56.0
     },
     {
       "nombre": "AUDUSD_otc | 1min",
@@ -158,6 +158,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1274,
+      "asset": "EURUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-09T01:26:00+00:00",
+      "entry_price": 1.16276,
+      "exit_price": 1.16247,
+      "resultado": "GANADA"
+    },
     {
       "id": 1273,
       "asset": "EURUSD_otc",
@@ -346,16 +356,6 @@
       "hora": "2026-08-08T22:17:00+00:00",
       "entry_price": 0.61605,
       "exit_price": 0.61614,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 1254,
-      "asset": "AUDCHF_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-08T22:13:00+00:00",
-      "entry_price": 0.61503,
-      "exit_price": 0.61551,
       "resultado": "GANADA"
     }
   ]
