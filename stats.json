@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-09T03:29:45.807580+00:00",
+  "actualizado": "2026-08-09T03:30:22.225227+00:00",
   "lectura_actual": {
     "par": "AUDNZD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 1,
+    "votos_put": 3,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": null,
+      "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
+      "WILLIAMS_R": "PUT",
       "CCI": "PUT"
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "PUT"
   },
-  "total": 1273,
+  "total": 1274,
   "wins": 666,
   "pct": 52.3,
-  "rango_lo": 49.6,
-  "rango_hi": 55.1,
+  "rango_lo": 49.5,
+  "rango_hi": 55.0,
   "empates": 12,
   "sin_datos": 3,
   "combos": [
@@ -91,20 +91,20 @@
       "rango_hi": 79.7
     },
     {
+      "nombre": "AUDNZD_otc | 1min",
+      "wins": 5,
+      "total": 16,
+      "pct": 31.2,
+      "rango_lo": 14.2,
+      "rango_hi": 55.6
+    },
+    {
       "nombre": "EURUSD_otc | 5min",
       "wins": 11,
       "total": 16,
       "pct": 68.8,
       "rango_lo": 44.4,
       "rango_hi": 85.8
-    },
-    {
-      "nombre": "AUDNZD_otc | 1min",
-      "wins": 5,
-      "total": 15,
-      "pct": 33.3,
-      "rango_lo": 15.2,
-      "rango_hi": 58.3
     },
     {
       "nombre": "USDDZD_otc | 1min",
@@ -172,6 +172,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1289,
+      "asset": "AUDNZD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-09T03:29:00+00:00",
+      "entry_price": 1.18916,
+      "exit_price": 1.18953,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 1288,
       "asset": "AUDNZD_otc",
@@ -361,16 +371,6 @@
       "entry_price": 1.16259,
       "exit_price": 1.16242,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 1269,
-      "asset": "EURUSD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-09T00:57:00+00:00",
-      "entry_price": 1.163,
-      "exit_price": 1.16266,
-      "resultado": "GANADA"
     }
   ]
 }
