@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-09T09:42:38.362724+00:00",
+  "actualizado": "2026-08-09T09:43:13.248174+00:00",
   "lectura_actual": {
     "par": "EURUSD_otc",
     "sin_datos_suficientes": false,
@@ -18,21 +18,21 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 1332,
-  "wins": 689,
-  "pct": 51.7,
-  "rango_lo": 49.0,
+  "total": 1333,
+  "wins": 690,
+  "pct": 51.8,
+  "rango_lo": 49.1,
   "rango_hi": 54.4,
   "empates": 14,
   "sin_datos": 3,
   "combos": [
     {
       "nombre": "EURUSD_otc | 1min",
-      "wins": 246,
-      "total": 478,
-      "pct": 51.5,
-      "rango_lo": 47.0,
-      "rango_hi": 55.9
+      "wins": 247,
+      "total": 479,
+      "pct": 51.6,
+      "rango_lo": 47.1,
+      "rango_hi": 56.0
     },
     {
       "nombre": "AUDUSD_otc | 1min",
@@ -180,6 +180,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1350,
+      "asset": "EURUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-09T09:42:00+00:00",
+      "entry_price": 1.16994,
+      "exit_price": 1.16987,
+      "resultado": "GANADA"
+    },
     {
       "id": 1349,
       "asset": "EURUSD_otc",
@@ -368,16 +378,6 @@
       "hora": "2026-08-09T07:58:00+00:00",
       "entry_price": 11.286,
       "exit_price": 11.292,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 1330,
-      "asset": "CHFNOK_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-09T07:55:00+00:00",
-      "entry_price": 11.237,
-      "exit_price": 11.278,
       "resultado": "PERDIDA"
     }
   ]
