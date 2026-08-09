@@ -1,8 +1,22 @@
 {
-  "actualizado": "2026-08-09T06:12:37.181928+00:00",
+  "actualizado": "2026-08-09T06:13:11.117522+00:00",
   "lectura_actual": {
     "par": "CHFNOK_otc",
-    "sin_datos_suficientes": true
+    "sin_datos_suficientes": false,
+    "votos_call": 4,
+    "votos_put": 0,
+    "consenso_necesario": 3,
+    "detalle": {
+      "RSI": null,
+      "BOLLINGER": "CALL",
+      "MACD": null,
+      "ESTOCASTICO": "CALL",
+      "CRUCE_EMA": null,
+      "WILLIAMS_R": "CALL",
+      "CCI": "CALL"
+    },
+    "hay_senal_activa": true,
+    "direccion_activa": "CALL"
   },
   "total": 1295,
   "wins": 677,
