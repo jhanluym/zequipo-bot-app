@@ -1,27 +1,27 @@
 {
-  "actualizado": "2026-08-10T13:15:33.178176+00:00",
+  "actualizado": "2026-08-10T13:16:10.583639+00:00",
   "lectura_actual": {
     "par": "EURCHF_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 3,
+    "votos_call": 0,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
-      "CCI": "CALL"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 1578,
-  "wins": 800,
+  "total": 1579,
+  "wins": 801,
   "pct": 50.7,
-  "rango_lo": 48.2,
+  "rango_lo": 48.3,
   "rango_hi": 53.2,
   "empates": 19,
   "sin_datos": 3,
@@ -68,11 +68,11 @@
     },
     {
       "nombre": "EURCHF_otc | 1min",
-      "wins": 34,
-      "total": 61,
-      "pct": 55.7,
-      "rango_lo": 43.3,
-      "rango_hi": 67.5
+      "wins": 35,
+      "total": 62,
+      "pct": 56.5,
+      "rango_lo": 44.1,
+      "rango_hi": 68.1
     },
     {
       "nombre": "AUDNZD_otc | 1min",
@@ -180,6 +180,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1601,
+      "asset": "EURCHF_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-10T13:15:00+00:00",
+      "entry_price": 0.924,
+      "exit_price": 0.92507,
+      "resultado": "GANADA"
+    },
     {
       "id": 1600,
       "asset": "EURCHF_otc",
@@ -368,16 +378,6 @@
       "hora": "2026-08-10T10:45:00+00:00",
       "entry_price": 1.19541,
       "exit_price": 1.19519,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 1581,
-      "asset": "EURUSD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-10T10:40:00+00:00",
-      "entry_price": 1.19502,
-      "exit_price": 1.19491,
       "resultado": "PERDIDA"
     }
   ]
