@@ -1,15 +1,15 @@
 {
-  "actualizado": "2026-08-10T20:16:57.784039+00:00",
+  "actualizado": "2026-08-10T20:17:33.098379+00:00",
   "lectura_actual": {
     "par": "AUDNZD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 0,
+    "votos_put": 1,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": null,
+      "MACD": "PUT",
       "ESTOCASTICO": null,
       "CRUCE_EMA": null,
       "WILLIAMS_R": null,
@@ -18,10 +18,10 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 1626,
-  "wins": 827,
+  "total": 1627,
+  "wins": 828,
   "pct": 50.9,
-  "rango_lo": 48.4,
+  "rango_lo": 48.5,
   "rango_hi": 53.3,
   "empates": 19,
   "sin_datos": 3,
@@ -76,11 +76,11 @@
     },
     {
       "nombre": "AUDNZD_otc | 1min",
-      "wins": 18,
-      "total": 41,
-      "pct": 43.9,
-      "rango_lo": 29.9,
-      "rango_hi": 59.0
+      "wins": 19,
+      "total": 42,
+      "pct": 45.2,
+      "rango_lo": 31.2,
+      "rango_hi": 60.1
     },
     {
       "nombre": "EURRUB_otc | 1min",
@@ -188,6 +188,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1649,
+      "asset": "AUDNZD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-10T20:16:00+00:00",
+      "entry_price": 1.21174,
+      "exit_price": 1.21062,
+      "resultado": "GANADA"
+    },
     {
       "id": 1648,
       "asset": "AUDNZD_otc",
@@ -377,16 +387,6 @@
       "entry_price": 0.91206,
       "exit_price": 0.91248,
       "resultado": "GANADA"
-    },
-    {
-      "id": 1629,
-      "asset": "EURCHF_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-10T17:13:00+00:00",
-      "entry_price": 0.91221,
-      "exit_price": 0.91156,
-      "resultado": "PERDIDA"
     }
   ]
 }
