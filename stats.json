@@ -1,8 +1,22 @@
 {
-  "actualizado": "2026-08-10T03:51:48.126977+00:00",
+  "actualizado": "2026-08-10T03:52:22.807736+00:00",
   "lectura_actual": {
     "par": "AUDUSD_otc",
-    "sin_datos_suficientes": true
+    "sin_datos_suficientes": false,
+    "votos_call": 1,
+    "votos_put": 0,
+    "consenso_necesario": 3,
+    "detalle": {
+      "RSI": null,
+      "BOLLINGER": null,
+      "MACD": null,
+      "ESTOCASTICO": null,
+      "CRUCE_EMA": null,
+      "WILLIAMS_R": null,
+      "CCI": "CALL"
+    },
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
   "total": 1495,
   "wins": 766,
