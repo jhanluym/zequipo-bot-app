@@ -1,13 +1,13 @@
 {
-  "actualizado": "2026-08-10T18:58:28.786815+00:00",
+  "actualizado": "2026-08-10T18:59:04.056615+00:00",
   "lectura_actual": {
     "par": "EURJPY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 5,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": null,
+      "RSI": "CALL",
       "BOLLINGER": "CALL",
       "MACD": null,
       "ESTOCASTICO": "CALL",
