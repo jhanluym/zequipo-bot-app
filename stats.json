@@ -1,27 +1,27 @@
 {
-  "actualizado": "2026-08-10T18:25:55.741868+00:00",
+  "actualizado": "2026-08-10T18:26:32.611377+00:00",
   "lectura_actual": {
     "par": "EURJPY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
-      "CCI": "PUT"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 1613,
-  "wins": 819,
+  "total": 1614,
+  "wins": 820,
   "pct": 50.8,
-  "rango_lo": 48.3,
+  "rango_lo": 48.4,
   "rango_hi": 53.2,
   "empates": 19,
   "sin_datos": 3,
@@ -131,6 +131,14 @@
       "rango_hi": 70.0
     },
     {
+      "nombre": "EURJPY_otc | 1min",
+      "wins": 2,
+      "total": 2,
+      "pct": 100.0,
+      "rango_lo": 34.2,
+      "rango_hi": 100
+    },
+    {
       "nombre": "USDDZD_otc | 5min",
       "wins": 0,
       "total": 2,
@@ -145,14 +153,6 @@
       "pct": 50.0,
       "rango_lo": 9.5,
       "rango_hi": 90.5
-    },
-    {
-      "nombre": "EURJPY_otc | 1min",
-      "wins": 1,
-      "total": 1,
-      "pct": 100.0,
-      "rango_lo": 20.7,
-      "rango_hi": 100
     },
     {
       "nombre": "AUDUSD_otc | 10min",
@@ -188,6 +188,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1636,
+      "asset": "EURJPY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-10T18:25:00+00:00",
+      "entry_price": 185.467,
+      "exit_price": 185.376,
+      "resultado": "GANADA"
+    },
     {
       "id": 1635,
       "asset": "EURJPY_otc",
@@ -376,16 +386,6 @@
       "hora": "2026-08-10T15:48:00+00:00",
       "entry_price": 0.92298,
       "exit_price": 0.9234,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 1616,
-      "asset": "EURCHF_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-10T15:36:00+00:00",
-      "entry_price": 0.9248,
-      "exit_price": 0.92507,
       "resultado": "GANADA"
     }
   ]
