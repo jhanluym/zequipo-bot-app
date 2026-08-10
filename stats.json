@@ -1,27 +1,27 @@
 {
-  "actualizado": "2026-08-10T17:36:58.448297+00:00",
+  "actualizado": "2026-08-10T17:37:34.292364+00:00",
   "lectura_actual": {
     "par": "EURCHF_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 1,
+    "votos_put": 3,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": null,
+      "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
+      "WILLIAMS_R": "PUT",
       "CCI": "PUT"
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "PUT"
   },
-  "total": 1610,
+  "total": 1611,
   "wins": 818,
   "pct": 50.8,
-  "rango_lo": 48.4,
+  "rango_lo": 48.3,
   "rango_hi": 53.2,
   "empates": 19,
   "sin_datos": 3,
@@ -61,10 +61,10 @@
     {
       "nombre": "EURCHF_otc | 1min",
       "wins": 52,
-      "total": 93,
-      "pct": 55.9,
-      "rango_lo": 45.8,
-      "rango_hi": 65.6
+      "total": 94,
+      "pct": 55.3,
+      "rango_lo": 45.3,
+      "rango_hi": 65.0
     },
     {
       "nombre": "AUDCHF_otc | 1min",
@@ -180,6 +180,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1633,
+      "asset": "EURCHF_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-10T17:36:00+00:00",
+      "entry_price": 0.91593,
+      "exit_price": 0.9162,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 1632,
       "asset": "EURCHF_otc",
@@ -369,16 +379,6 @@
       "entry_price": 0.92517,
       "exit_price": 0.92637,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 1613,
-      "asset": "EURCHF_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-10T15:09:00+00:00",
-      "entry_price": 0.92798,
-      "exit_price": 0.92743,
-      "resultado": "GANADA"
     }
   ]
 }
