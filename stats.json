@@ -1,26 +1,26 @@
 {
-  "actualizado": "2026-08-11T11:24:53.362645+00:00",
+  "actualizado": "2026-08-11T11:25:28.570702+00:00",
   "lectura_actual": {
     "par": "EURJPY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 1,
+    "votos_put": 3,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": null,
+      "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
+      "WILLIAMS_R": "PUT",
       "CCI": "PUT"
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "PUT"
   },
-  "total": 1759,
+  "total": 1760,
   "wins": 898,
-  "pct": 51.1,
+  "pct": 51.0,
   "rango_lo": 48.7,
   "rango_hi": 53.4,
   "empates": 19,
@@ -85,10 +85,10 @@
     {
       "nombre": "EURJPY_otc | 1min",
       "wins": 26,
-      "total": 41,
-      "pct": 63.4,
-      "rango_lo": 48.1,
-      "rango_hi": 76.4
+      "total": 42,
+      "pct": 61.9,
+      "rango_lo": 46.8,
+      "rango_hi": 75.0
     },
     {
       "nombre": "EURRUB_otc | 1min",
@@ -188,6 +188,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1782,
+      "asset": "EURJPY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-11T11:24:00+00:00",
+      "entry_price": 183.371,
+      "exit_price": 183.386,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 1781,
       "asset": "EURJPY_otc",
@@ -376,16 +386,6 @@
       "hora": "2026-08-11T09:14:00+00:00",
       "entry_price": 183.114,
       "exit_price": 183.159,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 1762,
-      "asset": "EURJPY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-11T09:09:00+00:00",
-      "entry_price": 183.072,
-      "exit_price": 183.082,
       "resultado": "PERDIDA"
     }
   ]
