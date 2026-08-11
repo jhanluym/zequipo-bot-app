@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-08-11T08:13:50.249651+00:00",
+  "actualizado": "2026-08-11T08:14:25.603795+00:00",
   "lectura_actual": {
     "par": "EURJPY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 5,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": "CALL",
-      "BOLLINGER": null,
+      "BOLLINGER": "CALL",
       "MACD": null,
       "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
@@ -18,7 +18,7 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 1729,
+  "total": 1730,
   "wins": 880,
   "pct": 50.9,
   "rango_lo": 48.5,
@@ -125,10 +125,10 @@
     {
       "nombre": "EURJPY_otc | 1min",
       "wins": 8,
-      "total": 11,
-      "pct": 72.7,
-      "rango_lo": 43.4,
-      "rango_hi": 90.3
+      "total": 12,
+      "pct": 66.7,
+      "rango_lo": 39.1,
+      "rango_hi": 86.2
     },
     {
       "nombre": "CADCHF_otc | 1min",
@@ -188,6 +188,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1752,
+      "asset": "EURJPY_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-11T08:13:00+00:00",
+      "entry_price": 183.715,
+      "exit_price": 183.601,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 1751,
       "asset": "EURJPY_otc",
@@ -376,16 +386,6 @@
       "hora": "2026-08-11T06:19:00+00:00",
       "entry_price": 1.93681,
       "exit_price": 1.93747,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 1732,
-      "asset": "AEDCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-11T06:15:00+00:00",
-      "entry_price": 1.93724,
-      "exit_price": 1.93818,
       "resultado": "GANADA"
     }
   ]
