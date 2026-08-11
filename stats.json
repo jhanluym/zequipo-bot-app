@@ -1,27 +1,27 @@
 {
-  "actualizado": "2026-08-11T14:07:34.543475+00:00",
+  "actualizado": "2026-08-11T14:08:10.226086+00:00",
   "lectura_actual": {
     "par": "EURHUF_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 1,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
+      "WILLIAMS_R": null,
       "CCI": "PUT"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 1782,
-  "wins": 910,
+  "total": 1783,
+  "wins": 911,
   "pct": 51.1,
-  "rango_lo": 48.7,
+  "rango_lo": 48.8,
   "rango_hi": 53.4,
   "empates": 20,
   "sin_datos": 3,
@@ -131,20 +131,20 @@
       "rango_hi": 78.6
     },
     {
+      "nombre": "EURHUF_otc | 1min",
+      "wins": 4,
+      "total": 6,
+      "pct": 66.7,
+      "rango_lo": 30.0,
+      "rango_hi": 90.3
+    },
+    {
       "nombre": "CADCHF_otc | 1min",
       "wins": 2,
       "total": 6,
       "pct": 33.3,
       "rango_lo": 9.7,
       "rango_hi": 70.0
-    },
-    {
-      "nombre": "EURHUF_otc | 1min",
-      "wins": 3,
-      "total": 5,
-      "pct": 60.0,
-      "rango_lo": 23.1,
-      "rango_hi": 88.2
     },
     {
       "nombre": "USDDZD_otc | 5min",
@@ -196,6 +196,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1806,
+      "asset": "EURHUF_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-11T14:07:00+00:00",
+      "entry_price": 381.985,
+      "exit_price": 381.467,
+      "resultado": "GANADA"
+    },
     {
       "id": 1805,
       "asset": "EURHUF_otc",
@@ -385,16 +395,6 @@
       "entry_price": 183.204,
       "exit_price": 183.161,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 1786,
-      "asset": "EURJPY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-11T11:40:00+00:00",
-      "entry_price": 183.168,
-      "exit_price": 183.208,
-      "resultado": "GANADA"
     }
   ]
 }
