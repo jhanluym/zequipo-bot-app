@@ -1,26 +1,26 @@
 {
-  "actualizado": "2026-08-11T13:57:40.990562+00:00",
+  "actualizado": "2026-08-11T13:58:16.219008+00:00",
   "lectura_actual": {
     "par": "EURHUF_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 0,
+    "votos_call": 2,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": null,
+      "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
+      "WILLIAMS_R": "CALL",
       "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 1780,
+  "total": 1781,
   "wins": 909,
-  "pct": 51.1,
+  "pct": 51.0,
   "rango_lo": 48.7,
   "rango_hi": 53.4,
   "empates": 20,
@@ -141,10 +141,10 @@
     {
       "nombre": "EURHUF_otc | 1min",
       "wins": 2,
-      "total": 3,
-      "pct": 66.7,
-      "rango_lo": 20.8,
-      "rango_hi": 93.9
+      "total": 4,
+      "pct": 50.0,
+      "rango_lo": 15.0,
+      "rango_hi": 85.0
     },
     {
       "nombre": "USDDZD_otc | 5min",
@@ -196,6 +196,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1804,
+      "asset": "EURHUF_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-11T13:57:00+00:00",
+      "entry_price": 379.283,
+      "exit_price": 378.354,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 1803,
       "asset": "EURHUF_otc",
@@ -385,16 +395,6 @@
       "entry_price": 183.458,
       "exit_price": 183.421,
       "resultado": "GANADA"
-    },
-    {
-      "id": 1784,
-      "asset": "EURJPY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-11T11:30:00+00:00",
-      "entry_price": 183.458,
-      "exit_price": 183.476,
-      "resultado": "PERDIDA"
     }
   ]
 }
