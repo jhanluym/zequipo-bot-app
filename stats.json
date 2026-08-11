@@ -1,27 +1,27 @@
 {
-  "actualizado": "2026-08-11T10:11:47.390019+00:00",
+  "actualizado": "2026-08-11T10:12:22.417625+00:00",
   "lectura_actual": {
     "par": "EURJPY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 2,
-    "votos_put": 1,
+    "votos_call": 0,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
-      "CRUCE_EMA": "PUT",
-      "WILLIAMS_R": "CALL",
+      "ESTOCASTICO": null,
+      "CRUCE_EMA": null,
+      "WILLIAMS_R": null,
       "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 1748,
-  "wins": 891,
+  "total": 1749,
+  "wins": 892,
   "pct": 51.0,
-  "rango_lo": 48.6,
+  "rango_lo": 48.7,
   "rango_hi": 53.3,
   "empates": 19,
   "sin_datos": 3,
@@ -91,20 +91,20 @@
       "rango_hi": 68.5
     },
     {
+      "nombre": "EURJPY_otc | 1min",
+      "wins": 20,
+      "total": 31,
+      "pct": 64.5,
+      "rango_lo": 46.9,
+      "rango_hi": 78.9
+    },
+    {
       "nombre": "CHFNOK_otc | 1min",
       "wins": 9,
       "total": 31,
       "pct": 29.0,
       "rango_lo": 16.1,
       "rango_hi": 46.6
-    },
-    {
-      "nombre": "EURJPY_otc | 1min",
-      "wins": 19,
-      "total": 30,
-      "pct": 63.3,
-      "rango_lo": 45.5,
-      "rango_hi": 78.1
     },
     {
       "nombre": "EURUSD_otc | 10min",
@@ -188,6 +188,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1771,
+      "asset": "EURJPY_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-11T10:11:00+00:00",
+      "entry_price": 183.306,
+      "exit_price": 183.338,
+      "resultado": "GANADA"
+    },
     {
       "id": 1770,
       "asset": "EURJPY_otc",
@@ -377,16 +387,6 @@
       "entry_price": 183.715,
       "exit_price": 183.601,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 1751,
-      "asset": "EURJPY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-11T08:08:00+00:00",
-      "entry_price": 183.901,
-      "exit_price": 183.921,
-      "resultado": "GANADA"
     }
   ]
 }
