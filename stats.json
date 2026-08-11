@@ -1,26 +1,26 @@
 {
-  "actualizado": "2026-08-11T13:45:42.740030+00:00",
+  "actualizado": "2026-08-11T13:46:31.394428+00:00",
   "lectura_actual": {
     "par": "EURHUF_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 0,
+    "votos_call": 2,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": null,
+      "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
+      "WILLIAMS_R": "CALL",
       "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 1778,
+  "total": 1779,
   "wins": 908,
-  "pct": 51.1,
+  "pct": 51.0,
   "rango_lo": 48.7,
   "rango_hi": 53.4,
   "empates": 20,
@@ -139,6 +139,14 @@
       "rango_hi": 70.0
     },
     {
+      "nombre": "EURHUF_otc | 1min",
+      "wins": 1,
+      "total": 2,
+      "pct": 50.0,
+      "rango_lo": 9.5,
+      "rango_hi": 90.5
+    },
+    {
       "nombre": "USDDZD_otc | 5min",
       "wins": 0,
       "total": 2,
@@ -153,14 +161,6 @@
       "pct": 50.0,
       "rango_lo": 9.5,
       "rango_hi": 90.5
-    },
-    {
-      "nombre": "EURHUF_otc | 1min",
-      "wins": 1,
-      "total": 1,
-      "pct": 100.0,
-      "rango_lo": 20.7,
-      "rango_hi": 100
     },
     {
       "nombre": "AUDUSD_otc | 10min",
@@ -196,6 +196,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1802,
+      "asset": "EURHUF_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-11T13:45:00+00:00",
+      "entry_price": 381.421,
+      "exit_price": 379.703,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 1801,
       "asset": "EURHUF_otc",
@@ -384,16 +394,6 @@
       "hora": "2026-08-11T11:27:00+00:00",
       "entry_price": 183.481,
       "exit_price": 183.494,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 1782,
-      "asset": "EURJPY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-11T11:24:00+00:00",
-      "entry_price": 183.371,
-      "exit_price": 183.386,
       "resultado": "PERDIDA"
     }
   ]
