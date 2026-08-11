@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-11T08:19:44.605376+00:00",
+  "actualizado": "2026-08-11T08:20:20.331012+00:00",
   "lectura_actual": {
     "par": "EURJPY_otc",
     "sin_datos_suficientes": false,
@@ -18,7 +18,7 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 1731,
+  "total": 1732,
   "wins": 881,
   "pct": 50.9,
   "rango_lo": 48.5,
@@ -115,20 +115,20 @@
       "rango_hi": 85.8
     },
     {
+      "nombre": "EURJPY_otc | 1min",
+      "wins": 9,
+      "total": 14,
+      "pct": 64.3,
+      "rango_lo": 38.8,
+      "rango_hi": 83.7
+    },
+    {
       "nombre": "USDDZD_otc | 1min",
       "wins": 8,
       "total": 14,
       "pct": 57.1,
       "rango_lo": 32.6,
       "rango_hi": 78.6
-    },
-    {
-      "nombre": "EURJPY_otc | 1min",
-      "wins": 9,
-      "total": 13,
-      "pct": 69.2,
-      "rango_lo": 42.4,
-      "rango_hi": 87.3
     },
     {
       "nombre": "CADCHF_otc | 1min",
@@ -188,6 +188,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1754,
+      "asset": "EURJPY_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-11T08:19:00+00:00",
+      "entry_price": 183.333,
+      "exit_price": 183.27,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 1753,
       "asset": "EURJPY_otc",
@@ -377,16 +387,6 @@
       "entry_price": 1.93567,
       "exit_price": 1.93337,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 1734,
-      "asset": "AEDCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-11T06:24:00+00:00",
-      "entry_price": 1.93533,
-      "exit_price": 1.93567,
-      "resultado": "GANADA"
     }
   ]
 }
