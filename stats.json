@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-11T23:56:26.353838+00:00",
+  "actualizado": "2026-08-11T23:57:01.576996+00:00",
   "lectura_actual": {
     "par": "BHDCNY_otc",
     "sin_datos_suficientes": false,
@@ -18,9 +18,9 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 1879,
+  "total": 1880,
   "wins": 967,
-  "pct": 51.5,
+  "pct": 51.4,
   "rango_lo": 49.2,
   "rango_hi": 53.7,
   "empates": 20,
@@ -141,10 +141,10 @@
     {
       "nombre": "BHDCNY_otc | 1min",
       "wins": 5,
-      "total": 8,
-      "pct": 62.5,
-      "rango_lo": 30.6,
-      "rango_hi": 86.3
+      "total": 9,
+      "pct": 55.6,
+      "rango_lo": 26.7,
+      "rango_hi": 81.1
     },
     {
       "nombre": "CADCHF_otc | 1min",
@@ -204,6 +204,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1903,
+      "asset": "BHDCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-11T23:56:00+00:00",
+      "entry_price": 18.45881,
+      "exit_price": 18.4594,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 1902,
       "asset": "BHDCNY_otc",
@@ -393,16 +403,6 @@
       "entry_price": 1.16045,
       "exit_price": 1.16089,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 1883,
-      "asset": "AUDNZD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-11T21:46:00+00:00",
-      "entry_price": 1.16137,
-      "exit_price": 1.16127,
-      "resultado": "GANADA"
     }
   ]
 }
