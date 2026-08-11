@@ -1,8 +1,22 @@
 {
-  "actualizado": "2026-08-11T22:56:43.197163+00:00",
+  "actualizado": "2026-08-11T22:57:17.614309+00:00",
   "lectura_actual": {
     "par": "BHDCNY_otc",
-    "sin_datos_suficientes": true
+    "sin_datos_suficientes": false,
+    "votos_call": 0,
+    "votos_put": 3,
+    "consenso_necesario": 3,
+    "detalle": {
+      "RSI": null,
+      "BOLLINGER": null,
+      "MACD": null,
+      "ESTOCASTICO": "PUT",
+      "CRUCE_EMA": null,
+      "WILLIAMS_R": "PUT",
+      "CCI": "PUT"
+    },
+    "hay_senal_activa": true,
+    "direccion_activa": "PUT"
   },
   "total": 1871,
   "wins": 962,
