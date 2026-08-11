@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-11T16:18:31.790410+00:00",
+  "actualizado": "2026-08-11T16:19:07.220167+00:00",
   "lectura_actual": {
     "par": "EURHUF_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 0,
-    "votos_put": 1,
+    "votos_call": 2,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": "PUT",
-      "ESTOCASTICO": null,
+      "MACD": null,
+      "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
+      "WILLIAMS_R": "CALL",
       "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 1802,
-  "wins": 924,
+  "total": 1803,
+  "wins": 925,
   "pct": 51.3,
   "rango_lo": 49.0,
   "rango_hi": 53.6,
@@ -108,11 +108,11 @@
     },
     {
       "nombre": "EURHUF_otc | 1min",
-      "wins": 17,
-      "total": 25,
-      "pct": 68.0,
-      "rango_lo": 48.4,
-      "rango_hi": 82.8
+      "wins": 18,
+      "total": 26,
+      "pct": 69.2,
+      "rango_lo": 50.0,
+      "rango_hi": 83.5
     },
     {
       "nombre": "EURUSD_otc | 10min",
@@ -196,6 +196,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1826,
+      "asset": "EURHUF_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-11T16:18:00+00:00",
+      "entry_price": 383.091,
+      "exit_price": 382.741,
+      "resultado": "GANADA"
+    },
     {
       "id": 1825,
       "asset": "EURHUF_otc",
@@ -384,16 +394,6 @@
       "hora": "2026-08-11T14:11:00+00:00",
       "entry_price": 382.906,
       "exit_price": 382.827,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 1806,
-      "asset": "EURHUF_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-11T14:07:00+00:00",
-      "entry_price": 381.985,
-      "exit_price": 381.467,
       "resultado": "GANADA"
     }
   ]
