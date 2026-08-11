@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-11T09:14:28.131291+00:00",
+  "actualizado": "2026-08-11T09:15:03.332058+00:00",
   "lectura_actual": {
     "par": "EURJPY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 1,
+    "votos_put": 2,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": null,
+      "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
-      "CCI": "PUT"
+      "WILLIAMS_R": "PUT",
+      "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 1740,
+  "total": 1741,
   "wins": 886,
   "pct": 50.9,
-  "rango_lo": 48.6,
-  "rango_hi": 53.3,
+  "rango_lo": 48.5,
+  "rango_hi": 53.2,
   "empates": 19,
   "sin_datos": 3,
   "combos": [
@@ -101,10 +101,10 @@
     {
       "nombre": "EURJPY_otc | 1min",
       "wins": 14,
-      "total": 22,
-      "pct": 63.6,
-      "rango_lo": 43.0,
-      "rango_hi": 80.3
+      "total": 23,
+      "pct": 60.9,
+      "rango_lo": 40.8,
+      "rango_hi": 77.8
     },
     {
       "nombre": "EURUSD_otc | 10min",
@@ -188,6 +188,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1763,
+      "asset": "EURJPY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-11T09:14:00+00:00",
+      "entry_price": 183.114,
+      "exit_price": 183.159,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 1762,
       "asset": "EURJPY_otc",
@@ -376,16 +386,6 @@
       "hora": "2026-08-11T07:13:00+00:00",
       "entry_price": 1.93201,
       "exit_price": 1.93293,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 1743,
-      "asset": "AEDCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-11T07:10:00+00:00",
-      "entry_price": 1.93091,
-      "exit_price": 1.93124,
       "resultado": "PERDIDA"
     }
   ]
