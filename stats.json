@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-11T09:35:35.501578+00:00",
+  "actualizado": "2026-08-11T09:36:10.537961+00:00",
   "lectura_actual": {
     "par": "EURJPY_otc",
     "sin_datos_suficientes": false,
@@ -18,7 +18,7 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 1743,
+  "total": 1744,
   "wins": 888,
   "pct": 50.9,
   "rango_lo": 48.6,
@@ -101,10 +101,10 @@
     {
       "nombre": "EURJPY_otc | 1min",
       "wins": 16,
-      "total": 25,
-      "pct": 64.0,
-      "rango_lo": 44.5,
-      "rango_hi": 79.8
+      "total": 26,
+      "pct": 61.5,
+      "rango_lo": 42.5,
+      "rango_hi": 77.6
     },
     {
       "nombre": "EURUSD_otc | 10min",
@@ -188,6 +188,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1766,
+      "asset": "EURJPY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-11T09:35:00+00:00",
+      "entry_price": 183.274,
+      "exit_price": 183.292,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 1765,
       "asset": "EURJPY_otc",
@@ -377,16 +387,6 @@
       "entry_price": 1.93008,
       "exit_price": 1.92836,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 1746,
-      "asset": "AEDCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-11T07:31:00+00:00",
-      "entry_price": 1.93298,
-      "exit_price": 1.93176,
-      "resultado": "GANADA"
     }
   ]
 }
