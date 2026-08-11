@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-11T16:23:45.975923+00:00",
+  "actualizado": "2026-08-11T16:24:21.273394+00:00",
   "lectura_actual": {
     "par": "EURHUF_otc",
     "sin_datos_suficientes": false,
@@ -18,8 +18,8 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 1803,
-  "wins": 925,
+  "total": 1804,
+  "wins": 926,
   "pct": 51.3,
   "rango_lo": 49.0,
   "rango_hi": 53.6,
@@ -108,11 +108,11 @@
     },
     {
       "nombre": "EURHUF_otc | 1min",
-      "wins": 18,
-      "total": 26,
-      "pct": 69.2,
-      "rango_lo": 50.0,
-      "rango_hi": 83.5
+      "wins": 19,
+      "total": 27,
+      "pct": 70.4,
+      "rango_lo": 51.5,
+      "rango_hi": 84.1
     },
     {
       "nombre": "EURUSD_otc | 10min",
@@ -196,6 +196,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1827,
+      "asset": "EURHUF_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-11T16:23:00+00:00",
+      "entry_price": 382.28,
+      "exit_price": 382.333,
+      "resultado": "GANADA"
+    },
     {
       "id": 1826,
       "asset": "EURHUF_otc",
@@ -385,16 +395,6 @@
       "entry_price": 382.655,
       "exit_price": 383.418,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 1807,
-      "asset": "EURHUF_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-11T14:11:00+00:00",
-      "entry_price": 382.906,
-      "exit_price": 382.827,
-      "resultado": "GANADA"
     }
   ]
 }
