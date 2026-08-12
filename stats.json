@@ -1,10 +1,10 @@
 {
-  "actualizado": "2026-08-12T09:55:38.789122+00:00",
+  "actualizado": "2026-08-12T09:56:13.759596+00:00",
   "lectura_actual": {
     "par": "EURNZD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 1,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
@@ -13,16 +13,16 @@
       "ESTOCASTICO": null,
       "CRUCE_EMA": null,
       "WILLIAMS_R": null,
-      "CCI": "PUT"
+      "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 1966,
-  "wins": 1013,
-  "pct": 51.5,
+  "total": 1967,
+  "wins": 1014,
+  "pct": 51.6,
   "rango_lo": 49.3,
-  "rango_hi": 53.7,
+  "rango_hi": 53.8,
   "empates": 22,
   "sin_datos": 3,
   "combos": [
@@ -75,20 +75,20 @@
       "rango_hi": 64.4
     },
     {
+      "nombre": "EURNZD_otc | 1min",
+      "wins": 40,
+      "total": 72,
+      "pct": 55.6,
+      "rango_lo": 44.1,
+      "rango_hi": 66.5
+    },
+    {
       "nombre": "AUDCHF_otc | 1min",
       "wins": 32,
       "total": 72,
       "pct": 44.4,
       "rango_lo": 33.5,
       "rango_hi": 55.9
-    },
-    {
-      "nombre": "EURNZD_otc | 1min",
-      "wins": 39,
-      "total": 71,
-      "pct": 54.9,
-      "rango_lo": 43.4,
-      "rango_hi": 66.0
     },
     {
       "nombre": "EURHUF_otc | 1min",
@@ -236,6 +236,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1992,
+      "asset": "EURNZD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-12T09:55:00+00:00",
+      "entry_price": 1.9453,
+      "exit_price": 1.94459,
+      "resultado": "GANADA"
+    },
     {
       "id": 1991,
       "asset": "EURNZD_otc",
@@ -425,16 +435,6 @@
       "entry_price": 1.9304,
       "exit_price": 1.93078,
       "resultado": "GANADA"
-    },
-    {
-      "id": 1972,
-      "asset": "EURNZD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-12T08:17:00+00:00",
-      "entry_price": 1.92984,
-      "exit_price": 1.92957,
-      "resultado": "PERDIDA"
     }
   ]
 }
