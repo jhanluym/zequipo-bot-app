@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-12T03:20:54.692386+00:00",
+  "actualizado": "2026-08-12T03:21:29.755552+00:00",
   "lectura_actual": {
     "par": "EURNZD_otc",
     "sin_datos_suficientes": false,
@@ -7,8 +7,8 @@
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": null,
-      "BOLLINGER": "CALL",
+      "RSI": "CALL",
+      "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
@@ -18,11 +18,11 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 1900,
+  "total": 1901,
   "wins": 977,
   "pct": 51.4,
-  "rango_lo": 49.2,
-  "rango_hi": 53.7,
+  "rango_lo": 49.1,
+  "rango_hi": 53.6,
   "empates": 20,
   "sin_datos": 3,
   "combos": [
@@ -147,20 +147,20 @@
       "rango_hi": 76.8
     },
     {
+      "nombre": "EURNZD_otc | 1min",
+      "wins": 3,
+      "total": 6,
+      "pct": 50.0,
+      "rango_lo": 18.8,
+      "rango_hi": 81.2
+    },
+    {
       "nombre": "CADCHF_otc | 1min",
       "wins": 2,
       "total": 6,
       "pct": 33.3,
       "rango_lo": 9.7,
       "rango_hi": 70.0
-    },
-    {
-      "nombre": "EURNZD_otc | 1min",
-      "wins": 3,
-      "total": 5,
-      "pct": 60.0,
-      "rango_lo": 23.1,
-      "rango_hi": 88.2
     },
     {
       "nombre": "CADJPY | 1min",
@@ -236,6 +236,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1924,
+      "asset": "EURNZD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-12T03:20:00+00:00",
+      "entry_price": 1.94219,
+      "exit_price": 1.94178,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 1923,
       "asset": "EURNZD_otc",
@@ -425,16 +435,6 @@
       "entry_price": 18.45856,
       "exit_price": 18.45932,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 1904,
-      "asset": "BHDCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-11T23:59:00+00:00",
-      "entry_price": 18.46013,
-      "exit_price": 18.45953,
-      "resultado": "GANADA"
     }
   ]
 }
