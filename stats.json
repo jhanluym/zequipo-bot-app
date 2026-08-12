@@ -1,22 +1,8 @@
 {
-  "actualizado": "2026-08-12T01:06:09.383963+00:00",
+  "actualizado": "2026-08-12T01:06:46.150157+00:00",
   "lectura_actual": {
-    "par": "EURGBP_otc",
-    "sin_datos_suficientes": false,
-    "votos_call": 1,
-    "votos_put": 0,
-    "consenso_necesario": 3,
-    "detalle": {
-      "RSI": null,
-      "BOLLINGER": null,
-      "MACD": null,
-      "ESTOCASTICO": null,
-      "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
-      "CCI": "CALL"
-    },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "par": "LBPUSD_otc",
+    "sin_datos_suficientes": true
   },
   "total": 1885,
   "wins": 970,
