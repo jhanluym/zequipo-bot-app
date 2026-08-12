@@ -1,24 +1,24 @@
 {
-  "actualizado": "2026-08-12T09:01:54.650936+00:00",
+  "actualizado": "2026-08-12T09:02:29.645387+00:00",
   "lectura_actual": {
     "par": "EURNZD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 1,
+    "votos_put": 4,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": null,
+      "RSI": "PUT",
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": null,
+      "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
+      "WILLIAMS_R": "PUT",
       "CCI": "PUT"
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "PUT"
   },
-  "total": 1956,
+  "total": 1957,
   "wins": 1008,
   "pct": 51.5,
   "rango_lo": 49.3,
@@ -83,20 +83,20 @@
       "rango_hi": 55.9
     },
     {
+      "nombre": "EURNZD_otc | 1min",
+      "wins": 34,
+      "total": 62,
+      "pct": 54.8,
+      "rango_lo": 42.5,
+      "rango_hi": 66.6
+    },
+    {
       "nombre": "EURHUF_otc | 1min",
       "wins": 38,
       "total": 62,
       "pct": 61.3,
       "rango_lo": 48.8,
       "rango_hi": 72.4
-    },
-    {
-      "nombre": "EURNZD_otc | 1min",
-      "wins": 34,
-      "total": 61,
-      "pct": 55.7,
-      "rango_lo": 43.3,
-      "rango_hi": 67.5
     },
     {
       "nombre": "EURJPY_otc | 1min",
@@ -236,6 +236,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1982,
+      "asset": "EURNZD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-12T09:01:00+00:00",
+      "entry_price": 1.9372,
+      "exit_price": 1.9391,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 1981,
       "asset": "EURNZD_otc",
@@ -425,16 +435,6 @@
       "entry_price": 1.94054,
       "exit_price": 1.94128,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 1962,
-      "asset": "EURNZD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-12T07:15:00+00:00",
-      "entry_price": 1.93663,
-      "exit_price": 1.93786,
-      "resultado": "GANADA"
     }
   ]
 }
