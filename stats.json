@@ -1,18 +1,18 @@
 {
-  "actualizado": "2026-08-12T02:15:45.646709+00:00",
+  "actualizado": "2026-08-12T02:16:20.832661+00:00",
   "lectura_actual": {
     "par": "CADJPY",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 4,
+    "votos_put": 3,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": null,
+      "RSI": "PUT",
       "BOLLINGER": "PUT",
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
+      "WILLIAMS_R": null,
       "CCI": "PUT"
     },
     "hay_senal_activa": true,
