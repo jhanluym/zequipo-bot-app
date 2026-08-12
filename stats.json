@@ -1,26 +1,26 @@
 {
-  "actualizado": "2026-08-12T01:05:33.540407+00:00",
+  "actualizado": "2026-08-12T01:06:09.383963+00:00",
   "lectura_actual": {
     "par": "EURGBP_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 5,
+    "votos_call": 1,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "CALL",
-      "BOLLINGER": "CALL",
+      "RSI": null,
+      "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
+      "WILLIAMS_R": null,
       "CCI": "CALL"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 1884,
-  "wins": 969,
-  "pct": 51.4,
+  "total": 1885,
+  "wins": 970,
+  "pct": 51.5,
   "rango_lo": 49.2,
   "rango_hi": 53.7,
   "empates": 20,
@@ -171,6 +171,14 @@
       "rango_hi": 90.5
     },
     {
+      "nombre": "EURGBP_otc | 1min",
+      "wins": 1,
+      "total": 1,
+      "pct": 100.0,
+      "rango_lo": 20.7,
+      "rango_hi": 100
+    },
+    {
       "nombre": "AUDUSD_otc | 10min",
       "wins": 1,
       "total": 1,
@@ -204,6 +212,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1908,
+      "asset": "EURGBP_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-12T01:05:00+00:00",
+      "entry_price": 0.85576,
+      "exit_price": 0.85677,
+      "resultado": "GANADA"
+    },
     {
       "id": 1907,
       "asset": "BHDCNY_otc",
@@ -392,16 +410,6 @@
       "hora": "2026-08-11T22:09:00+00:00",
       "entry_price": 1.16504,
       "exit_price": 1.16408,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 1888,
-      "asset": "AUDNZD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-11T22:02:00+00:00",
-      "entry_price": 1.16492,
-      "exit_price": 1.16491,
       "resultado": "GANADA"
     }
   ]
