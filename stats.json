@@ -1,26 +1,26 @@
 {
-  "actualizado": "2026-08-12T04:01:50.963219+00:00",
+  "actualizado": "2026-08-12T04:02:26.079621+00:00",
   "lectura_actual": {
     "par": "EURNZD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 0,
-    "votos_put": 1,
+    "votos_call": 2,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": null,
+      "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
-      "CCI": "PUT"
+      "WILLIAMS_R": "CALL",
+      "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 1907,
-  "wins": 981,
-  "pct": 51.4,
+  "total": 1908,
+  "wins": 982,
+  "pct": 51.5,
   "rango_lo": 49.2,
   "rango_hi": 53.7,
   "empates": 20,
@@ -139,20 +139,20 @@
       "rango_hi": 78.6
     },
     {
+      "nombre": "EURNZD_otc | 1min",
+      "wins": 8,
+      "total": 13,
+      "pct": 61.5,
+      "rango_lo": 35.5,
+      "rango_hi": 82.3
+    },
+    {
       "nombre": "BHDCNY_otc | 1min",
       "wins": 7,
       "total": 13,
       "pct": 53.8,
       "rango_lo": 29.1,
       "rango_hi": 76.8
-    },
-    {
-      "nombre": "EURNZD_otc | 1min",
-      "wins": 7,
-      "total": 12,
-      "pct": 58.3,
-      "rango_lo": 32.0,
-      "rango_hi": 80.7
     },
     {
       "nombre": "CADCHF_otc | 1min",
@@ -236,6 +236,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1931,
+      "asset": "EURNZD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-12T04:01:00+00:00",
+      "entry_price": 1.94461,
+      "exit_price": 1.94281,
+      "resultado": "GANADA"
+    },
     {
       "id": 1930,
       "asset": "EURNZD_otc",
@@ -425,16 +435,6 @@
       "entry_price": 0.98328,
       "exit_price": 0.98319,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 1911,
-      "asset": "AUDCAD",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-12T01:47:00+00:00",
-      "entry_price": 0.98342,
-      "exit_price": 0.98333,
-      "resultado": "GANADA"
     }
   ]
 }
