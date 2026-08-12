@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-12T07:26:43.454921+00:00",
+  "actualizado": "2026-08-12T07:27:18.963549+00:00",
   "lectura_actual": {
     "par": "EURNZD_otc",
     "sin_datos_suficientes": false,
@@ -18,7 +18,7 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 1939,
+  "total": 1940,
   "wins": 1003,
   "pct": 51.7,
   "rango_lo": 49.5,
@@ -101,10 +101,10 @@
     {
       "nombre": "EURNZD_otc | 1min",
       "wins": 29,
-      "total": 44,
-      "pct": 65.9,
-      "rango_lo": 51.1,
-      "rango_hi": 78.1
+      "total": 45,
+      "pct": 64.4,
+      "rango_lo": 49.8,
+      "rango_hi": 76.8
     },
     {
       "nombre": "EURRUB_otc | 1min",
@@ -236,6 +236,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1963,
+      "asset": "EURNZD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-12T07:26:00+00:00",
+      "entry_price": 1.94054,
+      "exit_price": 1.94128,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 1962,
       "asset": "EURNZD_otc",
@@ -425,16 +435,6 @@
       "entry_price": 1.94537,
       "exit_price": 1.94527,
       "resultado": "GANADA"
-    },
-    {
-      "id": 1943,
-      "asset": "EURNZD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-12T05:22:00+00:00",
-      "entry_price": 1.9458,
-      "exit_price": 1.94671,
-      "resultado": "PERDIDA"
     }
   ]
 }
