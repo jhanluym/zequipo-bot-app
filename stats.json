@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-08-12T09:42:55.976105+00:00",
+  "actualizado": "2026-08-12T09:43:31.095288+00:00",
   "lectura_actual": {
     "par": "EURNZD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 3,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": "CALL",
+      "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
@@ -18,11 +18,11 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 1964,
-  "wins": 1012,
-  "pct": 51.5,
+  "total": 1965,
+  "wins": 1013,
+  "pct": 51.6,
   "rango_lo": 49.3,
-  "rango_hi": 53.7,
+  "rango_hi": 53.8,
   "empates": 22,
   "sin_datos": 3,
   "combos": [
@@ -84,11 +84,11 @@
     },
     {
       "nombre": "EURNZD_otc | 1min",
-      "wins": 38,
-      "total": 69,
-      "pct": 55.1,
-      "rango_lo": 43.4,
-      "rango_hi": 66.2
+      "wins": 39,
+      "total": 70,
+      "pct": 55.7,
+      "rango_lo": 44.1,
+      "rango_hi": 66.8
     },
     {
       "nombre": "EURHUF_otc | 1min",
@@ -236,6 +236,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1990,
+      "asset": "EURNZD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-12T09:42:00+00:00",
+      "entry_price": 1.94167,
+      "exit_price": 1.94249,
+      "resultado": "GANADA"
+    },
     {
       "id": 1989,
       "asset": "EURNZD_otc",
@@ -424,16 +434,6 @@
       "hora": "2026-08-12T08:12:00+00:00",
       "entry_price": 1.92989,
       "exit_price": 1.93111,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 1970,
-      "asset": "EURNZD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-12T08:02:00+00:00",
-      "entry_price": 1.93239,
-      "exit_price": 1.93265,
       "resultado": "GANADA"
     }
   ]
