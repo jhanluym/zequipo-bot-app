@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-12T06:35:53.031609+00:00",
+  "actualizado": "2026-08-12T06:36:28.006866+00:00",
   "lectura_actual": {
     "par": "EURNZD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 2,
-    "votos_put": 0,
+    "votos_call": 3,
+    "votos_put": 2,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": null,
+      "MACD": "PUT",
       "ESTOCASTICO": "CALL",
-      "CRUCE_EMA": null,
+      "CRUCE_EMA": "PUT",
       "WILLIAMS_R": "CALL",
-      "CCI": null
+      "CCI": "CALL"
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "CALL"
   },
-  "total": 1928,
-  "wins": 997,
+  "total": 1929,
+  "wins": 998,
   "pct": 51.7,
   "rango_lo": 49.5,
-  "rango_hi": 53.9,
+  "rango_hi": 54.0,
   "empates": 20,
   "sin_datos": 3,
   "combos": [
@@ -99,20 +99,20 @@
       "rango_hi": 70.9
     },
     {
+      "nombre": "EURNZD_otc | 1min",
+      "wins": 24,
+      "total": 34,
+      "pct": 70.6,
+      "rango_lo": 53.8,
+      "rango_hi": 83.2
+    },
+    {
       "nombre": "EURRUB_otc | 1min",
       "wins": 18,
       "total": 34,
       "pct": 52.9,
       "rango_lo": 36.7,
       "rango_hi": 68.5
-    },
-    {
-      "nombre": "EURNZD_otc | 1min",
-      "wins": 23,
-      "total": 33,
-      "pct": 69.7,
-      "rango_lo": 52.7,
-      "rango_hi": 82.6
     },
     {
       "nombre": "CHFNOK_otc | 1min",
@@ -236,6 +236,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1952,
+      "asset": "EURNZD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-12T06:35:00+00:00",
+      "entry_price": 1.94128,
+      "exit_price": 1.94107,
+      "resultado": "GANADA"
+    },
     {
       "id": 1951,
       "asset": "EURNZD_otc",
@@ -425,16 +435,6 @@
       "entry_price": 1.94395,
       "exit_price": 1.94482,
       "resultado": "GANADA"
-    },
-    {
-      "id": 1932,
-      "asset": "EURNZD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-12T04:11:00+00:00",
-      "entry_price": 1.94296,
-      "exit_price": 1.94295,
-      "resultado": "PERDIDA"
     }
   ]
 }
