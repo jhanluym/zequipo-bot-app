@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-12T02:05:55.867255+00:00",
+  "actualizado": "2026-08-12T02:06:31.408797+00:00",
   "lectura_actual": {
     "par": "CADJPY",
     "sin_datos_suficientes": false,
@@ -18,11 +18,11 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 1891,
-  "wins": 972,
+  "total": 1892,
+  "wins": 973,
   "pct": 51.4,
-  "rango_lo": 49.1,
-  "rango_hi": 53.6,
+  "rango_lo": 49.2,
+  "rango_hi": 53.7,
   "empates": 20,
   "sin_datos": 3,
   "combos": [
@@ -163,6 +163,14 @@
       "rango_hi": 79.2
     },
     {
+      "nombre": "CADJPY | 1min",
+      "wins": 1,
+      "total": 2,
+      "pct": 50.0,
+      "rango_lo": 9.5,
+      "rango_hi": 90.5
+    },
+    {
       "nombre": "USDDZD_otc | 5min",
       "wins": 0,
       "total": 2,
@@ -177,14 +185,6 @@
       "pct": 50.0,
       "rango_lo": 9.5,
       "rango_hi": 90.5
-    },
-    {
-      "nombre": "CADJPY | 1min",
-      "wins": 0,
-      "total": 1,
-      "pct": 0.0,
-      "rango_lo": 0,
-      "rango_hi": 79.3
     },
     {
       "nombre": "EURGBP_otc | 1min",
@@ -228,6 +228,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1915,
+      "asset": "CADJPY",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-12T02:05:00+00:00",
+      "entry_price": 114.4,
+      "exit_price": 114.397,
+      "resultado": "GANADA"
+    },
     {
       "id": 1914,
       "asset": "CADJPY",
@@ -416,16 +426,6 @@
       "hora": "2026-08-11T23:02:00+00:00",
       "entry_price": 18.45385,
       "exit_price": 18.45507,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 1895,
-      "asset": "BHDCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-11T22:59:00+00:00",
-      "entry_price": 18.4545,
-      "exit_price": 18.4528,
       "resultado": "GANADA"
     }
   ]
