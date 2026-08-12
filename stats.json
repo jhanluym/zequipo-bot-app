@@ -1,24 +1,24 @@
 {
-  "actualizado": "2026-08-12T03:00:35.894857+00:00",
+  "actualizado": "2026-08-12T03:01:11.029643+00:00",
   "lectura_actual": {
     "par": "EURNZD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 0,
+    "votos_put": 3,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": null,
+      "RSI": "PUT",
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": null,
+      "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
+      "WILLIAMS_R": "PUT",
       "CCI": null
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "PUT"
   },
-  "total": 1895,
+  "total": 1896,
   "wins": 974,
   "pct": 51.4,
   "rango_lo": 49.1,
@@ -187,6 +187,14 @@
       "rango_hi": 90.5
     },
     {
+      "nombre": "EURNZD_otc | 1min",
+      "wins": 0,
+      "total": 1,
+      "pct": 0.0,
+      "rango_lo": 0,
+      "rango_hi": 79.3
+    },
+    {
       "nombre": "EURGBP_otc | 1min",
       "wins": 1,
       "total": 1,
@@ -228,6 +236,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1919,
+      "asset": "EURNZD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-12T03:00:00+00:00",
+      "entry_price": 1.94907,
+      "exit_price": 1.94981,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 1918,
       "asset": "CADJPY",
@@ -416,16 +434,6 @@
       "hora": "2026-08-11T23:32:00+00:00",
       "entry_price": 18.45205,
       "exit_price": 18.45171,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 1899,
-      "asset": "BHDCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-11T23:29:00+00:00",
-      "entry_price": 18.4505,
-      "exit_price": 18.45021,
       "resultado": "PERDIDA"
     }
   ]
