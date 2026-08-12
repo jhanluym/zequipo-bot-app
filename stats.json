@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-08-12T04:25:31.005799+00:00",
+  "actualizado": "2026-08-12T04:26:05.876983+00:00",
   "lectura_actual": {
     "par": "EURNZD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 1,
+    "votos_call": 0,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
@@ -13,16 +13,16 @@
       "ESTOCASTICO": null,
       "CRUCE_EMA": null,
       "WILLIAMS_R": null,
-      "CCI": "CALL"
+      "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 1911,
-  "wins": 984,
+  "total": 1912,
+  "wins": 985,
   "pct": 51.5,
-  "rango_lo": 49.2,
-  "rango_hi": 53.7,
+  "rango_lo": 49.3,
+  "rango_hi": 53.8,
   "empates": 20,
   "sin_datos": 3,
   "combos": [
@@ -124,11 +124,11 @@
     },
     {
       "nombre": "EURNZD_otc | 1min",
-      "wins": 10,
-      "total": 16,
-      "pct": 62.5,
-      "rango_lo": 38.6,
-      "rango_hi": 81.5
+      "wins": 11,
+      "total": 17,
+      "pct": 64.7,
+      "rango_lo": 41.3,
+      "rango_hi": 82.7
     },
     {
       "nombre": "EURUSD_otc | 5min",
@@ -236,6 +236,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1935,
+      "asset": "EURNZD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-12T04:25:00+00:00",
+      "entry_price": 1.94169,
+      "exit_price": 1.94344,
+      "resultado": "GANADA"
+    },
     {
       "id": 1934,
       "asset": "EURNZD_otc",
@@ -425,16 +435,6 @@
       "entry_price": 114.426,
       "exit_price": 114.428,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 1915,
-      "asset": "CADJPY",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-12T02:05:00+00:00",
-      "entry_price": 114.4,
-      "exit_price": 114.397,
-      "resultado": "GANADA"
     }
   ]
 }
