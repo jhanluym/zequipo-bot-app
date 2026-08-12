@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-12T02:23:50.647404+00:00",
+  "actualizado": "2026-08-12T02:24:26.596280+00:00",
   "lectura_actual": {
     "par": "CADJPY",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 4,
+    "votos_put": 2,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "PUT",
+      "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
       "WILLIAMS_R": "PUT",
-      "CCI": "PUT"
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 1894,
-  "wins": 973,
+  "total": 1895,
+  "wins": 974,
   "pct": 51.4,
   "rango_lo": 49.1,
   "rango_hi": 53.6,
@@ -156,11 +156,11 @@
     },
     {
       "nombre": "CADJPY | 1min",
-      "wins": 1,
-      "total": 4,
-      "pct": 25.0,
-      "rango_lo": 4.6,
-      "rango_hi": 69.9
+      "wins": 2,
+      "total": 5,
+      "pct": 40.0,
+      "rango_lo": 11.8,
+      "rango_hi": 76.9
     },
     {
       "nombre": "AUDCAD | 1min",
@@ -228,6 +228,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 1918,
+      "asset": "CADJPY",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-12T02:23:00+00:00",
+      "entry_price": 114.439,
+      "exit_price": 114.437,
+      "resultado": "GANADA"
+    },
     {
       "id": 1917,
       "asset": "CADJPY",
@@ -417,16 +427,6 @@
       "entry_price": 18.4505,
       "exit_price": 18.45021,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 1898,
-      "asset": "BHDCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-11T23:10:00+00:00",
-      "entry_price": 18.45724,
-      "exit_price": 18.45615,
-      "resultado": "GANADA"
     }
   ]
 }
