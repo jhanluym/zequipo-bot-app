@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-08-13T21:47:36.424859+00:00",
+  "actualizado": "2026-08-13T21:48:11.603447+00:00",
   "lectura_actual": {
     "par": "MADUSD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 1,
+    "votos_call": 0,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
@@ -13,13 +13,13 @@
       "ESTOCASTICO": null,
       "CRUCE_EMA": null,
       "WILLIAMS_R": null,
-      "CCI": "CALL"
+      "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 2061,
-  "wins": 1071,
+  "total": 2062,
+  "wins": 1072,
   "pct": 52.0,
   "rango_lo": 49.8,
   "rango_hi": 54.1,
@@ -132,11 +132,11 @@
     },
     {
       "nombre": "MADUSD_otc | 1min",
-      "wins": 9,
-      "total": 21,
-      "pct": 42.9,
-      "rango_lo": 24.5,
-      "rango_hi": 63.5
+      "wins": 10,
+      "total": 22,
+      "pct": 45.5,
+      "rango_lo": 26.9,
+      "rango_hi": 65.3
     },
     {
       "nombre": "EURUSD_otc | 10min",
@@ -252,6 +252,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2087,
+      "asset": "MADUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-13T21:47:00+00:00",
+      "entry_price": 0.09291,
+      "exit_price": 0.09346,
+      "resultado": "GANADA"
+    },
     {
       "id": 2086,
       "asset": "MADUSD_otc",
@@ -441,16 +451,6 @@
       "entry_price": 0.087,
       "exit_price": 0.08699,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 2067,
-      "asset": "MADUSD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-13T19:59:00+00:00",
-      "entry_price": 0.08774,
-      "exit_price": 0.08821,
-      "resultado": "GANADA"
     }
   ]
 }
