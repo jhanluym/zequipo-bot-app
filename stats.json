@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-13T06:22:27.997296+00:00",
+  "actualizado": "2026-08-13T06:23:04.238492+00:00",
   "lectura_actual": {
     "par": "JODCNY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 0,
+    "votos_put": 3,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": null,
+      "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
-      "CCI": null
+      "WILLIAMS_R": "PUT",
+      "CCI": "PUT"
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "PUT"
   },
-  "total": 2036,
+  "total": 2037,
   "wins": 1061,
   "pct": 52.1,
   "rango_lo": 49.9,
-  "rango_hi": 54.3,
+  "rango_hi": 54.2,
   "empates": 22,
   "sin_datos": 3,
   "combos": [
@@ -93,10 +93,10 @@
     {
       "nombre": "JODCNY_otc | 1min",
       "wins": 43,
-      "total": 63,
-      "pct": 68.3,
-      "rango_lo": 56.0,
-      "rango_hi": 78.4
+      "total": 64,
+      "pct": 67.2,
+      "rango_lo": 55.0,
+      "rango_hi": 77.4
     },
     {
       "nombre": "EURHUF_otc | 1min",
@@ -244,6 +244,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2062,
+      "asset": "JODCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-13T06:22:00+00:00",
+      "entry_price": 9.732163,
+      "exit_price": 9.73231,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 2061,
       "asset": "JODCNY_otc",
@@ -433,16 +443,6 @@
       "entry_price": 9.730608,
       "exit_price": 9.730657,
       "resultado": "GANADA"
-    },
-    {
-      "id": 2042,
-      "asset": "JODCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-13T04:50:00+00:00",
-      "entry_price": 9.73093,
-      "exit_price": 9.730844,
-      "resultado": "PERDIDA"
     }
   ]
 }
