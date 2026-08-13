@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-13T00:02:40.942774+00:00",
+  "actualizado": "2026-08-13T00:03:17.191409+00:00",
   "lectura_actual": {
     "par": "JODCNY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 0,
+    "votos_put": 3,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": null,
+      "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
-      "CCI": null
+      "WILLIAMS_R": "PUT",
+      "CCI": "PUT"
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "PUT"
   },
-  "total": 1974,
+  "total": 1975,
   "wins": 1018,
-  "pct": 51.6,
-  "rango_lo": 49.4,
-  "rango_hi": 53.8,
+  "pct": 51.5,
+  "rango_lo": 49.3,
+  "rango_hi": 53.7,
   "empates": 22,
   "sin_datos": 3,
   "combos": [
@@ -179,6 +179,14 @@
       "rango_hi": 79.2
     },
     {
+      "nombre": "JODCNY_otc | 1min",
+      "wins": 0,
+      "total": 2,
+      "pct": 0.0,
+      "rango_lo": 0,
+      "rango_hi": 65.8
+    },
+    {
       "nombre": "USDDZD_otc | 5min",
       "wins": 0,
       "total": 2,
@@ -193,14 +201,6 @@
       "pct": 50.0,
       "rango_lo": 9.5,
       "rango_hi": 90.5
-    },
-    {
-      "nombre": "JODCNY_otc | 1min",
-      "wins": 0,
-      "total": 1,
-      "pct": 0.0,
-      "rango_lo": 0,
-      "rango_hi": 79.3
     },
     {
       "nombre": "EURGBP_otc | 1min",
@@ -244,6 +244,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2000,
+      "asset": "JODCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-13T00:02:00+00:00",
+      "entry_price": 9.731947,
+      "exit_price": 9.732077,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 1999,
       "asset": "JODCNY_otc",
@@ -433,16 +443,6 @@
       "entry_price": 1.938,
       "exit_price": 1.938,
       "resultado": "EMPATE"
-    },
-    {
-      "id": 1980,
-      "asset": "EURNZD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-12T08:55:00+00:00",
-      "entry_price": 1.93435,
-      "exit_price": 1.93573,
-      "resultado": "PERDIDA"
     }
   ]
 }
