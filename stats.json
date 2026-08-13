@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-13T06:02:31.080685+00:00",
+  "actualizado": "2026-08-13T06:03:07.633889+00:00",
   "lectura_actual": {
     "par": "JODCNY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 1,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
+      "WILLIAMS_R": null,
       "CCI": "PUT"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 2031,
-  "wins": 1056,
+  "total": 2032,
+  "wins": 1057,
   "pct": 52.0,
   "rango_lo": 49.8,
   "rango_hi": 54.2,
@@ -99,20 +99,20 @@
       "rango_hi": 72.4
     },
     {
+      "nombre": "JODCNY_otc | 1min",
+      "wins": 39,
+      "total": 59,
+      "pct": 66.1,
+      "rango_lo": 53.4,
+      "rango_hi": 76.9
+    },
+    {
       "nombre": "EURJPY_otc | 1min",
       "wins": 35,
       "total": 59,
       "pct": 59.3,
       "rango_lo": 46.6,
       "rango_hi": 70.9
-    },
-    {
-      "nombre": "JODCNY_otc | 1min",
-      "wins": 38,
-      "total": 58,
-      "pct": 65.5,
-      "rango_lo": 52.7,
-      "rango_hi": 76.4
     },
     {
       "nombre": "EURRUB_otc | 1min",
@@ -244,6 +244,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2057,
+      "asset": "JODCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-13T06:02:00+00:00",
+      "entry_price": 9.731574,
+      "exit_price": 9.731448,
+      "resultado": "GANADA"
+    },
     {
       "id": 2056,
       "asset": "JODCNY_otc",
@@ -433,16 +443,6 @@
       "entry_price": 9.731775,
       "exit_price": 9.731744,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 2037,
-      "asset": "JODCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-13T04:18:00+00:00",
-      "entry_price": 9.731949,
-      "exit_price": 9.732139,
-      "resultado": "GANADA"
     }
   ]
 }
