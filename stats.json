@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-13T04:30:39.912185+00:00",
+  "actualizado": "2026-08-13T04:31:14.280257+00:00",
   "lectura_actual": {
     "par": "JODCNY_otc",
     "sin_datos_suficientes": false,
@@ -11,9 +11,9 @@
       "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": null,
-      "CRUCE_EMA": null,
+      "CRUCE_EMA": "PUT",
       "WILLIAMS_R": null,
-      "CCI": "PUT"
+      "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
