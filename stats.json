@@ -1,15 +1,15 @@
 {
-  "actualizado": "2026-08-13T02:30:35.594622+00:00",
+  "actualizado": "2026-08-13T02:31:09.901022+00:00",
   "lectura_actual": {
     "par": "JODCNY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 0,
+    "votos_call": 1,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": null,
+      "MACD": "CALL",
       "ESTOCASTICO": null,
       "CRUCE_EMA": null,
       "WILLIAMS_R": null,
