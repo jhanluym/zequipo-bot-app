@@ -1,22 +1,8 @@
 {
-  "actualizado": "2026-08-13T06:36:22.984593+00:00",
+  "actualizado": "2026-08-13T19:22:53.374452+00:00",
   "lectura_actual": {
-    "par": "JODCNY_otc",
-    "sin_datos_suficientes": false,
-    "votos_call": 0,
-    "votos_put": 1,
-    "consenso_necesario": 3,
-    "detalle": {
-      "RSI": null,
-      "BOLLINGER": null,
-      "MACD": "PUT",
-      "ESTOCASTICO": null,
-      "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
-      "CCI": null
-    },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "par": "MADUSD_otc",
+    "sin_datos_suficientes": true
   },
   "total": 2040,
   "wins": 1062,
