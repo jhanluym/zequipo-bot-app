@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-08-13T06:10:59.105433+00:00",
+  "actualizado": "2026-08-13T06:11:36.691820+00:00",
   "lectura_actual": {
     "par": "JODCNY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 5,
+    "votos_put": 3,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "PUT",
-      "BOLLINGER": "PUT",
+      "RSI": null,
+      "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
@@ -18,9 +18,9 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 2033,
-  "wins": 1058,
-  "pct": 52.0,
+  "total": 2034,
+  "wins": 1059,
+  "pct": 52.1,
   "rango_lo": 49.9,
   "rango_hi": 54.2,
   "empates": 22,
@@ -100,11 +100,11 @@
     },
     {
       "nombre": "JODCNY_otc | 1min",
-      "wins": 40,
-      "total": 60,
-      "pct": 66.7,
-      "rango_lo": 54.1,
-      "rango_hi": 77.3
+      "wins": 41,
+      "total": 61,
+      "pct": 67.2,
+      "rango_lo": 54.7,
+      "rango_hi": 77.7
     },
     {
       "nombre": "EURJPY_otc | 1min",
@@ -244,6 +244,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2059,
+      "asset": "JODCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-13T06:10:00+00:00",
+      "entry_price": 9.732011,
+      "exit_price": 9.731941,
+      "resultado": "GANADA"
+    },
     {
       "id": 2058,
       "asset": "JODCNY_otc",
@@ -433,16 +443,6 @@
       "entry_price": 9.731151,
       "exit_price": 9.731181,
       "resultado": "GANADA"
-    },
-    {
-      "id": 2039,
-      "asset": "JODCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-13T04:41:00+00:00",
-      "entry_price": 9.731786,
-      "exit_price": 9.73154,
-      "resultado": "PERDIDA"
     }
   ]
 }
