@@ -1,8 +1,22 @@
 {
-  "actualizado": "2026-08-13T19:49:53.077120+00:00",
+  "actualizado": "2026-08-13T19:50:27.271261+00:00",
   "lectura_actual": {
     "par": "MADUSD_otc",
-    "sin_datos_suficientes": true
+    "sin_datos_suficientes": false,
+    "votos_call": 4,
+    "votos_put": 0,
+    "consenso_necesario": 3,
+    "detalle": {
+      "RSI": "CALL",
+      "BOLLINGER": null,
+      "MACD": null,
+      "ESTOCASTICO": "CALL",
+      "CRUCE_EMA": null,
+      "WILLIAMS_R": "CALL",
+      "CCI": "CALL"
+    },
+    "hay_senal_activa": true,
+    "direccion_activa": "CALL"
   },
   "total": 2040,
   "wins": 1062,
