@@ -1,10 +1,10 @@
 {
-  "actualizado": "2026-08-13T20:21:37.577132+00:00",
+  "actualizado": "2026-08-13T20:22:12.646612+00:00",
   "lectura_actual": {
     "par": "MADUSD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 2,
+    "votos_put": 3,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
@@ -13,12 +13,12 @@
       "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
       "WILLIAMS_R": "PUT",
-      "CCI": null
+      "CCI": "PUT"
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "PUT"
   },
-  "total": 2047,
+  "total": 2048,
   "wins": 1066,
   "pct": 52.1,
   "rango_lo": 49.9,
@@ -165,10 +165,10 @@
     {
       "nombre": "MADUSD_otc | 1min",
       "wins": 4,
-      "total": 7,
-      "pct": 57.1,
-      "rango_lo": 25.0,
-      "rango_hi": 84.2
+      "total": 8,
+      "pct": 50.0,
+      "rango_lo": 21.5,
+      "rango_hi": 78.5
     },
     {
       "nombre": "CADCHF_otc | 1min",
@@ -252,6 +252,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2073,
+      "asset": "MADUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-13T20:21:00+00:00",
+      "entry_price": 0.09006,
+      "exit_price": 0.09036,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 2072,
       "asset": "MADUSD_otc",
@@ -440,16 +450,6 @@
       "hora": "2026-08-13T05:43:00+00:00",
       "entry_price": 9.730725,
       "exit_price": 9.730768,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 2053,
-      "asset": "JODCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-13T05:36:00+00:00",
-      "entry_price": 9.731126,
-      "exit_price": 9.731083,
       "resultado": "GANADA"
     }
   ]
