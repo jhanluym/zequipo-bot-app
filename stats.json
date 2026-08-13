@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-13T03:36:37.639051+00:00",
+  "actualizado": "2026-08-13T03:37:12.592126+00:00",
   "lectura_actual": {
     "par": "JODCNY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
-      "CCI": "PUT"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 2006,
-  "wins": 1039,
+  "total": 2007,
+  "wins": 1040,
   "pct": 51.8,
   "rango_lo": 49.6,
   "rango_hi": 54.0,
@@ -107,20 +107,20 @@
       "rango_hi": 70.9
     },
     {
+      "nombre": "JODCNY_otc | 1min",
+      "wins": 22,
+      "total": 34,
+      "pct": 64.7,
+      "rango_lo": 47.9,
+      "rango_hi": 78.5
+    },
+    {
       "nombre": "EURRUB_otc | 1min",
       "wins": 18,
       "total": 34,
       "pct": 52.9,
       "rango_lo": 36.7,
       "rango_hi": 68.5
-    },
-    {
-      "nombre": "JODCNY_otc | 1min",
-      "wins": 21,
-      "total": 33,
-      "pct": 63.6,
-      "rango_lo": 46.6,
-      "rango_hi": 77.8
     },
     {
       "nombre": "CHFNOK_otc | 1min",
@@ -244,6 +244,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2032,
+      "asset": "JODCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-13T03:36:00+00:00",
+      "entry_price": 9.732859,
+      "exit_price": 9.732857,
+      "resultado": "GANADA"
+    },
     {
       "id": 2031,
       "asset": "JODCNY_otc",
@@ -432,16 +442,6 @@
       "hora": "2026-08-13T01:16:00+00:00",
       "entry_price": 9.731578,
       "exit_price": 9.731696,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 2012,
-      "asset": "JODCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-13T00:59:00+00:00",
-      "entry_price": 9.731726,
-      "exit_price": 9.731796,
       "resultado": "GANADA"
     }
   ]
