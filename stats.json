@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-13T01:41:46.512610+00:00",
+  "actualizado": "2026-08-13T01:42:21.584729+00:00",
   "lectura_actual": {
     "par": "JODCNY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
-      "CCI": "PUT"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 1990,
-  "wins": 1028,
+  "total": 1991,
+  "wins": 1029,
   "pct": 51.7,
   "rango_lo": 49.5,
-  "rango_hi": 53.8,
+  "rango_hi": 53.9,
   "empates": 22,
   "sin_datos": 3,
   "combos": [
@@ -123,7 +123,7 @@
       "rango_hi": 46.6
     },
     {
-      "nombre": "EURUSD_otc | 10min",
+      "nombre": "JODCNY_otc | 1min",
       "wins": 11,
       "total": 18,
       "pct": 61.1,
@@ -131,12 +131,12 @@
       "rango_hi": 79.7
     },
     {
-      "nombre": "JODCNY_otc | 1min",
-      "wins": 10,
-      "total": 17,
-      "pct": 58.8,
-      "rango_lo": 36.0,
-      "rango_hi": 78.4
+      "nombre": "EURUSD_otc | 10min",
+      "wins": 11,
+      "total": 18,
+      "pct": 61.1,
+      "rango_lo": 38.6,
+      "rango_hi": 79.7
     },
     {
       "nombre": "EURUSD_otc | 5min",
@@ -244,6 +244,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2016,
+      "asset": "JODCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-13T01:41:00+00:00",
+      "entry_price": 9.732209,
+      "exit_price": 9.732111,
+      "resultado": "GANADA"
+    },
     {
       "id": 2015,
       "asset": "JODCNY_otc",
@@ -433,16 +443,6 @@
       "entry_price": 1.93974,
       "exit_price": 1.93934,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 1996,
-      "asset": "EURNZD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-12T10:18:00+00:00",
-      "entry_price": 1.94011,
-      "exit_price": 1.94069,
-      "resultado": "GANADA"
     }
   ]
 }
