@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-13T03:45:48.244077+00:00",
+  "actualizado": "2026-08-13T03:46:23.163961+00:00",
   "lectura_actual": {
     "par": "JODCNY_otc",
     "sin_datos_suficientes": false,
@@ -18,7 +18,7 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 2007,
+  "total": 2008,
   "wins": 1040,
   "pct": 51.8,
   "rango_lo": 49.6,
@@ -109,10 +109,10 @@
     {
       "nombre": "JODCNY_otc | 1min",
       "wins": 22,
-      "total": 34,
-      "pct": 64.7,
-      "rango_lo": 47.9,
-      "rango_hi": 78.5
+      "total": 35,
+      "pct": 62.9,
+      "rango_lo": 46.3,
+      "rango_hi": 76.8
     },
     {
       "nombre": "EURRUB_otc | 1min",
@@ -244,6 +244,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2033,
+      "asset": "JODCNY_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-13T03:45:00+00:00",
+      "entry_price": 9.732221,
+      "exit_price": 9.732109,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 2032,
       "asset": "JODCNY_otc",
@@ -432,16 +442,6 @@
       "hora": "2026-08-13T01:27:00+00:00",
       "entry_price": 9.731909,
       "exit_price": 9.731878,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 2013,
-      "asset": "JODCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-13T01:16:00+00:00",
-      "entry_price": 9.731578,
-      "exit_price": 9.731696,
       "resultado": "GANADA"
     }
   ]
