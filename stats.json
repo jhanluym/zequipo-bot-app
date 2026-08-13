@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-13T21:23:56.434311+00:00",
+  "actualizado": "2026-08-13T21:24:31.585657+00:00",
   "lectura_actual": {
     "par": "MADUSD_otc",
     "sin_datos_suficientes": false,
@@ -9,17 +9,17 @@
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "MACD": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
-      "CCI": null
+      "WILLIAMS_R": null,
+      "CCI": "PUT"
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 2057,
-  "wins": 1068,
+  "total": 2058,
+  "wins": 1069,
   "pct": 51.9,
   "rango_lo": 49.8,
   "rango_hi": 54.1,
@@ -131,20 +131,20 @@
       "rango_hi": 46.6
     },
     {
+      "nombre": "MADUSD_otc | 1min",
+      "wins": 7,
+      "total": 18,
+      "pct": 38.9,
+      "rango_lo": 20.3,
+      "rango_hi": 61.4
+    },
+    {
       "nombre": "EURUSD_otc | 10min",
       "wins": 11,
       "total": 18,
       "pct": 61.1,
       "rango_lo": 38.6,
       "rango_hi": 79.7
-    },
-    {
-      "nombre": "MADUSD_otc | 1min",
-      "wins": 6,
-      "total": 17,
-      "pct": 35.3,
-      "rango_lo": 17.3,
-      "rango_hi": 58.7
     },
     {
       "nombre": "EURUSD_otc | 5min",
@@ -252,6 +252,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2083,
+      "asset": "MADUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-13T21:23:00+00:00",
+      "entry_price": 0.09469,
+      "exit_price": 0.09441,
+      "resultado": "GANADA"
+    },
     {
       "id": 2082,
       "asset": "MADUSD_otc",
@@ -440,16 +450,6 @@
       "hora": "2026-08-13T06:31:00+00:00",
       "entry_price": 9.73249,
       "exit_price": 9.732557,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 2063,
-      "asset": "JODCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-13T06:25:00+00:00",
-      "entry_price": 9.732162,
-      "exit_price": 9.732201,
       "resultado": "PERDIDA"
     }
   ]
