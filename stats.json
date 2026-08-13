@@ -1,24 +1,24 @@
 {
-  "actualizado": "2026-08-13T00:05:39.814295+00:00",
+  "actualizado": "2026-08-13T00:06:16.282184+00:00",
   "lectura_actual": {
     "par": "JODCNY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 1,
+    "votos_put": 3,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": null,
+      "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
+      "WILLIAMS_R": "PUT",
       "CCI": "PUT"
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "PUT"
   },
-  "total": 1975,
+  "total": 1976,
   "wins": 1018,
   "pct": 51.5,
   "rango_lo": 49.3,
@@ -171,20 +171,20 @@
       "rango_hi": 76.9
     },
     {
+      "nombre": "JODCNY_otc | 1min",
+      "wins": 0,
+      "total": 3,
+      "pct": 0.0,
+      "rango_lo": 0,
+      "rango_hi": 56.2
+    },
+    {
       "nombre": "AUDCAD | 1min",
       "wins": 1,
       "total": 3,
       "pct": 33.3,
       "rango_lo": 6.1,
       "rango_hi": 79.2
-    },
-    {
-      "nombre": "JODCNY_otc | 1min",
-      "wins": 0,
-      "total": 2,
-      "pct": 0.0,
-      "rango_lo": 0,
-      "rango_hi": 65.8
     },
     {
       "nombre": "USDDZD_otc | 5min",
@@ -244,6 +244,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2001,
+      "asset": "JODCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-13T00:05:00+00:00",
+      "entry_price": 9.73205,
+      "exit_price": 9.732119,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 2000,
       "asset": "JODCNY_otc",
@@ -433,16 +443,6 @@
       "entry_price": 1.9372,
       "exit_price": 1.9391,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 1981,
-      "asset": "EURNZD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-12T08:58:00+00:00",
-      "entry_price": 1.938,
-      "exit_price": 1.938,
-      "resultado": "EMPATE"
     }
   ]
 }
