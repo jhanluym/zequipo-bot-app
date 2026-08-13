@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-08-13T19:52:45.036295+00:00",
+  "actualizado": "2026-08-13T19:53:20.083611+00:00",
   "lectura_actual": {
     "par": "MADUSD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 3,
+    "votos_call": 2,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
@@ -13,14 +13,14 @@
       "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
       "WILLIAMS_R": "CALL",
-      "CCI": "CALL"
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 2040,
+  "total": 2041,
   "wins": 1062,
-  "pct": 52.1,
+  "pct": 52.0,
   "rango_lo": 49.9,
   "rango_hi": 54.2,
   "empates": 22,
@@ -203,6 +203,14 @@
       "rango_hi": 90.5
     },
     {
+      "nombre": "MADUSD_otc | 1min",
+      "wins": 0,
+      "total": 1,
+      "pct": 0.0,
+      "rango_lo": 0,
+      "rango_hi": 79.3
+    },
+    {
       "nombre": "EURGBP_otc | 1min",
       "wins": 1,
       "total": 1,
@@ -244,6 +252,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2066,
+      "asset": "MADUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-13T19:52:00+00:00",
+      "entry_price": 0.08898,
+      "exit_price": 0.08889,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 2065,
       "asset": "JODCNY_otc",
@@ -432,16 +450,6 @@
       "hora": "2026-08-13T05:06:00+00:00",
       "entry_price": 9.730188,
       "exit_price": 9.730261,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 2046,
-      "asset": "JODCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-13T05:02:00+00:00",
-      "entry_price": 9.730447,
-      "exit_price": 9.730519,
       "resultado": "GANADA"
     }
   ]
