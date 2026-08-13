@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-13T02:03:35.021696+00:00",
+  "actualizado": "2026-08-13T02:04:09.955120+00:00",
   "lectura_actual": {
     "par": "JODCNY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 0,
-    "votos_put": 1,
+    "votos_call": 3,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": "PUT",
-      "ESTOCASTICO": null,
+      "MACD": null,
+      "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
-      "CCI": null
+      "WILLIAMS_R": "CALL",
+      "CCI": "CALL"
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "CALL"
   },
-  "total": 1992,
-  "wins": 1030,
+  "total": 1993,
+  "wins": 1031,
   "pct": 51.7,
   "rango_lo": 49.5,
   "rango_hi": 53.9,
@@ -124,11 +124,11 @@
     },
     {
       "nombre": "JODCNY_otc | 1min",
-      "wins": 12,
-      "total": 19,
-      "pct": 63.2,
-      "rango_lo": 41.0,
-      "rango_hi": 80.9
+      "wins": 13,
+      "total": 20,
+      "pct": 65.0,
+      "rango_lo": 43.3,
+      "rango_hi": 81.9
     },
     {
       "nombre": "EURUSD_otc | 10min",
@@ -244,6 +244,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2018,
+      "asset": "JODCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-13T02:03:00+00:00",
+      "entry_price": 9.732091,
+      "exit_price": 9.732008,
+      "resultado": "GANADA"
+    },
     {
       "id": 2017,
       "asset": "JODCNY_otc",
@@ -433,16 +443,6 @@
       "entry_price": 9.731959,
       "exit_price": 9.732077,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 1998,
-      "asset": "EURNZD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-12T10:25:00+00:00",
-      "entry_price": 1.939,
-      "exit_price": 1.93942,
-      "resultado": "GANADA"
     }
   ]
 }
