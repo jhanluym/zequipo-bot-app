@@ -1,26 +1,26 @@
 {
-  "actualizado": "2026-08-13T22:46:51.271908+00:00",
+  "actualizado": "2026-08-13T22:47:26.360791+00:00",
   "lectura_actual": {
     "par": "MADUSD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 3,
+    "votos_call": 1,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "MACD": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
-      "CCI": "CALL"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 2070,
-  "wins": 1075,
-  "pct": 51.9,
+  "total": 2071,
+  "wins": 1076,
+  "pct": 52.0,
   "rango_lo": 49.8,
   "rango_hi": 54.1,
   "empates": 22,
@@ -123,20 +123,20 @@
       "rango_hi": 68.5
     },
     {
+      "nombre": "MADUSD_otc | 1min",
+      "wins": 14,
+      "total": 31,
+      "pct": 45.2,
+      "rango_lo": 29.2,
+      "rango_hi": 62.2
+    },
+    {
       "nombre": "CHFNOK_otc | 1min",
       "wins": 9,
       "total": 31,
       "pct": 29.0,
       "rango_lo": 16.1,
       "rango_hi": 46.6
-    },
-    {
-      "nombre": "MADUSD_otc | 1min",
-      "wins": 13,
-      "total": 30,
-      "pct": 43.3,
-      "rango_lo": 27.4,
-      "rango_hi": 60.8
     },
     {
       "nombre": "EURUSD_otc | 10min",
@@ -252,6 +252,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2096,
+      "asset": "MADUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-13T22:46:00+00:00",
+      "entry_price": 0.08997,
+      "exit_price": 0.0909,
+      "resultado": "GANADA"
+    },
     {
       "id": 2095,
       "asset": "MADUSD_otc",
@@ -440,16 +450,6 @@
       "hora": "2026-08-13T20:44:00+00:00",
       "entry_price": 0.08878,
       "exit_price": 0.08759,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 2076,
-      "asset": "MADUSD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-13T20:32:00+00:00",
-      "entry_price": 0.09069,
-      "exit_price": 0.0916,
       "resultado": "PERDIDA"
     }
   ]
