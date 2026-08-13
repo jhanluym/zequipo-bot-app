@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-13T00:42:58.392543+00:00",
+  "actualizado": "2026-08-13T00:43:33.901546+00:00",
   "lectura_actual": {
     "par": "JODCNY_otc",
     "sin_datos_suficientes": false,
@@ -18,11 +18,11 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 1983,
-  "wins": 1022,
-  "pct": 51.5,
-  "rango_lo": 49.3,
-  "rango_hi": 53.7,
+  "total": 1984,
+  "wins": 1023,
+  "pct": 51.6,
+  "rango_lo": 49.4,
+  "rango_hi": 53.8,
   "empates": 22,
   "sin_datos": 3,
   "combos": [
@@ -156,11 +156,11 @@
     },
     {
       "nombre": "JODCNY_otc | 1min",
-      "wins": 4,
-      "total": 10,
-      "pct": 40.0,
-      "rango_lo": 16.8,
-      "rango_hi": 68.7
+      "wins": 5,
+      "total": 11,
+      "pct": 45.5,
+      "rango_lo": 21.3,
+      "rango_hi": 72.0
     },
     {
       "nombre": "CADCHF_otc | 1min",
@@ -244,6 +244,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2009,
+      "asset": "JODCNY_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-13T00:42:00+00:00",
+      "entry_price": 9.731998,
+      "exit_price": 9.732048,
+      "resultado": "GANADA"
+    },
     {
       "id": 2008,
       "asset": "JODCNY_otc",
@@ -433,16 +443,6 @@
       "entry_price": 1.94167,
       "exit_price": 1.94249,
       "resultado": "GANADA"
-    },
-    {
-      "id": 1989,
-      "asset": "EURNZD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-12T09:39:00+00:00",
-      "entry_price": 1.9425,
-      "exit_price": 1.94216,
-      "resultado": "PERDIDA"
     }
   ]
 }
