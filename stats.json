@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-14T10:54:53.148825+00:00",
+  "actualizado": "2026-08-14T10:55:27.995549+00:00",
   "lectura_actual": {
     "par": "EURUSD",
     "sin_datos_suficientes": false,
@@ -18,11 +18,11 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 2170,
-  "wins": 1127,
-  "pct": 51.9,
-  "rango_lo": 49.8,
-  "rango_hi": 54.0,
+  "total": 2171,
+  "wins": 1128,
+  "pct": 52.0,
+  "rango_lo": 49.9,
+  "rango_hi": 54.1,
   "empates": 24,
   "sin_datos": 3,
   "combos": [
@@ -172,11 +172,11 @@
     },
     {
       "nombre": "EURUSD | 1min",
-      "wins": 6,
-      "total": 8,
-      "pct": 75.0,
-      "rango_lo": 40.9,
-      "rango_hi": 92.9
+      "wins": 7,
+      "total": 9,
+      "pct": 77.8,
+      "rango_lo": 45.3,
+      "rango_hi": 93.7
     },
     {
       "nombre": "CADCHF_otc | 1min",
@@ -260,6 +260,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2198,
+      "asset": "EURUSD",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-14T10:54:00+00:00",
+      "entry_price": 1.15553,
+      "exit_price": 1.15548,
+      "resultado": "GANADA"
+    },
     {
       "id": 2197,
       "asset": "EURUSD",
@@ -449,16 +459,6 @@
       "entry_price": 0.08532,
       "exit_price": 0.08492,
       "resultado": "GANADA"
-    },
-    {
-      "id": 2178,
-      "asset": "MADUSD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-14T06:53:00+00:00",
-      "entry_price": 0.08548,
-      "exit_price": 0.0859,
-      "resultado": "PERDIDA"
     }
   ]
 }
