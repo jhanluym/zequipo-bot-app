@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-14T03:57:34.353285+00:00",
+  "actualizado": "2026-08-14T03:58:09.426364+00:00",
   "lectura_actual": {
     "par": "MADUSD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 5,
+    "votos_call": 3,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": "CALL",
       "BOLLINGER": "CALL",
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
+      "WILLIAMS_R": null,
       "CCI": "CALL"
     },
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 2115,
+  "total": 2116,
   "wins": 1103,
-  "pct": 52.2,
+  "pct": 52.1,
   "rango_lo": 50.0,
-  "rango_hi": 54.3,
+  "rango_hi": 54.2,
   "empates": 22,
   "sin_datos": 3,
   "combos": [
@@ -85,10 +85,10 @@
     {
       "nombre": "MADUSD_otc | 1min",
       "wins": 41,
-      "total": 75,
-      "pct": 54.7,
-      "rango_lo": 43.4,
-      "rango_hi": 65.4
+      "total": 76,
+      "pct": 53.9,
+      "rango_lo": 42.8,
+      "rango_hi": 64.7
     },
     {
       "nombre": "AUDCHF_otc | 1min",
@@ -252,6 +252,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2141,
+      "asset": "MADUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-14T03:57:00+00:00",
+      "entry_price": 0.08326,
+      "exit_price": 0.08314,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 2140,
       "asset": "MADUSD_otc",
@@ -441,16 +451,6 @@
       "entry_price": 0.08459,
       "exit_price": 0.08469,
       "resultado": "GANADA"
-    },
-    {
-      "id": 2121,
-      "asset": "MADUSD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-14T01:34:00+00:00",
-      "entry_price": 0.08483,
-      "exit_price": 0.0846,
-      "resultado": "PERDIDA"
     }
   ]
 }
