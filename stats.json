@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-14T04:31:40.205388+00:00",
+  "actualizado": "2026-08-14T04:32:15.464927+00:00",
   "lectura_actual": {
     "par": "MADUSD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 5,
+    "votos_call": 1,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "CALL",
-      "BOLLINGER": "CALL",
+      "RSI": null,
+      "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
+      "WILLIAMS_R": null,
       "CCI": "CALL"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 2122,
-  "wins": 1106,
+  "total": 2123,
+  "wins": 1107,
   "pct": 52.1,
   "rango_lo": 50.0,
-  "rango_hi": 54.2,
+  "rango_hi": 54.3,
   "empates": 23,
   "sin_datos": 3,
   "combos": [
@@ -76,11 +76,11 @@
     },
     {
       "nombre": "MADUSD_otc | 1min",
-      "wins": 44,
-      "total": 82,
-      "pct": 53.7,
-      "rango_lo": 42.9,
-      "rango_hi": 64.0
+      "wins": 45,
+      "total": 83,
+      "pct": 54.2,
+      "rango_lo": 43.5,
+      "rango_hi": 64.5
     },
     {
       "nombre": "EURNZD_otc | 1min",
@@ -252,6 +252,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2149,
+      "asset": "MADUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-14T04:31:00+00:00",
+      "entry_price": 0.0779,
+      "exit_price": 0.07868,
+      "resultado": "GANADA"
+    },
     {
       "id": 2148,
       "asset": "MADUSD_otc",
@@ -441,16 +451,6 @@
       "entry_price": 0.0867,
       "exit_price": 0.08762,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 2129,
-      "asset": "MADUSD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-14T02:20:00+00:00",
-      "entry_price": 0.08289,
-      "exit_price": 0.08317,
-      "resultado": "GANADA"
     }
   ]
 }
