@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-14T16:11:29.084768+00:00",
+  "actualizado": "2026-08-14T16:12:04.140014+00:00",
   "lectura_actual": {
     "par": "EURUSD",
     "sin_datos_suficientes": false,
@@ -18,11 +18,11 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 2216,
+  "total": 2217,
   "wins": 1152,
   "pct": 52.0,
   "rango_lo": 49.9,
-  "rango_hi": 54.1,
+  "rango_hi": 54.0,
   "empates": 24,
   "sin_datos": 3,
   "combos": [
@@ -125,10 +125,10 @@
     {
       "nombre": "EURUSD | 1min",
       "wins": 31,
-      "total": 54,
-      "pct": 57.4,
-      "rango_lo": 44.2,
-      "rango_hi": 69.7
+      "total": 55,
+      "pct": 56.4,
+      "rango_lo": 43.3,
+      "rango_hi": 68.6
     },
     {
       "nombre": "EURRUB_otc | 1min",
@@ -260,6 +260,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2244,
+      "asset": "EURUSD",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-14T16:11:00+00:00",
+      "entry_price": 1.15773,
+      "exit_price": 1.15769,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 2243,
       "asset": "EURUSD",
@@ -449,16 +459,6 @@
       "entry_price": 1.15833,
       "exit_price": 1.15821,
       "resultado": "GANADA"
-    },
-    {
-      "id": 2224,
-      "asset": "EURUSD",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-14T13:43:00+00:00",
-      "entry_price": 1.15802,
-      "exit_price": 1.15816,
-      "resultado": "PERDIDA"
     }
   ]
 }
