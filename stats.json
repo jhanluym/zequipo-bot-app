@@ -1,8 +1,22 @@
 {
-  "actualizado": "2026-08-14T09:53:46.132584+00:00",
+  "actualizado": "2026-08-14T09:54:20.333715+00:00",
   "lectura_actual": {
     "par": "EURUSD",
-    "sin_datos_suficientes": true
+    "sin_datos_suficientes": false,
+    "votos_call": 0,
+    "votos_put": 4,
+    "consenso_necesario": 3,
+    "detalle": {
+      "RSI": null,
+      "BOLLINGER": "PUT",
+      "MACD": null,
+      "ESTOCASTICO": "PUT",
+      "CRUCE_EMA": null,
+      "WILLIAMS_R": "PUT",
+      "CCI": "PUT"
+    },
+    "hay_senal_activa": true,
+    "direccion_activa": "PUT"
   },
   "total": 2162,
   "wins": 1121,
