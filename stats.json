@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-14T06:53:29.392652+00:00",
+  "actualizado": "2026-08-14T06:54:04.321012+00:00",
   "lectura_actual": {
     "par": "MADUSD_otc",
     "sin_datos_suficientes": false,
@@ -18,7 +18,7 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 2151,
+  "total": 2152,
   "wins": 1117,
   "pct": 51.9,
   "rango_lo": 49.8,
@@ -69,10 +69,10 @@
     {
       "nombre": "MADUSD_otc | 1min",
       "wins": 55,
-      "total": 111,
-      "pct": 49.5,
-      "rango_lo": 40.4,
-      "rango_hi": 58.7
+      "total": 112,
+      "pct": 49.1,
+      "rango_lo": 40.0,
+      "rango_hi": 58.2
     },
     {
       "nombre": "EURCHF_otc | 1min",
@@ -252,6 +252,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2178,
+      "asset": "MADUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-14T06:53:00+00:00",
+      "entry_price": 0.08548,
+      "exit_price": 0.0859,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 2177,
       "asset": "MADUSD_otc",
@@ -441,16 +451,6 @@
       "entry_price": 0.08249,
       "exit_price": 0.08216,
       "resultado": "GANADA"
-    },
-    {
-      "id": 2158,
-      "asset": "MADUSD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-14T05:39:00+00:00",
-      "entry_price": 0.07981,
-      "exit_price": 0.08107,
-      "resultado": "PERDIDA"
     }
   ]
 }
