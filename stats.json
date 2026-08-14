@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-14T04:19:31.426987+00:00",
+  "actualizado": "2026-08-14T04:20:06.429123+00:00",
   "lectura_actual": {
     "par": "MADUSD_otc",
     "sin_datos_suficientes": false,
@@ -23,7 +23,7 @@
   "pct": 52.1,
   "rango_lo": 50.0,
   "rango_hi": 54.2,
-  "empates": 22,
+  "empates": 23,
   "sin_datos": 3,
   "combos": [
     {
@@ -253,6 +253,16 @@
   ],
   "recientes": [
     {
+      "id": 2148,
+      "asset": "MADUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-14T04:19:00+00:00",
+      "entry_price": 0.0797,
+      "exit_price": 0.0797,
+      "resultado": "EMPATE"
+    },
+    {
       "id": 2147,
       "asset": "MADUSD_otc",
       "direction": "CALL",
@@ -440,16 +450,6 @@
       "hora": "2026-08-14T02:20:00+00:00",
       "entry_price": 0.08289,
       "exit_price": 0.08317,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 2128,
-      "asset": "MADUSD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-14T02:15:00+00:00",
-      "entry_price": 0.08366,
-      "exit_price": 0.08413,
       "resultado": "GANADA"
     }
   ]
