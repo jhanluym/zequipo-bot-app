@@ -1,13 +1,13 @@
 {
-  "actualizado": "2026-08-14T17:04:43.234320+00:00",
+  "actualizado": "2026-08-14T17:05:18.528636+00:00",
   "lectura_actual": {
     "par": "EURUSD",
     "sin_datos_suficientes": false,
-    "votos_call": 3,
+    "votos_call": 4,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": null,
+      "RSI": "CALL",
       "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "CALL",
@@ -18,10 +18,10 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 2226,
+  "total": 2227,
   "wins": 1156,
   "pct": 51.9,
-  "rango_lo": 49.9,
+  "rango_lo": 49.8,
   "rango_hi": 54.0,
   "empates": 25,
   "sin_datos": 3,
@@ -109,10 +109,10 @@
     {
       "nombre": "EURUSD | 1min",
       "wins": 35,
-      "total": 64,
-      "pct": 54.7,
-      "rango_lo": 42.6,
-      "rango_hi": 66.3
+      "total": 65,
+      "pct": 53.8,
+      "rango_lo": 41.9,
+      "rango_hi": 65.4
     },
     {
       "nombre": "EURHUF_otc | 1min",
@@ -260,6 +260,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2255,
+      "asset": "EURUSD",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-14T17:04:00+00:00",
+      "entry_price": 1.15702,
+      "exit_price": 1.15688,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 2254,
       "asset": "EURUSD",
@@ -448,16 +458,6 @@
       "hora": "2026-08-14T15:22:00+00:00",
       "entry_price": 1.15774,
       "exit_price": 1.15776,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 2235,
-      "asset": "EURUSD",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-14T15:04:00+00:00",
-      "entry_price": 1.15838,
-      "exit_price": 1.15824,
       "resultado": "GANADA"
     }
   ]
