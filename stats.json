@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-08-14T14:23:29.522776+00:00",
+  "actualizado": "2026-08-14T14:24:04.014887+00:00",
   "lectura_actual": {
     "par": "EURUSD",
     "sin_datos_suficientes": false,
-    "votos_call": 0,
+    "votos_call": 1,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
@@ -11,7 +11,7 @@
       "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": null,
-      "CRUCE_EMA": null,
+      "CRUCE_EMA": "CALL",
       "WILLIAMS_R": null,
       "CCI": null
     },
