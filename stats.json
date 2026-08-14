@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-08-14T05:42:44.482582+00:00",
+  "actualizado": "2026-08-14T05:43:19.583942+00:00",
   "lectura_actual": {
     "par": "MADUSD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 5,
+    "votos_put": 4,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": "PUT",
-      "BOLLINGER": "PUT",
+      "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
@@ -18,8 +18,8 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 2132,
-  "wins": 1111,
+  "total": 2133,
+  "wins": 1112,
   "pct": 52.1,
   "rango_lo": 50.0,
   "rango_hi": 54.2,
@@ -76,11 +76,11 @@
     },
     {
       "nombre": "MADUSD_otc | 1min",
-      "wins": 49,
-      "total": 92,
-      "pct": 53.3,
-      "rango_lo": 43.1,
-      "rango_hi": 63.1
+      "wins": 50,
+      "total": 93,
+      "pct": 53.8,
+      "rango_lo": 43.7,
+      "rango_hi": 63.5
     },
     {
       "nombre": "EURNZD_otc | 1min",
@@ -252,6 +252,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2159,
+      "asset": "MADUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-14T05:42:00+00:00",
+      "entry_price": 0.08249,
+      "exit_price": 0.08216,
+      "resultado": "GANADA"
+    },
     {
       "id": 2158,
       "asset": "MADUSD_otc",
@@ -440,16 +450,6 @@
       "hora": "2026-08-14T03:37:00+00:00",
       "entry_price": 0.08483,
       "exit_price": 0.08525,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 2139,
-      "asset": "MADUSD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-14T03:33:00+00:00",
-      "entry_price": 0.08552,
-      "exit_price": 0.08595,
       "resultado": "GANADA"
     }
   ]
