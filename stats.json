@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-14T17:07:37.274277+00:00",
+  "actualizado": "2026-08-14T17:08:12.443183+00:00",
   "lectura_actual": {
     "par": "EURUSD",
     "sin_datos_suficientes": false,
@@ -18,7 +18,7 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 2227,
+  "total": 2228,
   "wins": 1156,
   "pct": 51.9,
   "rango_lo": 49.8,
@@ -109,10 +109,10 @@
     {
       "nombre": "EURUSD | 1min",
       "wins": 35,
-      "total": 65,
-      "pct": 53.8,
-      "rango_lo": 41.9,
-      "rango_hi": 65.4
+      "total": 66,
+      "pct": 53.0,
+      "rango_lo": 41.2,
+      "rango_hi": 64.6
     },
     {
       "nombre": "EURHUF_otc | 1min",
@@ -260,6 +260,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2256,
+      "asset": "EURUSD",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-14T17:07:00+00:00",
+      "entry_price": 1.15684,
+      "exit_price": 1.15681,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 2255,
       "asset": "EURUSD",
@@ -448,16 +458,6 @@
       "hora": "2026-08-14T15:25:00+00:00",
       "entry_price": 1.15776,
       "exit_price": 1.1578,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 2236,
-      "asset": "EURUSD",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-14T15:22:00+00:00",
-      "entry_price": 1.15774,
-      "exit_price": 1.15776,
       "resultado": "GANADA"
     }
   ]
