@@ -1,15 +1,15 @@
 {
-  "actualizado": "2026-08-14T07:07:49.258737+00:00",
+  "actualizado": "2026-08-14T07:08:24.491690+00:00",
   "lectura_actual": {
     "par": "MADUSD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 0,
-    "votos_put": 5,
+    "votos_call": 1,
+    "votos_put": 3,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "PUT",
-      "BOLLINGER": "PUT",
-      "MACD": null,
+      "RSI": null,
+      "BOLLINGER": null,
+      "MACD": "CALL",
       "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
       "WILLIAMS_R": "PUT",
