@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-14T21:32:52.094705+00:00",
+  "actualizado": "2026-08-14T21:33:27.111281+00:00",
   "lectura_actual": {
     "par": "AEDCNY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
-      "CCI": "PUT"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 2265,
-  "wins": 1180,
+  "total": 2266,
+  "wins": 1181,
   "pct": 52.1,
-  "rango_lo": 50.0,
-  "rango_hi": 54.1,
+  "rango_lo": 50.1,
+  "rango_hi": 54.2,
   "empates": 26,
   "sin_datos": 3,
   "combos": [
@@ -52,11 +52,11 @@
     },
     {
       "nombre": "AEDCNY_otc | 1min",
-      "wins": 97,
-      "total": 177,
-      "pct": 54.8,
-      "rango_lo": 47.4,
-      "rango_hi": 62.0
+      "wins": 98,
+      "total": 178,
+      "pct": 55.1,
+      "rango_lo": 47.7,
+      "rango_hi": 62.2
     },
     {
       "nombre": "AUDNZD_otc | 1min",
@@ -261,6 +261,16 @@
   ],
   "recientes": [
     {
+      "id": 2295,
+      "asset": "AEDCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-14T21:32:00+00:00",
+      "entry_price": 1.87127,
+      "exit_price": 1.86778,
+      "resultado": "GANADA"
+    },
+    {
       "id": 2294,
       "asset": "AEDCNY_otc",
       "direction": "PUT",
@@ -448,16 +458,6 @@
       "hora": "2026-08-14T19:30:00+00:00",
       "entry_price": 1.8633,
       "exit_price": 1.86188,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 2275,
-      "asset": "AEDCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-14T19:25:00+00:00",
-      "entry_price": 1.86304,
-      "exit_price": 1.86213,
       "resultado": "GANADA"
     }
   ]
