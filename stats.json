@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-14T17:10:30.877033+00:00",
+  "actualizado": "2026-08-14T17:11:05.888912+00:00",
   "lectura_actual": {
     "par": "EURUSD",
     "sin_datos_suficientes": false,
@@ -18,11 +18,11 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 2228,
+  "total": 2229,
   "wins": 1156,
   "pct": 51.9,
   "rango_lo": 49.8,
-  "rango_hi": 54.0,
+  "rango_hi": 53.9,
   "empates": 25,
   "sin_datos": 3,
   "combos": [
@@ -99,20 +99,20 @@
       "rango_hi": 55.9
     },
     {
+      "nombre": "EURUSD | 1min",
+      "wins": 35,
+      "total": 67,
+      "pct": 52.2,
+      "rango_lo": 40.5,
+      "rango_hi": 63.7
+    },
+    {
       "nombre": "JODCNY_otc | 1min",
       "wins": 44,
       "total": 67,
       "pct": 65.7,
       "rango_lo": 53.7,
       "rango_hi": 75.9
-    },
-    {
-      "nombre": "EURUSD | 1min",
-      "wins": 35,
-      "total": 66,
-      "pct": 53.0,
-      "rango_lo": 41.2,
-      "rango_hi": 64.6
     },
     {
       "nombre": "EURHUF_otc | 1min",
@@ -260,6 +260,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2257,
+      "asset": "EURUSD",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-14T17:10:00+00:00",
+      "entry_price": 1.15676,
+      "exit_price": 1.15671,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 2256,
       "asset": "EURUSD",
@@ -448,16 +458,6 @@
       "hora": "2026-08-14T15:28:00+00:00",
       "entry_price": 1.15791,
       "exit_price": 1.158,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 2237,
-      "asset": "EURUSD",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-14T15:25:00+00:00",
-      "entry_price": 1.15776,
-      "exit_price": 1.1578,
       "resultado": "GANADA"
     }
   ]
