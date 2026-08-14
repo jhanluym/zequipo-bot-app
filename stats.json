@@ -1,13 +1,13 @@
 {
-  "actualizado": "2026-08-14T02:27:27.619850+00:00",
+  "actualizado": "2026-08-14T02:28:02.590674+00:00",
   "lectura_actual": {
     "par": "MADUSD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 4,
+    "votos_put": 5,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": null,
+      "RSI": "PUT",
       "BOLLINGER": "PUT",
       "MACD": null,
       "ESTOCASTICO": "PUT",
@@ -18,11 +18,11 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 2104,
+  "total": 2105,
   "wins": 1095,
   "pct": 52.0,
   "rango_lo": 49.9,
-  "rango_hi": 54.2,
+  "rango_hi": 54.1,
   "empates": 22,
   "sin_datos": 3,
   "combos": [
@@ -101,10 +101,10 @@
     {
       "nombre": "MADUSD_otc | 1min",
       "wins": 33,
-      "total": 64,
-      "pct": 51.6,
-      "rango_lo": 39.6,
-      "rango_hi": 63.4
+      "total": 65,
+      "pct": 50.8,
+      "rango_lo": 38.9,
+      "rango_hi": 62.5
     },
     {
       "nombre": "EURHUF_otc | 1min",
@@ -252,6 +252,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2130,
+      "asset": "MADUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-14T02:27:00+00:00",
+      "entry_price": 0.0867,
+      "exit_price": 0.08762,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 2129,
       "asset": "MADUSD_otc",
@@ -441,16 +451,6 @@
       "entry_price": 0.08638,
       "exit_price": 0.0863,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 2110,
-      "asset": "MADUSD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-14T00:34:00+00:00",
-      "entry_price": 0.0854,
-      "exit_price": 0.08607,
-      "resultado": "GANADA"
     }
   ]
 }
