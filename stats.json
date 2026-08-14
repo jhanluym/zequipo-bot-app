@@ -1,13 +1,13 @@
 {
-  "actualizado": "2026-08-14T17:28:28.674271+00:00",
+  "actualizado": "2026-08-14T17:29:03.107884+00:00",
   "lectura_actual": {
     "par": "EURUSD",
     "sin_datos_suficientes": false,
-    "votos_call": 3,
+    "votos_call": 2,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "CALL",
+      "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "CALL",
@@ -15,8 +15,8 @@
       "WILLIAMS_R": "CALL",
       "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
   "total": 2233,
   "wins": 1159,
