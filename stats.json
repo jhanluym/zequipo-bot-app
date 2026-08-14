@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-14T22:23:44.442328+00:00",
+  "actualizado": "2026-08-14T22:24:19.455525+00:00",
   "lectura_actual": {
     "par": "AEDCNY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
-      "CCI": "PUT"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 2273,
-  "wins": 1184,
+  "total": 2274,
+  "wins": 1185,
   "pct": 52.1,
-  "rango_lo": 50.0,
-  "rango_hi": 54.1,
+  "rango_lo": 50.1,
+  "rango_hi": 54.2,
   "empates": 26,
   "sin_datos": 3,
   "combos": [
@@ -52,11 +52,11 @@
     },
     {
       "nombre": "AEDCNY_otc | 1min",
-      "wins": 101,
-      "total": 185,
-      "pct": 54.6,
-      "rango_lo": 47.4,
-      "rango_hi": 61.6
+      "wins": 102,
+      "total": 186,
+      "pct": 54.8,
+      "rango_lo": 47.7,
+      "rango_hi": 61.8
     },
     {
       "nombre": "AUDNZD_otc | 1min",
@@ -261,6 +261,16 @@
   ],
   "recientes": [
     {
+      "id": 2303,
+      "asset": "AEDCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-14T22:23:00+00:00",
+      "entry_price": 1.86299,
+      "exit_price": 1.86253,
+      "resultado": "GANADA"
+    },
+    {
       "id": 2302,
       "asset": "AEDCNY_otc",
       "direction": "CALL",
@@ -448,16 +458,6 @@
       "hora": "2026-08-14T20:09:00+00:00",
       "entry_price": 1.87093,
       "exit_price": 1.871,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 2283,
-      "asset": "AEDCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-14T20:06:00+00:00",
-      "entry_price": 1.87138,
-      "exit_price": 1.87148,
       "resultado": "PERDIDA"
     }
   ]
