@@ -1,27 +1,27 @@
 {
-  "actualizado": "2026-08-14T02:06:41.218075+00:00",
+  "actualizado": "2026-08-14T02:07:16.283947+00:00",
   "lectura_actual": {
     "par": "MADUSD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 1,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
+      "WILLIAMS_R": null,
       "CCI": "PUT"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 2101,
-  "wins": 1092,
+  "total": 2102,
+  "wins": 1093,
   "pct": 52.0,
-  "rango_lo": 49.8,
+  "rango_lo": 49.9,
   "rango_hi": 54.1,
   "empates": 22,
   "sin_datos": 3,
@@ -99,20 +99,20 @@
       "rango_hi": 75.9
     },
     {
+      "nombre": "MADUSD_otc | 1min",
+      "wins": 31,
+      "total": 62,
+      "pct": 50.0,
+      "rango_lo": 37.9,
+      "rango_hi": 62.1
+    },
+    {
       "nombre": "EURHUF_otc | 1min",
       "wins": 38,
       "total": 62,
       "pct": 61.3,
       "rango_lo": 48.8,
       "rango_hi": 72.4
-    },
-    {
-      "nombre": "MADUSD_otc | 1min",
-      "wins": 30,
-      "total": 61,
-      "pct": 49.2,
-      "rango_lo": 37.1,
-      "rango_hi": 61.4
     },
     {
       "nombre": "EURJPY_otc | 1min",
@@ -252,6 +252,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2127,
+      "asset": "MADUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-14T02:06:00+00:00",
+      "entry_price": 0.08573,
+      "exit_price": 0.08547,
+      "resultado": "GANADA"
+    },
     {
       "id": 2126,
       "asset": "MADUSD_otc",
@@ -440,16 +450,6 @@
       "hora": "2026-08-14T00:28:00+00:00",
       "entry_price": 0.08774,
       "exit_price": 0.08791,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 2107,
-      "asset": "MADUSD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-14T00:06:00+00:00",
-      "entry_price": 0.08782,
-      "exit_price": 0.08876,
       "resultado": "GANADA"
     }
   ]
