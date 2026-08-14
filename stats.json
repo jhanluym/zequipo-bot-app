@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-14T11:23:29.114191+00:00",
+  "actualizado": "2026-08-14T11:24:03.915439+00:00",
   "lectura_actual": {
     "par": "EURUSD",
     "sin_datos_suficientes": false,
@@ -18,8 +18,8 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 2175,
-  "wins": 1129,
+  "total": 2176,
+  "wins": 1130,
   "pct": 51.9,
   "rango_lo": 49.8,
   "rango_hi": 54.0,
@@ -155,20 +155,20 @@
       "rango_hi": 85.8
     },
     {
+      "nombre": "EURUSD | 1min",
+      "wins": 9,
+      "total": 14,
+      "pct": 64.3,
+      "rango_lo": 38.8,
+      "rango_hi": 83.7
+    },
+    {
       "nombre": "USDDZD_otc | 1min",
       "wins": 8,
       "total": 14,
       "pct": 57.1,
       "rango_lo": 32.6,
       "rango_hi": 78.6
-    },
-    {
-      "nombre": "EURUSD | 1min",
-      "wins": 8,
-      "total": 13,
-      "pct": 61.5,
-      "rango_lo": 35.5,
-      "rango_hi": 82.3
     },
     {
       "nombre": "BHDCNY_otc | 1min",
@@ -260,6 +260,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2203,
+      "asset": "EURUSD",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-14T11:23:00+00:00",
+      "entry_price": 1.15632,
+      "exit_price": 1.15629,
+      "resultado": "GANADA"
+    },
     {
       "id": 2202,
       "asset": "EURUSD",
@@ -448,16 +458,6 @@
       "hora": "2026-08-14T07:26:00+00:00",
       "entry_price": 0.08884,
       "exit_price": 0.08831,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 2183,
-      "asset": "MADUSD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-14T07:18:00+00:00",
-      "entry_price": 0.08802,
-      "exit_price": 0.08636,
       "resultado": "GANADA"
     }
   ]
