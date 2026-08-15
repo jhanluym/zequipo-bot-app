@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-15T07:52:53.568936+00:00",
+  "actualizado": "2026-08-15T07:53:28.274227+00:00",
   "lectura_actual": {
     "par": "USDJPY_otc",
     "sin_datos_suficientes": false,
@@ -18,8 +18,8 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 2359,
-  "wins": 1227,
+  "total": 2360,
+  "wins": 1228,
   "pct": 52.0,
   "rango_lo": 50.0,
   "rango_hi": 54.0,
@@ -140,11 +140,11 @@
     },
     {
       "nombre": "USDJPY_otc | 1min",
-      "wins": 16,
-      "total": 31,
-      "pct": 51.6,
-      "rango_lo": 34.8,
-      "rango_hi": 68.0
+      "wins": 17,
+      "total": 32,
+      "pct": 53.1,
+      "rango_lo": 36.4,
+      "rango_hi": 69.1
     },
     {
       "nombre": "CHFNOK_otc | 1min",
@@ -268,6 +268,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2390,
+      "asset": "USDJPY_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-15T07:52:00+00:00",
+      "entry_price": 157.828,
+      "exit_price": 157.829,
+      "resultado": "GANADA"
+    },
     {
       "id": 2389,
       "asset": "USDJPY_otc",
@@ -456,16 +466,6 @@
       "hora": "2026-08-15T05:58:00+00:00",
       "entry_price": 158.173,
       "exit_price": 158.154,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 2370,
-      "asset": "USDJPY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-15T05:55:00+00:00",
-      "entry_price": 158.187,
-      "exit_price": 158.175,
       "resultado": "GANADA"
     }
   ]
