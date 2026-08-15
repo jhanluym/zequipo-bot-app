@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-08-15T01:24:51.105364+00:00",
+  "actualizado": "2026-08-15T01:25:28.780504+00:00",
   "lectura_actual": {
     "par": "AEDCNY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 3,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
@@ -13,7 +13,7 @@
       "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
       "WILLIAMS_R": "CALL",
-      "CCI": "CALL"
+      "CCI": null
     },
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
