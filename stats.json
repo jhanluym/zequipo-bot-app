@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-15T05:18:32.971187+00:00",
+  "actualizado": "2026-08-15T05:19:07.782057+00:00",
   "lectura_actual": {
     "par": "USDJPY_otc",
     "sin_datos_suficientes": false,
@@ -18,11 +18,11 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 2331,
+  "total": 2332,
   "wins": 1213,
   "pct": 52.0,
   "rango_lo": 50.0,
-  "rango_hi": 54.1,
+  "rango_hi": 54.0,
   "empates": 27,
   "sin_datos": 3,
   "combos": [
@@ -205,10 +205,10 @@
     {
       "nombre": "USDJPY_otc | 1min",
       "wins": 2,
-      "total": 3,
-      "pct": 66.7,
-      "rango_lo": 20.8,
-      "rango_hi": 93.9
+      "total": 4,
+      "pct": 50.0,
+      "rango_lo": 15.0,
+      "rango_hi": 85.0
     },
     {
       "nombre": "AUDCAD | 1min",
@@ -268,6 +268,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2362,
+      "asset": "USDJPY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-15T05:18:00+00:00",
+      "entry_price": 157.997,
+      "exit_price": 158.015,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 2361,
       "asset": "USDJPY_otc",
@@ -456,16 +466,6 @@
       "hora": "2026-08-15T02:35:00+00:00",
       "entry_price": 0.00071557,
       "exit_price": 0.00071525,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 2342,
-      "asset": "NGNUSD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-15T02:32:00+00:00",
-      "entry_price": 0.00071689,
-      "exit_price": 0.00071688,
       "resultado": "GANADA"
     }
   ]
