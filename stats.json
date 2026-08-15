@@ -1,27 +1,27 @@
 {
-  "actualizado": "2026-08-15T02:00:27.751126+00:00",
+  "actualizado": "2026-08-15T02:01:02.743331+00:00",
   "lectura_actual": {
     "par": "NGNUSD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 1,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": "CALL",
+      "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
+      "WILLIAMS_R": null,
       "CCI": "CALL"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 2304,
-  "wins": 1200,
+  "total": 2305,
+  "wins": 1201,
   "pct": 52.1,
-  "rango_lo": 50.0,
+  "rango_lo": 50.1,
   "rango_hi": 54.1,
   "empates": 26,
   "sin_datos": 3,
@@ -219,6 +219,14 @@
       "rango_hi": 90.5
     },
     {
+      "nombre": "NGNUSD_otc | 1min",
+      "wins": 1,
+      "total": 1,
+      "pct": 100.0,
+      "rango_lo": 20.7,
+      "rango_hi": 100
+    },
+    {
       "nombre": "EURGBP_otc | 1min",
       "wins": 1,
       "total": 1,
@@ -260,6 +268,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2334,
+      "asset": "NGNUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-15T02:00:00+00:00",
+      "entry_price": 0.00070809,
+      "exit_price": 0.00070834,
+      "resultado": "GANADA"
+    },
     {
       "id": 2333,
       "asset": "AEDCNY_otc",
@@ -448,16 +466,6 @@
       "hora": "2026-08-14T23:34:00+00:00",
       "entry_price": 1.86068,
       "exit_price": 1.86101,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 2314,
-      "asset": "AEDCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-14T23:31:00+00:00",
-      "entry_price": 1.86172,
-      "exit_price": 1.86214,
       "resultado": "GANADA"
     }
   ]
