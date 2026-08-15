@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-15T17:46:00.411401+00:00",
+  "actualizado": "2026-08-15T17:46:35.633949+00:00",
   "lectura_actual": {
     "par": "USDJPY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
-      "CCI": "PUT"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 2443,
-  "wins": 1267,
+  "total": 2444,
+  "wins": 1268,
   "pct": 51.9,
   "rango_lo": 49.9,
-  "rango_hi": 53.8,
+  "rango_hi": 53.9,
   "empates": 27,
   "sin_datos": 3,
   "combos": [
@@ -76,11 +76,11 @@
     },
     {
       "nombre": "USDJPY_otc | 1min",
-      "wins": 56,
-      "total": 115,
-      "pct": 48.7,
-      "rango_lo": 39.8,
-      "rango_hi": 57.7
+      "wins": 57,
+      "total": 116,
+      "pct": 49.1,
+      "rango_lo": 40.2,
+      "rango_hi": 58.1
     },
     {
       "nombre": "EURCHF_otc | 1min",
@@ -268,6 +268,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2474,
+      "asset": "USDJPY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-15T17:45:00+00:00",
+      "entry_price": 157.912,
+      "exit_price": 157.871,
+      "resultado": "GANADA"
+    },
     {
       "id": 2473,
       "asset": "USDJPY_otc",
@@ -457,16 +467,6 @@
       "entry_price": 157.949,
       "exit_price": 157.959,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 2454,
-      "asset": "USDJPY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-15T15:24:00+00:00",
-      "entry_price": 157.953,
-      "exit_price": 157.896,
-      "resultado": "GANADA"
     }
   ]
 }
