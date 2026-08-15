@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-08-15T04:06:30.760281+00:00",
+  "actualizado": "2026-08-15T04:07:05.700045+00:00",
   "lectura_actual": {
     "par": "NGNUSD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 4,
+    "votos_put": 3,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": "PUT",
+      "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
@@ -18,9 +18,9 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 2325,
-  "wins": 1210,
-  "pct": 52.0,
+  "total": 2326,
+  "wins": 1211,
+  "pct": 52.1,
   "rango_lo": 50.0,
   "rango_hi": 54.1,
   "empates": 26,
@@ -148,11 +148,11 @@
     },
     {
       "nombre": "NGNUSD_otc | 1min",
-      "wins": 10,
-      "total": 21,
-      "pct": 47.6,
-      "rango_lo": 28.3,
-      "rango_hi": 67.6
+      "wins": 11,
+      "total": 22,
+      "pct": 50.0,
+      "rango_lo": 30.7,
+      "rango_hi": 69.3
     },
     {
       "nombre": "EURUSD_otc | 10min",
@@ -268,6 +268,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2355,
+      "asset": "NGNUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-15T04:06:00+00:00",
+      "entry_price": 0.00071768,
+      "exit_price": 0.00071764,
+      "resultado": "GANADA"
+    },
     {
       "id": 2354,
       "asset": "NGNUSD_otc",
@@ -457,16 +467,6 @@
       "entry_price": 0.00071145,
       "exit_price": 0.0007124,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 2335,
-      "asset": "NGNUSD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-15T02:06:00+00:00",
-      "entry_price": 0.00070851,
-      "exit_price": 0.00070906,
-      "resultado": "GANADA"
     }
   ]
 }
