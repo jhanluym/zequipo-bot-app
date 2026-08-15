@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-15T16:17:39.309367+00:00",
+  "actualizado": "2026-08-15T16:18:34.184456+00:00",
   "lectura_actual": {
     "par": "USDJPY_otc",
     "sin_datos_suficientes": false,
@@ -9,9 +9,9 @@
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": null,
+      "MACD": "CALL",
       "ESTOCASTICO": "PUT",
-      "CRUCE_EMA": "CALL",
+      "CRUCE_EMA": null,
       "WILLIAMS_R": "PUT",
       "CCI": null
     },
