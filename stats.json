@@ -1,13 +1,13 @@
 {
-  "actualizado": "2026-08-15T01:59:53.531058+00:00",
+  "actualizado": "2026-08-15T02:00:27.751126+00:00",
   "lectura_actual": {
     "par": "NGNUSD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 5,
+    "votos_call": 4,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "CALL",
+      "RSI": null,
       "BOLLINGER": "CALL",
       "MACD": null,
       "ESTOCASTICO": "CALL",
