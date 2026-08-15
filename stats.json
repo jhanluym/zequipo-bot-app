@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-15T03:36:40.560220+00:00",
+  "actualizado": "2026-08-15T03:37:15.518505+00:00",
   "lectura_actual": {
     "par": "NGNUSD_otc",
     "sin_datos_suficientes": false,
@@ -18,11 +18,11 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 2322,
+  "total": 2323,
   "wins": 1208,
   "pct": 52.0,
   "rango_lo": 50.0,
-  "rango_hi": 54.1,
+  "rango_hi": 54.0,
   "empates": 26,
   "sin_datos": 3,
   "combos": [
@@ -149,10 +149,10 @@
     {
       "nombre": "NGNUSD_otc | 1min",
       "wins": 8,
-      "total": 18,
-      "pct": 44.4,
-      "rango_lo": 24.6,
-      "rango_hi": 66.3
+      "total": 19,
+      "pct": 42.1,
+      "rango_lo": 23.1,
+      "rango_hi": 63.7
     },
     {
       "nombre": "EURUSD_otc | 10min",
@@ -268,6 +268,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2352,
+      "asset": "NGNUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-15T03:36:00+00:00",
+      "entry_price": 0.0007143,
+      "exit_price": 0.00071424,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 2351,
       "asset": "NGNUSD_otc",
@@ -457,16 +467,6 @@
       "entry_price": 1.85083,
       "exit_price": 1.85064,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 2332,
-      "asset": "AEDCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-15T01:26:00+00:00",
-      "entry_price": 1.84909,
-      "exit_price": 1.84937,
-      "resultado": "GANADA"
     }
   ]
 }
