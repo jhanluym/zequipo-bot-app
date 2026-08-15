@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-15T05:14:31.869670+00:00",
+  "actualizado": "2026-08-15T05:15:06.801541+00:00",
   "lectura_actual": {
     "par": "USDJPY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 1,
-    "votos_put": 2,
+    "votos_call": 0,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": "CALL",
-      "ESTOCASTICO": "PUT",
+      "MACD": null,
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
+      "WILLIAMS_R": null,
       "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 2330,
-  "wins": 1212,
+  "total": 2331,
+  "wins": 1213,
   "pct": 52.0,
   "rango_lo": 50.0,
-  "rango_hi": 54.0,
+  "rango_hi": 54.1,
   "empates": 27,
   "sin_datos": 3,
   "combos": [
@@ -203,20 +203,20 @@
       "rango_hi": 76.9
     },
     {
+      "nombre": "USDJPY_otc | 1min",
+      "wins": 2,
+      "total": 3,
+      "pct": 66.7,
+      "rango_lo": 20.8,
+      "rango_hi": 93.9
+    },
+    {
       "nombre": "AUDCAD | 1min",
       "wins": 1,
       "total": 3,
       "pct": 33.3,
       "rango_lo": 6.1,
       "rango_hi": 79.2
-    },
-    {
-      "nombre": "USDJPY_otc | 1min",
-      "wins": 1,
-      "total": 2,
-      "pct": 50.0,
-      "rango_lo": 9.5,
-      "rango_hi": 90.5
     },
     {
       "nombre": "USDDZD_otc | 5min",
@@ -268,6 +268,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2361,
+      "asset": "USDJPY_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-15T05:14:00+00:00",
+      "entry_price": 157.887,
+      "exit_price": 157.891,
+      "resultado": "GANADA"
+    },
     {
       "id": 2360,
       "asset": "USDJPY_otc",
@@ -456,16 +466,6 @@
       "hora": "2026-08-15T02:32:00+00:00",
       "entry_price": 0.00071689,
       "exit_price": 0.00071688,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 2341,
-      "asset": "NGNUSD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-15T02:29:00+00:00",
-      "entry_price": 0.00071699,
-      "exit_price": 0.00071694,
       "resultado": "GANADA"
     }
   ]
