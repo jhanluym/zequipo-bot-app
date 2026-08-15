@@ -1,15 +1,15 @@
 {
-  "actualizado": "2026-08-15T06:06:42.591076+00:00",
+  "actualizado": "2026-08-15T06:07:20.088127+00:00",
   "lectura_actual": {
     "par": "USDJPY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 1,
-    "votos_put": 4,
+    "votos_call": 0,
+    "votos_put": 5,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": null,
+      "RSI": "PUT",
       "BOLLINGER": "PUT",
-      "MACD": "CALL",
+      "MACD": null,
       "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
       "WILLIAMS_R": "PUT",
