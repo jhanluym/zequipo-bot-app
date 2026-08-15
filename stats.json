@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-15T04:15:41.783993+00:00",
+  "actualizado": "2026-08-15T04:16:16.703392+00:00",
   "lectura_actual": {
     "par": "NGNUSD_otc",
     "sin_datos_suficientes": false,
@@ -18,10 +18,10 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 2327,
+  "total": 2328,
   "wins": 1212,
   "pct": 52.1,
-  "rango_lo": 50.1,
+  "rango_lo": 50.0,
   "rango_hi": 54.1,
   "empates": 26,
   "sin_datos": 3,
@@ -149,10 +149,10 @@
     {
       "nombre": "NGNUSD_otc | 1min",
       "wins": 12,
-      "total": 23,
-      "pct": 52.2,
-      "rango_lo": 33.0,
-      "rango_hi": 70.8
+      "total": 24,
+      "pct": 50.0,
+      "rango_lo": 31.4,
+      "rango_hi": 68.6
     },
     {
       "nombre": "EURUSD_otc | 10min",
@@ -268,6 +268,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2357,
+      "asset": "NGNUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-15T04:15:00+00:00",
+      "entry_price": 0.00071618,
+      "exit_price": 0.00071595,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 2356,
       "asset": "NGNUSD_otc",
@@ -456,16 +466,6 @@
       "hora": "2026-08-15T02:20:00+00:00",
       "entry_price": 0.00071466,
       "exit_price": 0.0007148,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 2337,
-      "asset": "NGNUSD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-15T02:17:00+00:00",
-      "entry_price": 0.000713,
-      "exit_price": 0.00071351,
       "resultado": "PERDIDA"
     }
   ]
