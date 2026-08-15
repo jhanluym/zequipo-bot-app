@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-08-15T11:32:57.215380+00:00",
+  "actualizado": "2026-08-15T11:33:32.032188+00:00",
   "lectura_actual": {
     "par": "USDJPY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 5,
+    "votos_put": 4,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": "PUT",
-      "BOLLINGER": "PUT",
+      "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
@@ -18,7 +18,7 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 2393,
+  "total": 2394,
   "wins": 1242,
   "pct": 51.9,
   "rango_lo": 49.9,
@@ -117,10 +117,10 @@
     {
       "nombre": "USDJPY_otc | 1min",
       "wins": 31,
-      "total": 65,
-      "pct": 47.7,
-      "rango_lo": 36.0,
-      "rango_hi": 59.6
+      "total": 66,
+      "pct": 47.0,
+      "rango_lo": 35.4,
+      "rango_hi": 58.8
     },
     {
       "nombre": "EURHUF_otc | 1min",
@@ -268,6 +268,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2424,
+      "asset": "USDJPY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-15T11:32:00+00:00",
+      "entry_price": 157.437,
+      "exit_price": 157.44,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 2423,
       "asset": "USDJPY_otc",
@@ -456,16 +466,6 @@
       "hora": "2026-08-15T09:26:00+00:00",
       "entry_price": 157.632,
       "exit_price": 157.606,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 2404,
-      "asset": "USDJPY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-15T09:23:00+00:00",
-      "entry_price": 157.612,
-      "exit_price": 157.595,
       "resultado": "PERDIDA"
     }
   ]
