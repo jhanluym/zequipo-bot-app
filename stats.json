@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-15T03:01:39.651204+00:00",
+  "actualizado": "2026-08-15T03:02:14.926106+00:00",
   "lectura_actual": {
     "par": "NGNUSD_otc",
     "sin_datos_suficientes": false,
@@ -18,7 +18,7 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 2316,
+  "total": 2317,
   "wins": 1206,
   "pct": 52.1,
   "rango_lo": 50.0,
@@ -171,20 +171,20 @@
       "rango_hi": 78.6
     },
     {
+      "nombre": "NGNUSD_otc | 1min",
+      "wins": 6,
+      "total": 13,
+      "pct": 46.2,
+      "rango_lo": 23.2,
+      "rango_hi": 70.9
+    },
+    {
       "nombre": "BHDCNY_otc | 1min",
       "wins": 7,
       "total": 13,
       "pct": 53.8,
       "rango_lo": 29.1,
       "rango_hi": 76.8
-    },
-    {
-      "nombre": "NGNUSD_otc | 1min",
-      "wins": 6,
-      "total": 12,
-      "pct": 50.0,
-      "rango_lo": 25.4,
-      "rango_hi": 74.6
     },
     {
       "nombre": "CADCHF_otc | 1min",
@@ -268,6 +268,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2346,
+      "asset": "NGNUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-15T03:01:00+00:00",
+      "entry_price": 0.00071571,
+      "exit_price": 0.00071619,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 2345,
       "asset": "NGNUSD_otc",
@@ -457,16 +467,6 @@
       "entry_price": 1.85606,
       "exit_price": 1.85679,
       "resultado": "GANADA"
-    },
-    {
-      "id": 2326,
-      "asset": "AEDCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-15T00:55:00+00:00",
-      "entry_price": 1.85803,
-      "exit_price": 1.8568,
-      "resultado": "PERDIDA"
     }
   ]
 }
