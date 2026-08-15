@@ -1,24 +1,24 @@
 {
-  "actualizado": "2026-08-15T05:21:59.334196+00:00",
+  "actualizado": "2026-08-15T05:22:34.188723+00:00",
   "lectura_actual": {
     "par": "USDJPY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 1,
+    "votos_put": 3,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": null,
+      "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
+      "WILLIAMS_R": "PUT",
       "CCI": "PUT"
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "PUT"
   },
-  "total": 2332,
+  "total": 2333,
   "wins": 1213,
   "pct": 52.0,
   "rango_lo": 50.0,
@@ -195,7 +195,7 @@
       "rango_hi": 70.0
     },
     {
-      "nombre": "CADJPY | 1min",
+      "nombre": "USDJPY_otc | 1min",
       "wins": 2,
       "total": 5,
       "pct": 40.0,
@@ -203,12 +203,12 @@
       "rango_hi": 76.9
     },
     {
-      "nombre": "USDJPY_otc | 1min",
+      "nombre": "CADJPY | 1min",
       "wins": 2,
-      "total": 4,
-      "pct": 50.0,
-      "rango_lo": 15.0,
-      "rango_hi": 85.0
+      "total": 5,
+      "pct": 40.0,
+      "rango_lo": 11.8,
+      "rango_hi": 76.9
     },
     {
       "nombre": "AUDCAD | 1min",
@@ -268,6 +268,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2363,
+      "asset": "USDJPY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-15T05:21:00+00:00",
+      "entry_price": 157.966,
+      "exit_price": 157.988,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 2362,
       "asset": "USDJPY_otc",
@@ -457,16 +467,6 @@
       "entry_price": 0.00071394,
       "exit_price": 0.00071385,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 2343,
-      "asset": "NGNUSD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-15T02:35:00+00:00",
-      "entry_price": 0.00071557,
-      "exit_price": 0.00071525,
-      "resultado": "GANADA"
     }
   ]
 }
