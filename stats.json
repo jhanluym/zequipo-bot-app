@@ -1,22 +1,22 @@
 {
-  "actualizado": "2026-08-15T02:33:51.349382+00:00",
+  "actualizado": "2026-08-15T02:34:26.280254+00:00",
   "lectura_actual": {
     "par": "NGNUSD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 4,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "PUT",
+      "RSI": null,
       "BOLLINGER": null,
-      "MACD": "PUT",
-      "ESTOCASTICO": "PUT",
+      "MACD": null,
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
+      "WILLIAMS_R": null,
       "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
   "total": 2313,
   "wins": 1204,
