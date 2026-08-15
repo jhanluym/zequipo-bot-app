@@ -1,26 +1,26 @@
 {
-  "actualizado": "2026-08-15T07:22:25.609336+00:00",
+  "actualizado": "2026-08-15T07:23:02.407002+00:00",
   "lectura_actual": {
     "par": "USDJPY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 2,
-    "votos_put": 2,
+    "votos_call": 3,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": "PUT",
+      "MACD": null,
       "ESTOCASTICO": "CALL",
-      "CRUCE_EMA": "PUT",
+      "CRUCE_EMA": null,
       "WILLIAMS_R": "CALL",
-      "CCI": null
+      "CCI": "CALL"
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "CALL"
   },
-  "total": 2352,
-  "wins": 1224,
-  "pct": 52.0,
+  "total": 2353,
+  "wins": 1225,
+  "pct": 52.1,
   "rango_lo": 50.0,
   "rango_hi": 54.1,
   "empates": 27,
@@ -147,20 +147,20 @@
       "rango_hi": 46.6
     },
     {
+      "nombre": "USDJPY_otc | 1min",
+      "wins": 14,
+      "total": 25,
+      "pct": 56.0,
+      "rango_lo": 37.1,
+      "rango_hi": 73.3
+    },
+    {
       "nombre": "NGNUSD_otc | 1min",
       "wins": 12,
       "total": 25,
       "pct": 48.0,
       "rango_lo": 30.0,
       "rango_hi": 66.5
-    },
-    {
-      "nombre": "USDJPY_otc | 1min",
-      "wins": 13,
-      "total": 24,
-      "pct": 54.2,
-      "rango_lo": 35.1,
-      "rango_hi": 72.1
     },
     {
       "nombre": "EURUSD_otc | 10min",
@@ -268,6 +268,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2383,
+      "asset": "USDJPY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-15T07:22:00+00:00",
+      "entry_price": 158.066,
+      "exit_price": 158.042,
+      "resultado": "GANADA"
+    },
     {
       "id": 2382,
       "asset": "USDJPY_otc",
@@ -456,16 +466,6 @@
       "hora": "2026-08-15T05:24:00+00:00",
       "entry_price": 157.935,
       "exit_price": 157.972,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 2363,
-      "asset": "USDJPY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-15T05:21:00+00:00",
-      "entry_price": 157.966,
-      "exit_price": 157.988,
       "resultado": "PERDIDA"
     }
   ]
