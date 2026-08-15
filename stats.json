@@ -1,26 +1,26 @@
 {
-  "actualizado": "2026-08-15T18:58:44.746142+00:00",
+  "actualizado": "2026-08-15T18:59:19.664111+00:00",
   "lectura_actual": {
     "par": "USDJPY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 4,
+    "votos_put": 2,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": "PUT",
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
+      "WILLIAMS_R": null,
       "CCI": "PUT"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 2458,
-  "wins": 1272,
-  "pct": 51.7,
+  "total": 2459,
+  "wins": 1273,
+  "pct": 51.8,
   "rango_lo": 49.8,
   "rango_hi": 53.7,
   "empates": 27,
@@ -68,11 +68,11 @@
     },
     {
       "nombre": "USDJPY_otc | 1min",
-      "wins": 61,
-      "total": 130,
-      "pct": 46.9,
-      "rango_lo": 38.6,
-      "rango_hi": 55.5
+      "wins": 62,
+      "total": 131,
+      "pct": 47.3,
+      "rango_lo": 39.0,
+      "rango_hi": 55.8
     },
     {
       "nombre": "MADUSD_otc | 1min",
@@ -269,6 +269,16 @@
   ],
   "recientes": [
     {
+      "id": 2489,
+      "asset": "USDJPY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-15T18:58:00+00:00",
+      "entry_price": 157.837,
+      "exit_price": 157.794,
+      "resultado": "GANADA"
+    },
+    {
       "id": 2488,
       "asset": "USDJPY_otc",
       "direction": "PUT",
@@ -457,16 +467,6 @@
       "entry_price": 157.85,
       "exit_price": 157.813,
       "resultado": "GANADA"
-    },
-    {
-      "id": 2469,
-      "asset": "USDJPY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-15T17:20:00+00:00",
-      "entry_price": 157.802,
-      "exit_price": 157.839,
-      "resultado": "PERDIDA"
     }
   ]
 }
