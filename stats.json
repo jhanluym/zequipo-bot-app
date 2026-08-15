@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-15T09:29:36.856225+00:00",
+  "actualizado": "2026-08-15T09:30:11.740056+00:00",
   "lectura_actual": {
     "par": "USDJPY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 3,
+    "votos_call": 0,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
-      "CCI": "CALL"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 2375,
-  "wins": 1236,
-  "pct": 52.0,
-  "rango_lo": 50.0,
-  "rango_hi": 54.0,
+  "total": 2376,
+  "wins": 1237,
+  "pct": 52.1,
+  "rango_lo": 50.1,
+  "rango_hi": 54.1,
   "empates": 27,
   "sin_datos": 3,
   "combos": [
@@ -132,11 +132,11 @@
     },
     {
       "nombre": "USDJPY_otc | 1min",
-      "wins": 25,
-      "total": 47,
-      "pct": 53.2,
-      "rango_lo": 39.2,
-      "rango_hi": 66.7
+      "wins": 26,
+      "total": 48,
+      "pct": 54.2,
+      "rango_lo": 40.3,
+      "rango_hi": 67.4
     },
     {
       "nombre": "EURRUB_otc | 1min",
@@ -268,6 +268,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 2406,
+      "asset": "USDJPY_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-15T09:29:00+00:00",
+      "entry_price": 157.58,
+      "exit_price": 157.622,
+      "resultado": "GANADA"
+    },
     {
       "id": 2405,
       "asset": "USDJPY_otc",
@@ -456,16 +466,6 @@
       "hora": "2026-08-15T07:37:00+00:00",
       "entry_price": 158.014,
       "exit_price": 157.974,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 2386,
-      "asset": "USDJPY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-15T07:34:00+00:00",
-      "entry_price": 158.032,
-      "exit_price": 157.987,
       "resultado": "PERDIDA"
     }
   ]
