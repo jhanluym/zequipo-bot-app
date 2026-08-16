@@ -1,27 +1,27 @@
 {
-  "actualizado": "2026-08-16T03:27:56.290560+00:00",
+  "actualizado": "2026-08-16T03:28:31.474361+00:00",
   "lectura_actual": {
     "par": "USDJPY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 5,
+    "votos_put": 1,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "PUT",
-      "BOLLINGER": "PUT",
+      "RSI": null,
+      "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
+      "WILLIAMS_R": null,
       "CCI": "PUT"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 2547,
-  "wins": 1319,
+  "total": 2548,
+  "wins": 1320,
   "pct": 51.8,
-  "rango_lo": 49.8,
+  "rango_lo": 49.9,
   "rango_hi": 53.7,
   "empates": 27,
   "sin_datos": 3,
@@ -43,20 +43,20 @@
       "rango_hi": 55.9
     },
     {
+      "nombre": "USDJPY_otc | 1min",
+      "wins": 109,
+      "total": 220,
+      "pct": 49.5,
+      "rango_lo": 43.0,
+      "rango_hi": 56.1
+    },
+    {
       "nombre": "AUDCAD_otc | 1min",
       "wins": 118,
       "total": 220,
       "pct": 53.6,
       "rango_lo": 47.0,
       "rango_hi": 60.1
-    },
-    {
-      "nombre": "USDJPY_otc | 1min",
-      "wins": 108,
-      "total": 219,
-      "pct": 49.3,
-      "rango_lo": 42.8,
-      "rango_hi": 55.9
     },
     {
       "nombre": "AEDCNY_otc | 1min",
@@ -269,6 +269,16 @@
   ],
   "recientes": [
     {
+      "id": 2578,
+      "asset": "USDJPY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-16T03:27:00+00:00",
+      "entry_price": 158.199,
+      "exit_price": 158.169,
+      "resultado": "GANADA"
+    },
+    {
       "id": 2577,
       "asset": "USDJPY_otc",
       "direction": "PUT",
@@ -457,16 +467,6 @@
       "entry_price": 157.878,
       "exit_price": 157.899,
       "resultado": "GANADA"
-    },
-    {
-      "id": 2558,
-      "asset": "USDJPY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-16T01:30:00+00:00",
-      "entry_price": 157.964,
-      "exit_price": 157.918,
-      "resultado": "PERDIDA"
     }
   ]
 }
