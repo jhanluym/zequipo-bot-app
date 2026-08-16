@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-08-16T20:22:37.898640+00:00",
+  "actualizado": "2026-08-16T20:23:12.943530+00:00",
   "lectura_actual": {
     "par": "AEDCNY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 4,
+    "votos_put": 3,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": "PUT",
+      "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
@@ -18,10 +18,10 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 2700,
-  "wins": 1383,
+  "total": 2701,
+  "wins": 1384,
   "pct": 51.2,
-  "rango_lo": 49.3,
+  "rango_lo": 49.4,
   "rango_hi": 53.1,
   "empates": 29,
   "sin_datos": 3,
@@ -36,11 +36,11 @@
     },
     {
       "nombre": "AEDCNY_otc | 1min",
-      "wins": 168,
-      "total": 340,
-      "pct": 49.4,
-      "rango_lo": 44.1,
-      "rango_hi": 54.7
+      "wins": 169,
+      "total": 341,
+      "pct": 49.6,
+      "rango_lo": 44.3,
+      "rango_hi": 54.8
     },
     {
       "nombre": "AUDUSD_otc | 1min",
@@ -269,6 +269,16 @@
   ],
   "recientes": [
     {
+      "id": 2733,
+      "asset": "AEDCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-16T20:22:00+00:00",
+      "entry_price": 1.8846,
+      "exit_price": 1.88323,
+      "resultado": "GANADA"
+    },
+    {
       "id": 2732,
       "asset": "AEDCNY_otc",
       "direction": "PUT",
@@ -456,16 +466,6 @@
       "hora": "2026-08-16T18:07:00+00:00",
       "entry_price": 1.88803,
       "exit_price": 1.88737,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 2713,
-      "asset": "AEDCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-16T18:03:00+00:00",
-      "entry_price": 1.89227,
-      "exit_price": 1.89066,
       "resultado": "PERDIDA"
     }
   ]
