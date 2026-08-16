@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-08-16T01:30:32.211480+00:00",
+  "actualizado": "2026-08-16T01:31:07.327416+00:00",
   "lectura_actual": {
     "par": "USDJPY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 0,
+    "votos_call": 1,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
@@ -13,15 +13,15 @@
       "ESTOCASTICO": null,
       "CRUCE_EMA": null,
       "WILLIAMS_R": null,
-      "CCI": null
+      "CCI": "CALL"
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 2527,
+  "total": 2528,
   "wins": 1309,
   "pct": 51.8,
-  "rango_lo": 49.9,
+  "rango_lo": 49.8,
   "rango_hi": 53.7,
   "empates": 27,
   "sin_datos": 3,
@@ -61,10 +61,10 @@
     {
       "nombre": "USDJPY_otc | 1min",
       "wins": 98,
-      "total": 199,
-      "pct": 49.2,
-      "rango_lo": 42.4,
-      "rango_hi": 56.1
+      "total": 200,
+      "pct": 49.0,
+      "rango_lo": 42.2,
+      "rango_hi": 55.9
     },
     {
       "nombre": "AUDNZD_otc | 1min",
@@ -269,6 +269,16 @@
   ],
   "recientes": [
     {
+      "id": 2558,
+      "asset": "USDJPY_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-16T01:30:00+00:00",
+      "entry_price": 157.964,
+      "exit_price": 157.918,
+      "resultado": "PERDIDA"
+    },
+    {
       "id": 2557,
       "asset": "USDJPY_otc",
       "direction": "PUT",
@@ -456,16 +466,6 @@
       "hora": "2026-08-15T23:49:00+00:00",
       "entry_price": 157.999,
       "exit_price": 158.002,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 2538,
-      "asset": "USDJPY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-15T23:45:00+00:00",
-      "entry_price": 158.042,
-      "exit_price": 158.068,
       "resultado": "GANADA"
     }
   ]
