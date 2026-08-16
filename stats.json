@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-16T04:20:34.035209+00:00",
+  "actualizado": "2026-08-16T04:21:09.065929+00:00",
   "lectura_actual": {
     "par": "USDJPY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
-      "CCI": "PUT"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 2554,
-  "wins": 1323,
+  "total": 2555,
+  "wins": 1324,
   "pct": 51.8,
   "rango_lo": 49.9,
-  "rango_hi": 53.7,
+  "rango_hi": 53.8,
   "empates": 27,
   "sin_datos": 3,
   "combos": [
@@ -44,11 +44,11 @@
     },
     {
       "nombre": "USDJPY_otc | 1min",
-      "wins": 112,
-      "total": 226,
-      "pct": 49.6,
-      "rango_lo": 43.1,
-      "rango_hi": 56.0
+      "wins": 113,
+      "total": 227,
+      "pct": 49.8,
+      "rango_lo": 43.3,
+      "rango_hi": 56.2
     },
     {
       "nombre": "AUDCAD_otc | 1min",
@@ -269,6 +269,16 @@
   ],
   "recientes": [
     {
+      "id": 2585,
+      "asset": "USDJPY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-16T04:20:00+00:00",
+      "entry_price": 158.504,
+      "exit_price": 158.473,
+      "resultado": "GANADA"
+    },
+    {
       "id": 2584,
       "asset": "USDJPY_otc",
       "direction": "PUT",
@@ -456,16 +466,6 @@
       "hora": "2026-08-16T02:18:00+00:00",
       "entry_price": 158.124,
       "exit_price": 158.107,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 2565,
-      "asset": "USDJPY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-16T02:01:00+00:00",
-      "entry_price": 158.203,
-      "exit_price": 158.205,
       "resultado": "PERDIDA"
     }
   ]
