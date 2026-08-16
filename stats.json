@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-16T23:34:27.398508+00:00",
+  "actualizado": "2026-08-16T23:35:02.052958+00:00",
   "lectura_actual": {
     "par": "AEDCNY_otc",
     "sin_datos_suficientes": false,
@@ -9,9 +9,9 @@
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": "CALL",
+      "MACD": null,
       "ESTOCASTICO": "PUT",
-      "CRUCE_EMA": null,
+      "CRUCE_EMA": "CALL",
       "WILLIAMS_R": "PUT",
       "CCI": null
     },
