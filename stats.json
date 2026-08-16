@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-16T13:26:37.074916+00:00",
+  "actualizado": "2026-08-16T13:27:12.296076+00:00",
   "lectura_actual": {
     "par": "AEDCNY_otc",
     "sin_datos_suficientes": false,
@@ -7,8 +7,8 @@
     "votos_put": 4,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": null,
-      "BOLLINGER": "PUT",
+      "RSI": "PUT",
+      "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
@@ -18,10 +18,10 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 2631,
+  "total": 2632,
   "wins": 1357,
   "pct": 51.6,
-  "rango_lo": 49.7,
+  "rango_lo": 49.6,
   "rango_hi": 53.5,
   "empates": 28,
   "sin_datos": 3,
@@ -35,20 +35,20 @@
       "rango_hi": 54.1
     },
     {
+      "nombre": "AEDCNY_otc | 1min",
+      "wins": 142,
+      "total": 272,
+      "pct": 52.2,
+      "rango_lo": 46.3,
+      "rango_hi": 58.1
+    },
+    {
       "nombre": "AUDUSD_otc | 1min",
       "wins": 136,
       "total": 272,
       "pct": 50.0,
       "rango_lo": 44.1,
       "rango_hi": 55.9
-    },
-    {
-      "nombre": "AEDCNY_otc | 1min",
-      "wins": 142,
-      "total": 271,
-      "pct": 52.4,
-      "rango_lo": 46.5,
-      "rango_hi": 58.3
     },
     {
       "nombre": "USDJPY_otc | 1min",
@@ -269,6 +269,16 @@
   ],
   "recientes": [
     {
+      "id": 2663,
+      "asset": "AEDCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-16T13:26:00+00:00",
+      "entry_price": 1.90215,
+      "exit_price": 1.90292,
+      "resultado": "PERDIDA"
+    },
+    {
       "id": 2662,
       "asset": "AEDCNY_otc",
       "direction": "PUT",
@@ -457,16 +467,6 @@
       "entry_price": 1.89208,
       "exit_price": 1.89276,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 2643,
-      "asset": "AEDCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-16T11:24:00+00:00",
-      "entry_price": 1.88869,
-      "exit_price": 1.88777,
-      "resultado": "GANADA"
     }
   ]
 }
