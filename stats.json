@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-17T14:59:53.676708+00:00",
+  "actualizado": "2026-08-17T15:00:29.068448+00:00",
   "lectura_actual": {
     "par": "AEDCNY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 1,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": "CALL",
+      "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
+      "WILLIAMS_R": null,
       "CCI": "CALL"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 2889,
-  "wins": 1474,
+  "total": 2890,
+  "wins": 1475,
   "pct": 51.0,
   "rango_lo": 49.2,
-  "rango_hi": 52.8,
+  "rango_hi": 52.9,
   "empates": 29,
   "sin_datos": 3,
   "combos": [
@@ -36,11 +36,11 @@
     },
     {
       "nombre": "AEDCNY_otc | 1min",
-      "wins": 259,
-      "total": 529,
-      "pct": 49.0,
-      "rango_lo": 44.7,
-      "rango_hi": 53.2
+      "wins": 260,
+      "total": 530,
+      "pct": 49.1,
+      "rango_lo": 44.8,
+      "rango_hi": 53.3
     },
     {
       "nombre": "AUDUSD_otc | 1min",
@@ -269,6 +269,16 @@
   ],
   "recientes": [
     {
+      "id": 2922,
+      "asset": "AEDCNY_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-17T14:59:00+00:00",
+      "entry_price": 1.84572,
+      "exit_price": 1.84636,
+      "resultado": "GANADA"
+    },
+    {
       "id": 2921,
       "asset": "AEDCNY_otc",
       "direction": "CALL",
@@ -456,16 +466,6 @@
       "hora": "2026-08-17T13:07:00+00:00",
       "entry_price": 1.85515,
       "exit_price": 1.85524,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 2902,
-      "asset": "AEDCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-17T12:57:00+00:00",
-      "entry_price": 1.85496,
-      "exit_price": 1.85532,
       "resultado": "PERDIDA"
     }
   ]
