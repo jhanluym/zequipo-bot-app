@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-17T03:02:47.217429+00:00",
+  "actualizado": "2026-08-17T03:03:22.323838+00:00",
   "lectura_actual": {
     "par": "AEDCNY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
-      "CCI": "PUT"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 2766,
-  "wins": 1413,
+  "total": 2767,
+  "wins": 1414,
   "pct": 51.1,
   "rango_lo": 49.2,
-  "rango_hi": 52.9,
+  "rango_hi": 53.0,
   "empates": 29,
   "sin_datos": 3,
   "combos": [
@@ -36,11 +36,11 @@
     },
     {
       "nombre": "AEDCNY_otc | 1min",
-      "wins": 198,
-      "total": 406,
-      "pct": 48.8,
-      "rango_lo": 43.9,
-      "rango_hi": 53.6
+      "wins": 199,
+      "total": 407,
+      "pct": 48.9,
+      "rango_lo": 44.1,
+      "rango_hi": 53.7
     },
     {
       "nombre": "AUDUSD_otc | 1min",
@@ -269,6 +269,16 @@
   ],
   "recientes": [
     {
+      "id": 2799,
+      "asset": "AEDCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-17T03:02:00+00:00",
+      "entry_price": 1.89116,
+      "exit_price": 1.89008,
+      "resultado": "GANADA"
+    },
+    {
       "id": 2798,
       "asset": "AEDCNY_otc",
       "direction": "PUT",
@@ -456,16 +466,6 @@
       "hora": "2026-08-17T01:21:00+00:00",
       "entry_price": 1.88433,
       "exit_price": 1.88277,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 2779,
-      "asset": "AEDCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-17T01:14:00+00:00",
-      "entry_price": 1.88762,
-      "exit_price": 1.88874,
       "resultado": "PERDIDA"
     }
   ]
