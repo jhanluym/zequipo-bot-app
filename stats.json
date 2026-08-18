@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-18T21:04:25.791832+00:00",
+  "actualizado": "2026-08-18T21:05:02.230576+00:00",
   "lectura_actual": {
     "par": "KESUSD_otc",
     "sin_datos_suficientes": false,
@@ -18,9 +18,9 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 3182,
-  "wins": 1621,
-  "pct": 50.9,
+  "total": 3183,
+  "wins": 1622,
+  "pct": 51.0,
   "rango_lo": 49.2,
   "rango_hi": 52.7,
   "empates": 31,
@@ -179,20 +179,20 @@
       "rango_hi": 85.8
     },
     {
+      "nombre": "KESUSD_otc | 1min",
+      "wins": 9,
+      "total": 14,
+      "pct": 64.3,
+      "rango_lo": 38.8,
+      "rango_hi": 83.7
+    },
+    {
       "nombre": "USDDZD_otc | 1min",
       "wins": 8,
       "total": 14,
       "pct": 57.1,
       "rango_lo": 32.6,
       "rango_hi": 78.6
-    },
-    {
-      "nombre": "KESUSD_otc | 1min",
-      "wins": 8,
-      "total": 13,
-      "pct": 61.5,
-      "rango_lo": 35.5,
-      "rango_hi": 82.3
     },
     {
       "nombre": "BHDCNY_otc | 1min",
@@ -276,6 +276,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3217,
+      "asset": "KESUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-18T21:04:00+00:00",
+      "entry_price": 0.0076487,
+      "exit_price": 0.0076536,
+      "resultado": "GANADA"
+    },
     {
       "id": 3216,
       "asset": "KESUSD_otc",
@@ -465,16 +475,6 @@
       "entry_price": 1.86197,
       "exit_price": 1.86281,
       "resultado": "GANADA"
-    },
-    {
-      "id": 3197,
-      "asset": "AEDCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-18T18:49:00+00:00",
-      "entry_price": 1.86596,
-      "exit_price": 1.86486,
-      "resultado": "PERDIDA"
     }
   ]
 }
