@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-18T20:53:52.253872+00:00",
+  "actualizado": "2026-08-18T20:54:27.634014+00:00",
   "lectura_actual": {
     "par": "KESUSD_otc",
     "sin_datos_suficientes": false,
@@ -18,11 +18,11 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 3179,
+  "total": 3180,
   "wins": 1619,
   "pct": 50.9,
   "rango_lo": 49.2,
-  "rango_hi": 52.7,
+  "rango_hi": 52.6,
   "empates": 31,
   "sin_datos": 3,
   "combos": [
@@ -197,10 +197,10 @@
     {
       "nombre": "KESUSD_otc | 1min",
       "wins": 6,
-      "total": 10,
-      "pct": 60.0,
-      "rango_lo": 31.3,
-      "rango_hi": 83.2
+      "total": 11,
+      "pct": 54.5,
+      "rango_lo": 28.0,
+      "rango_hi": 78.7
     },
     {
       "nombre": "CADCHF_otc | 1min",
@@ -276,6 +276,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3214,
+      "asset": "KESUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-18T20:53:00+00:00",
+      "entry_price": 0.0076621,
+      "exit_price": 0.0076589,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 3213,
       "asset": "KESUSD_otc",
@@ -464,16 +474,6 @@
       "hora": "2026-08-18T18:27:00+00:00",
       "entry_price": 1.86732,
       "exit_price": 1.86675,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 3194,
-      "asset": "AEDCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-18T18:24:00+00:00",
-      "entry_price": 1.86738,
-      "exit_price": 1.86534,
       "resultado": "PERDIDA"
     }
   ]
