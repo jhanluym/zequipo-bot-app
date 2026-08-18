@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-08-18T22:01:51.458923+00:00",
+  "actualizado": "2026-08-18T22:02:26.763445+00:00",
   "lectura_actual": {
     "par": "KESUSD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 3,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": "CALL",
+      "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
@@ -18,7 +18,7 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 3192,
+  "total": 3193,
   "wins": 1625,
   "pct": 50.9,
   "rango_lo": 49.2,
@@ -165,10 +165,10 @@
     {
       "nombre": "KESUSD_otc | 1min",
       "wins": 12,
-      "total": 23,
-      "pct": 52.2,
-      "rango_lo": 33.0,
-      "rango_hi": 70.8
+      "total": 24,
+      "pct": 50.0,
+      "rango_lo": 31.4,
+      "rango_hi": 68.6
     },
     {
       "nombre": "EURUSD_otc | 10min",
@@ -276,6 +276,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3227,
+      "asset": "KESUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-18T22:01:00+00:00",
+      "entry_price": 0.007681,
+      "exit_price": 0.0076807,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 3226,
       "asset": "KESUSD_otc",
@@ -465,16 +475,6 @@
       "entry_price": 0.0076799,
       "exit_price": 0.0076842,
       "resultado": "GANADA"
-    },
-    {
-      "id": 3207,
-      "asset": "KESUSD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-18T20:15:00+00:00",
-      "entry_price": 0.0076855,
-      "exit_price": 0.0076809,
-      "resultado": "PERDIDA"
     }
   ]
 }
