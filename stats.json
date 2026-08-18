@@ -1,27 +1,27 @@
 {
-  "actualizado": "2026-08-18T22:04:45.400902+00:00",
+  "actualizado": "2026-08-18T22:05:20.726000+00:00",
   "lectura_actual": {
     "par": "KESUSD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 0,
+    "votos_call": 3,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": null,
+      "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
-      "CCI": null
+      "WILLIAMS_R": "CALL",
+      "CCI": "CALL"
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "CALL"
   },
-  "total": 3193,
+  "total": 3194,
   "wins": 1625,
   "pct": 50.9,
-  "rango_lo": 49.2,
+  "rango_lo": 49.1,
   "rango_hi": 52.6,
   "empates": 31,
   "sin_datos": 3,
@@ -155,7 +155,7 @@
       "rango_hi": 46.6
     },
     {
-      "nombre": "NGNUSD_otc | 1min",
+      "nombre": "KESUSD_otc | 1min",
       "wins": 12,
       "total": 25,
       "pct": 48.0,
@@ -163,12 +163,12 @@
       "rango_hi": 66.5
     },
     {
-      "nombre": "KESUSD_otc | 1min",
+      "nombre": "NGNUSD_otc | 1min",
       "wins": 12,
-      "total": 24,
-      "pct": 50.0,
-      "rango_lo": 31.4,
-      "rango_hi": 68.6
+      "total": 25,
+      "pct": 48.0,
+      "rango_lo": 30.0,
+      "rango_hi": 66.5
     },
     {
       "nombre": "EURUSD_otc | 10min",
@@ -276,6 +276,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3228,
+      "asset": "KESUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-18T22:04:00+00:00",
+      "entry_price": 0.0076884,
+      "exit_price": 0.0076797,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 3227,
       "asset": "KESUSD_otc",
@@ -464,16 +474,6 @@
       "hora": "2026-08-18T20:23:00+00:00",
       "entry_price": 0.0076746,
       "exit_price": 0.0076776,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 3208,
-      "asset": "KESUSD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-18T20:18:00+00:00",
-      "entry_price": 0.0076799,
-      "exit_price": 0.0076842,
       "resultado": "GANADA"
     }
   ]
