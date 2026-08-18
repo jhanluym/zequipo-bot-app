@@ -1,10 +1,10 @@
 {
-  "actualizado": "2026-08-18T21:34:49.647681+00:00",
+  "actualizado": "2026-08-18T21:35:24.940437+00:00",
   "lectura_actual": {
     "par": "KESUSD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 2,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
@@ -13,13 +13,13 @@
       "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
       "WILLIAMS_R": "PUT",
-      "CCI": "PUT"
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 3187,
-  "wins": 1623,
+  "total": 3188,
+  "wins": 1624,
   "pct": 50.9,
   "rango_lo": 49.2,
   "rango_hi": 52.7,
@@ -164,11 +164,11 @@
     },
     {
       "nombre": "KESUSD_otc | 1min",
-      "wins": 10,
-      "total": 18,
-      "pct": 55.6,
-      "rango_lo": 33.7,
-      "rango_hi": 75.4
+      "wins": 11,
+      "total": 19,
+      "pct": 57.9,
+      "rango_lo": 36.3,
+      "rango_hi": 76.9
     },
     {
       "nombre": "EURUSD_otc | 10min",
@@ -276,6 +276,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3222,
+      "asset": "KESUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-18T21:34:00+00:00",
+      "entry_price": 0.0076921,
+      "exit_price": 0.007688,
+      "resultado": "GANADA"
+    },
     {
       "id": 3221,
       "asset": "KESUSD_otc",
@@ -465,16 +475,6 @@
       "entry_price": 1.86675,
       "exit_price": 1.86544,
       "resultado": "GANADA"
-    },
-    {
-      "id": 3202,
-      "asset": "AEDCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-18T19:10:00+00:00",
-      "entry_price": 1.86575,
-      "exit_price": 1.86715,
-      "resultado": "PERDIDA"
     }
   ]
 }
