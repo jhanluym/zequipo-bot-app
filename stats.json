@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-19T12:24:42.583492+00:00",
+  "actualizado": "2026-08-19T12:25:18.366753+00:00",
   "lectura_actual": {
     "par": "QARCNY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 3,
+    "votos_call": 0,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
-      "CCI": "CALL"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 3334,
-  "wins": 1696,
+  "total": 3335,
+  "wins": 1697,
   "pct": 50.9,
   "rango_lo": 49.2,
   "rango_hi": 52.6,
@@ -99,20 +99,20 @@
       "rango_hi": 66.9
     },
     {
+      "nombre": "QARCNY_otc | 1min",
+      "wins": 40,
+      "total": 77,
+      "pct": 51.9,
+      "rango_lo": 41.0,
+      "rango_hi": 62.7
+    },
+    {
       "nombre": "EURUSD | 1min",
       "wins": 43,
       "total": 77,
       "pct": 55.8,
       "rango_lo": 44.7,
       "rango_hi": 66.4
-    },
-    {
-      "nombre": "QARCNY_otc | 1min",
-      "wins": 39,
-      "total": 76,
-      "pct": 51.3,
-      "rango_lo": 40.3,
-      "rango_hi": 62.2
     },
     {
       "nombre": "AUDCHF_otc | 1min",
@@ -284,6 +284,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3369,
+      "asset": "QARCNY_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-19T12:24:00+00:00",
+      "entry_price": 1.901521,
+      "exit_price": 1.901583,
+      "resultado": "GANADA"
+    },
     {
       "id": 3368,
       "asset": "QARCNY_otc",
@@ -472,16 +482,6 @@
       "hora": "2026-08-19T10:42:00+00:00",
       "entry_price": 1.901592,
       "exit_price": 1.901619,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 3349,
-      "asset": "QARCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-19T10:38:00+00:00",
-      "entry_price": 1.901648,
-      "exit_price": 1.901682,
       "resultado": "GANADA"
     }
   ]
