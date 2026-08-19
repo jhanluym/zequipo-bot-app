@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-08-19T19:05:26.928028+00:00",
+  "actualizado": "2026-08-19T19:06:02.641785+00:00",
   "lectura_actual": {
     "par": "QARCNY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 3,
+    "votos_call": 4,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": null,
+      "BOLLINGER": "CALL",
       "MACD": null,
       "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
@@ -18,7 +18,7 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 3407,
+  "total": 3408,
   "wins": 1731,
   "pct": 50.8,
   "rango_lo": 49.1,
@@ -69,10 +69,10 @@
     {
       "nombre": "QARCNY_otc | 1min",
       "wins": 74,
-      "total": 149,
-      "pct": 49.7,
-      "rango_lo": 41.7,
-      "rango_hi": 57.6
+      "total": 150,
+      "pct": 49.3,
+      "rango_lo": 41.4,
+      "rango_hi": 57.3
     },
     {
       "nombre": "AUDNZD_otc | 1min",
@@ -285,6 +285,16 @@
   ],
   "recientes": [
     {
+      "id": 3444,
+      "asset": "QARCNY_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-19T19:05:00+00:00",
+      "entry_price": 1.901165,
+      "exit_price": 1.901113,
+      "resultado": "PERDIDA"
+    },
+    {
       "id": 3443,
       "asset": "QARCNY_otc",
       "direction": "CALL",
@@ -472,16 +482,6 @@
       "hora": "2026-08-19T16:55:00+00:00",
       "entry_price": 1.90113,
       "exit_price": 1.901155,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 3424,
-      "asset": "QARCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-19T16:52:00+00:00",
-      "entry_price": 1.901089,
-      "exit_price": 1.901166,
       "resultado": "PERDIDA"
     }
   ]
