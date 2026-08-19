@@ -1,27 +1,27 @@
 {
-  "actualizado": "2026-08-19T02:00:35.091911+00:00",
+  "actualizado": "2026-08-19T02:01:10.470174+00:00",
   "lectura_actual": {
     "par": "AUDUSD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 4,
+    "votos_put": 1,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": "PUT",
+      "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
+      "WILLIAMS_R": null,
       "CCI": "PUT"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 3228,
-  "wins": 1642,
+  "total": 3229,
+  "wins": 1643,
   "pct": 50.9,
-  "rango_lo": 49.1,
+  "rango_lo": 49.2,
   "rango_hi": 52.6,
   "empates": 31,
   "sin_datos": 3,
@@ -44,11 +44,11 @@
     },
     {
       "nombre": "AUDUSD_otc | 1min",
-      "wins": 152,
-      "total": 304,
-      "pct": 50.0,
-      "rango_lo": 44.4,
-      "rango_hi": 55.6
+      "wins": 153,
+      "total": 305,
+      "pct": 50.2,
+      "rango_lo": 44.6,
+      "rango_hi": 55.7
     },
     {
       "nombre": "USDJPY_otc | 1min",
@@ -277,6 +277,16 @@
   ],
   "recientes": [
     {
+      "id": 3263,
+      "asset": "AUDUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-19T02:00:00+00:00",
+      "entry_price": 0.63899,
+      "exit_price": 0.63894,
+      "resultado": "GANADA"
+    },
+    {
       "id": 3262,
       "asset": "AUDUSD_otc",
       "direction": "CALL",
@@ -464,16 +474,6 @@
       "hora": "2026-08-19T00:03:00+00:00",
       "entry_price": 0.641,
       "exit_price": 0.64114,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 3243,
-      "asset": "AUDUSD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-18T23:55:00+00:00",
-      "entry_price": 0.64224,
-      "exit_price": 0.64164,
       "resultado": "GANADA"
     }
   ]
