@@ -1,13 +1,13 @@
 {
-  "actualizado": "2026-08-19T16:08:59.897483+00:00",
+  "actualizado": "2026-08-19T16:09:36.054736+00:00",
   "lectura_actual": {
     "par": "QARCNY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 4,
+    "votos_put": 3,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "PUT",
+      "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "PUT",
@@ -18,9 +18,9 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 3379,
-  "wins": 1718,
-  "pct": 50.8,
+  "total": 3380,
+  "wins": 1719,
+  "pct": 50.9,
   "rango_lo": 49.2,
   "rango_hi": 52.5,
   "empates": 32,
@@ -75,20 +75,20 @@
       "rango_hi": 56.9
     },
     {
+      "nombre": "QARCNY_otc | 1min",
+      "wins": 62,
+      "total": 122,
+      "pct": 50.8,
+      "rango_lo": 42.1,
+      "rango_hi": 59.5
+    },
+    {
       "nombre": "MADUSD_otc | 1min",
       "wins": 59,
       "total": 122,
       "pct": 48.4,
       "rango_lo": 39.7,
       "rango_hi": 57.1
-    },
-    {
-      "nombre": "QARCNY_otc | 1min",
-      "wins": 61,
-      "total": 121,
-      "pct": 50.4,
-      "rango_lo": 41.6,
-      "rango_hi": 59.2
     },
     {
       "nombre": "EURCHF_otc | 1min",
@@ -285,6 +285,16 @@
   ],
   "recientes": [
     {
+      "id": 3415,
+      "asset": "QARCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-19T16:08:00+00:00",
+      "entry_price": 1.901233,
+      "exit_price": 1.901184,
+      "resultado": "GANADA"
+    },
+    {
       "id": 3414,
       "asset": "QARCNY_otc",
       "direction": "PUT",
@@ -472,16 +482,6 @@
       "hora": "2026-08-19T14:38:00+00:00",
       "entry_price": 1.901636,
       "exit_price": 1.901713,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 3395,
-      "asset": "QARCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-19T14:28:00+00:00",
-      "entry_price": 1.901755,
-      "exit_price": 1.901723,
       "resultado": "GANADA"
     }
   ]
