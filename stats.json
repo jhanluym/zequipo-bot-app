@@ -1,26 +1,26 @@
 {
-  "actualizado": "2026-08-19T05:39:38.083078+00:00",
+  "actualizado": "2026-08-19T05:40:13.239039+00:00",
   "lectura_actual": {
     "par": "QARCNY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 3,
-    "votos_put": 0,
+    "votos_call": 4,
+    "votos_put": 1,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": null,
+      "BOLLINGER": "CALL",
       "MACD": null,
       "ESTOCASTICO": "CALL",
-      "CRUCE_EMA": null,
+      "CRUCE_EMA": "PUT",
       "WILLIAMS_R": "CALL",
       "CCI": "CALL"
     },
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 3260,
+  "total": 3261,
   "wins": 1658,
-  "pct": 50.9,
+  "pct": 50.8,
   "rango_lo": 49.1,
   "rango_hi": 52.6,
   "empates": 31,
@@ -219,7 +219,7 @@
       "rango_hi": 76.9
     },
     {
-      "nombre": "AUDCAD | 1min",
+      "nombre": "QARCNY_otc | 1min",
       "wins": 1,
       "total": 3,
       "pct": 33.3,
@@ -227,12 +227,12 @@
       "rango_hi": 79.2
     },
     {
-      "nombre": "QARCNY_otc | 1min",
+      "nombre": "AUDCAD | 1min",
       "wins": 1,
-      "total": 2,
-      "pct": 50.0,
-      "rango_lo": 9.5,
-      "rango_hi": 90.5
+      "total": 3,
+      "pct": 33.3,
+      "rango_lo": 6.1,
+      "rango_hi": 79.2
     },
     {
       "nombre": "USDDZD_otc | 5min",
@@ -284,6 +284,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3295,
+      "asset": "QARCNY_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-19T05:39:00+00:00",
+      "entry_price": 1.900932,
+      "exit_price": 1.900887,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 3294,
       "asset": "QARCNY_otc",
@@ -473,16 +483,6 @@
       "entry_price": 0.63411,
       "exit_price": 0.63386,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 3275,
-      "asset": "AUDUSD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-19T03:04:00+00:00",
-      "entry_price": 0.63454,
-      "exit_price": 0.63462,
-      "resultado": "GANADA"
     }
   ]
 }
