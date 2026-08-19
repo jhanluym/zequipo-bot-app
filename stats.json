@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-19T11:29:43.540784+00:00",
+  "actualizado": "2026-08-19T11:30:19.881730+00:00",
   "lectura_actual": {
     "par": "QARCNY_otc",
     "sin_datos_suficientes": false,
@@ -18,7 +18,7 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 3324,
+  "total": 3325,
   "wins": 1692,
   "pct": 50.9,
   "rango_lo": 49.2,
@@ -115,20 +115,20 @@
       "rango_hi": 55.9
     },
     {
+      "nombre": "QARCNY_otc | 1min",
+      "wins": 35,
+      "total": 67,
+      "pct": 52.2,
+      "rango_lo": 40.5,
+      "rango_hi": 63.7
+    },
+    {
       "nombre": "JODCNY_otc | 1min",
       "wins": 44,
       "total": 67,
       "pct": 65.7,
       "rango_lo": 53.7,
       "rango_hi": 75.9
-    },
-    {
-      "nombre": "QARCNY_otc | 1min",
-      "wins": 35,
-      "total": 66,
-      "pct": 53.0,
-      "rango_lo": 41.2,
-      "rango_hi": 64.6
     },
     {
       "nombre": "EURHUF_otc | 1min",
@@ -284,6 +284,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3359,
+      "asset": "QARCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-19T11:29:00+00:00",
+      "entry_price": 1.901564,
+      "exit_price": 1.901628,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 3358,
       "asset": "QARCNY_otc",
@@ -472,16 +482,6 @@
       "hora": "2026-08-19T10:04:00+00:00",
       "entry_price": 1.901579,
       "exit_price": 1.90153,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 3339,
-      "asset": "QARCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-19T10:01:00+00:00",
-      "entry_price": 1.901549,
-      "exit_price": 1.901532,
       "resultado": "GANADA"
     }
   ]
