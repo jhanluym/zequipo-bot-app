@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-19T06:43:47.901079+00:00",
+  "actualizado": "2026-08-19T06:44:23.437083+00:00",
   "lectura_actual": {
     "par": "QARCNY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 1,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
+      "WILLIAMS_R": null,
       "CCI": "PUT"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 3273,
-  "wins": 1662,
+  "total": 3274,
+  "wins": 1663,
   "pct": 50.8,
   "rango_lo": 49.1,
   "rango_hi": 52.5,
@@ -179,20 +179,20 @@
       "rango_hi": 79.7
     },
     {
+      "nombre": "QARCNY_otc | 1min",
+      "wins": 6,
+      "total": 16,
+      "pct": 37.5,
+      "rango_lo": 18.5,
+      "rango_hi": 61.4
+    },
+    {
       "nombre": "EURUSD_otc | 5min",
       "wins": 11,
       "total": 16,
       "pct": 68.8,
       "rango_lo": 44.4,
       "rango_hi": 85.8
-    },
-    {
-      "nombre": "QARCNY_otc | 1min",
-      "wins": 5,
-      "total": 15,
-      "pct": 33.3,
-      "rango_lo": 15.2,
-      "rango_hi": 58.3
     },
     {
       "nombre": "USDDZD_otc | 1min",
@@ -284,6 +284,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3308,
+      "asset": "QARCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-19T06:43:00+00:00",
+      "entry_price": 1.901615,
+      "exit_price": 1.901567,
+      "resultado": "GANADA"
+    },
     {
       "id": 3307,
       "asset": "QARCNY_otc",
@@ -473,16 +483,6 @@
       "entry_price": 0.6362,
       "exit_price": 0.6364,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 3288,
-      "asset": "AUDUSD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-19T04:25:00+00:00",
-      "entry_price": 0.63571,
-      "exit_price": 0.63525,
-      "resultado": "GANADA"
     }
   ]
 }
