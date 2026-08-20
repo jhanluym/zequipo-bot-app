@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-20T18:49:58.292672+00:00",
+  "actualizado": "2026-08-20T18:50:34.561024+00:00",
   "lectura_actual": {
     "par": "QARCNY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
-      "CCI": "PUT"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 3623,
-  "wins": 1841,
+  "total": 3624,
+  "wins": 1842,
   "pct": 50.8,
   "rango_lo": 49.2,
-  "rango_hi": 52.4,
+  "rango_hi": 52.5,
   "empates": 34,
   "sin_datos": 4,
   "combos": [
@@ -44,11 +44,11 @@
     },
     {
       "nombre": "QARCNY_otc | 1min",
-      "wins": 184,
-      "total": 365,
-      "pct": 50.4,
-      "rango_lo": 45.3,
-      "rango_hi": 55.5
+      "wins": 185,
+      "total": 366,
+      "pct": 50.5,
+      "rango_lo": 45.4,
+      "rango_hi": 55.6
     },
     {
       "nombre": "AUDUSD_otc | 1min",
@@ -285,6 +285,16 @@
   ],
   "recientes": [
     {
+      "id": 3662,
+      "asset": "QARCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-20T18:49:00+00:00",
+      "entry_price": 1.899917,
+      "exit_price": 1.899815,
+      "resultado": "GANADA"
+    },
+    {
       "id": 3661,
       "asset": "QARCNY_otc",
       "direction": "PUT",
@@ -472,16 +482,6 @@
       "hora": "2026-08-20T16:44:00+00:00",
       "entry_price": 1.900057,
       "exit_price": 1.900086,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 3642,
-      "asset": "QARCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-20T16:41:00+00:00",
-      "entry_price": 1.900064,
-      "exit_price": 1.900105,
       "resultado": "PERDIDA"
     }
   ]
