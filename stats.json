@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-20T15:31:47.199558+00:00",
+  "actualizado": "2026-08-20T15:32:22.870223+00:00",
   "lectura_actual": {
     "par": "QARCNY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 1,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": "CALL",
+      "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
+      "WILLIAMS_R": null,
       "CCI": "CALL"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 3591,
-  "wins": 1825,
+  "total": 3592,
+  "wins": 1826,
   "pct": 50.8,
   "rango_lo": 49.2,
   "rango_hi": 52.5,
@@ -43,20 +43,20 @@
       "rango_hi": 54.1
     },
     {
+      "nombre": "QARCNY_otc | 1min",
+      "wins": 169,
+      "total": 334,
+      "pct": 50.6,
+      "rango_lo": 45.3,
+      "rango_hi": 55.9
+    },
+    {
       "nombre": "AUDUSD_otc | 1min",
       "wins": 167,
       "total": 334,
       "pct": 50.0,
       "rango_lo": 44.7,
       "rango_hi": 55.3
-    },
-    {
-      "nombre": "QARCNY_otc | 1min",
-      "wins": 168,
-      "total": 333,
-      "pct": 50.5,
-      "rango_lo": 45.1,
-      "rango_hi": 55.8
     },
     {
       "nombre": "USDJPY_otc | 1min",
@@ -285,6 +285,16 @@
   ],
   "recientes": [
     {
+      "id": 3630,
+      "asset": "QARCNY_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-20T15:31:00+00:00",
+      "entry_price": 1.899476,
+      "exit_price": 1.899558,
+      "resultado": "GANADA"
+    },
+    {
       "id": 3629,
       "asset": "QARCNY_otc",
       "direction": "PUT",
@@ -472,16 +482,6 @@
       "hora": "2026-08-20T13:31:00+00:00",
       "entry_price": 1.899676,
       "exit_price": 1.899659,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 3610,
-      "asset": "QARCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-20T13:27:00+00:00",
-      "entry_price": 1.899782,
-      "exit_price": 1.899742,
       "resultado": "PERDIDA"
     }
   ]
