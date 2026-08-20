@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-20T15:14:25.389520+00:00",
+  "actualizado": "2026-08-20T15:15:02.022838+00:00",
   "lectura_actual": {
     "par": "QARCNY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
-      "CCI": "PUT"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 3588,
-  "wins": 1824,
+  "total": 3589,
+  "wins": 1825,
   "pct": 50.8,
   "rango_lo": 49.2,
   "rango_hi": 52.5,
@@ -52,11 +52,11 @@
     },
     {
       "nombre": "QARCNY_otc | 1min",
-      "wins": 167,
-      "total": 330,
-      "pct": 50.6,
-      "rango_lo": 45.2,
-      "rango_hi": 56.0
+      "wins": 168,
+      "total": 331,
+      "pct": 50.8,
+      "rango_lo": 45.4,
+      "rango_hi": 56.1
     },
     {
       "nombre": "USDJPY_otc | 1min",
@@ -285,6 +285,16 @@
   ],
   "recientes": [
     {
+      "id": 3626,
+      "asset": "QARCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-20T15:14:00+00:00",
+      "entry_price": 1.899595,
+      "exit_price": 1.899593,
+      "resultado": "GANADA"
+    },
+    {
       "id": 3625,
       "asset": "QARCNY_otc",
       "direction": "PUT",
@@ -473,16 +483,6 @@
       "entry_price": 1.899893,
       "exit_price": 1.899896,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 3606,
-      "asset": "QARCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-20T13:00:00+00:00",
-      "entry_price": 1.89988,
-      "exit_price": 1.899878,
-      "resultado": "GANADA"
     }
   ]
 }
