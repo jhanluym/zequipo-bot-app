@@ -1,13 +1,13 @@
 {
-  "actualizado": "2026-08-20T02:06:49.368169+00:00",
+  "actualizado": "2026-08-20T02:07:24.780816+00:00",
   "lectura_actual": {
     "par": "QARCNY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 2,
+    "votos_put": 1,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "PUT",
+      "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": null,
