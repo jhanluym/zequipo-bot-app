@@ -1,18 +1,18 @@
 {
-  "actualizado": "2026-08-20T19:54:31.733841+00:00",
+  "actualizado": "2026-08-20T19:55:06.547607+00:00",
   "lectura_actual": {
     "par": "QARCNY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 3,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": "CALL",
       "BOLLINGER": null,
-      "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "MACD": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
+      "WILLIAMS_R": null,
       "CCI": "CALL"
     },
     "hay_senal_activa": true,
