@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-21T00:33:38.050812+00:00",
+  "actualizado": "2026-08-21T00:34:13.994252+00:00",
   "lectura_actual": {
     "par": "QARCNY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 4,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "PUT",
+      "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
-      "CCI": "PUT"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 3675,
-  "wins": 1868,
+  "total": 3676,
+  "wins": 1869,
   "pct": 50.8,
   "rango_lo": 49.2,
-  "rango_hi": 52.4,
+  "rango_hi": 52.5,
   "empates": 34,
   "sin_datos": 4,
   "combos": [
@@ -44,11 +44,11 @@
     },
     {
       "nombre": "QARCNY_otc | 1min",
-      "wins": 211,
-      "total": 417,
-      "pct": 50.6,
-      "rango_lo": 45.8,
-      "rango_hi": 55.4
+      "wins": 212,
+      "total": 418,
+      "pct": 50.7,
+      "rango_lo": 45.9,
+      "rango_hi": 55.5
     },
     {
       "nombre": "AUDUSD_otc | 1min",
@@ -285,6 +285,16 @@
   ],
   "recientes": [
     {
+      "id": 3714,
+      "asset": "QARCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-21T00:33:00+00:00",
+      "entry_price": 1.899336,
+      "exit_price": 1.899266,
+      "resultado": "GANADA"
+    },
+    {
       "id": 3713,
       "asset": "QARCNY_otc",
       "direction": "PUT",
@@ -472,16 +482,6 @@
       "hora": "2026-08-20T22:20:00+00:00",
       "entry_price": 1.899306,
       "exit_price": 1.899345,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 3694,
-      "asset": "QARCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-20T22:17:00+00:00",
-      "entry_price": 1.899288,
-      "exit_price": 1.899308,
       "resultado": "PERDIDA"
     }
   ]
