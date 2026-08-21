@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-21T11:00:45.468205+00:00",
+  "actualizado": "2026-08-21T11:01:21.206461+00:00",
   "lectura_actual": {
     "par": "USDIDR_otc",
     "sin_datos_suficientes": false,
@@ -18,11 +18,11 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 3775,
-  "wins": 1912,
-  "pct": 50.6,
+  "total": 3776,
+  "wins": 1913,
+  "pct": 50.7,
   "rango_lo": 49.1,
-  "rango_hi": 52.2,
+  "rango_hi": 52.3,
   "empates": 36,
   "sin_datos": 4,
   "combos": [
@@ -115,20 +115,20 @@
       "rango_hi": 66.4
     },
     {
+      "nombre": "USDIDR_otc | 1min",
+      "wins": 34,
+      "total": 72,
+      "pct": 47.2,
+      "rango_lo": 36.1,
+      "rango_hi": 58.6
+    },
+    {
       "nombre": "AUDCHF_otc | 1min",
       "wins": 32,
       "total": 72,
       "pct": 44.4,
       "rango_lo": 33.5,
       "rango_hi": 55.9
-    },
-    {
-      "nombre": "USDIDR_otc | 1min",
-      "wins": 33,
-      "total": 71,
-      "pct": 46.5,
-      "rango_lo": 35.4,
-      "rango_hi": 58.0
     },
     {
       "nombre": "JODCNY_otc | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3816,
+      "asset": "USDIDR_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-21T11:00:00+00:00",
+      "entry_price": 16884.4,
+      "exit_price": 16885.8,
+      "resultado": "GANADA"
+    },
     {
       "id": 3815,
       "asset": "USDIDR_otc",
@@ -481,16 +491,6 @@
       "entry_price": 16872.2,
       "exit_price": 16864.4,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 3796,
-      "asset": "USDIDR_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-21T09:10:00+00:00",
-      "entry_price": 16872.2,
-      "exit_price": 16874.1,
-      "resultado": "GANADA"
     }
   ]
 }
