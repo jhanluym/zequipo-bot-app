@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-21T07:14:53.853147+00:00",
+  "actualizado": "2026-08-21T07:15:29.603121+00:00",
   "lectura_actual": {
     "par": "USDIDR_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 1,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
+      "WILLIAMS_R": null,
       "CCI": "PUT"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 3734,
-  "wins": 1894,
+  "total": 3735,
+  "wins": 1895,
   "pct": 50.7,
   "rango_lo": 49.1,
   "rango_hi": 52.3,
@@ -155,20 +155,20 @@
       "rango_hi": 68.5
     },
     {
+      "nombre": "USDIDR_otc | 1min",
+      "wins": 16,
+      "total": 31,
+      "pct": 51.6,
+      "rango_lo": 34.8,
+      "rango_hi": 68.0
+    },
+    {
       "nombre": "CHFNOK_otc | 1min",
       "wins": 9,
       "total": 31,
       "pct": 29.0,
       "rango_lo": 16.1,
       "rango_hi": 46.6
-    },
-    {
-      "nombre": "USDIDR_otc | 1min",
-      "wins": 15,
-      "total": 30,
-      "pct": 50.0,
-      "rango_lo": 33.2,
-      "rango_hi": 66.8
     },
     {
       "nombre": "KESUSD_otc | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3775,
+      "asset": "USDIDR_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-21T07:14:00+00:00",
+      "entry_price": 16899.6,
+      "exit_price": 16897.5,
+      "resultado": "GANADA"
+    },
     {
       "id": 3774,
       "asset": "USDIDR_otc",
@@ -480,16 +490,6 @@
       "hora": "2026-08-21T05:09:00+00:00",
       "entry_price": 16865.0,
       "exit_price": 16864.1,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 3755,
-      "asset": "USDIDR_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-21T04:59:00+00:00",
-      "entry_price": 16859.9,
-      "exit_price": 16854.0,
       "resultado": "GANADA"
     }
   ]
