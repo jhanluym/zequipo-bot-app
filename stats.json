@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-21T16:18:56.807657+00:00",
+  "actualizado": "2026-08-21T16:19:36.251235+00:00",
   "lectura_actual": {
     "par": "USDIDR_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 1,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": "CALL",
+      "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
+      "WILLIAMS_R": null,
       "CCI": "CALL"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 3823,
-  "wins": 1933,
+  "total": 3824,
+  "wins": 1934,
   "pct": 50.6,
   "rango_lo": 49.0,
-  "rango_hi": 52.1,
+  "rango_hi": 52.2,
   "empates": 37,
   "sin_datos": 4,
   "combos": [
@@ -92,11 +92,11 @@
     },
     {
       "nombre": "USDIDR_otc | 1min",
-      "wins": 54,
-      "total": 119,
-      "pct": 45.4,
-      "rango_lo": 36.7,
-      "rango_hi": 54.3
+      "wins": 55,
+      "total": 120,
+      "pct": 45.8,
+      "rango_lo": 37.2,
+      "rango_hi": 54.7
     },
     {
       "nombre": "EURCHF_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 3865,
+      "asset": "USDIDR_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-21T16:18:00+00:00",
+      "entry_price": 16849.2,
+      "exit_price": 16853.4,
+      "resultado": "GANADA"
+    },
+    {
       "id": 3864,
       "asset": "USDIDR_otc",
       "direction": "PUT",
@@ -481,16 +491,6 @@
       "entry_price": 16892.8,
       "exit_price": 16892.7,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 3845,
-      "asset": "USDIDR_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-21T13:55:00+00:00",
-      "entry_price": 16892.6,
-      "exit_price": 16902.5,
-      "resultado": "GANADA"
     }
   ]
 }
