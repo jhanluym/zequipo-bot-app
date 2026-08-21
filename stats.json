@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-21T17:11:25.667768+00:00",
+  "actualizado": "2026-08-21T17:12:01.905273+00:00",
   "lectura_actual": {
     "par": "USDIDR_otc",
     "sin_datos_suficientes": false,
@@ -18,10 +18,10 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 3831,
+  "total": 3832,
   "wins": 1936,
   "pct": 50.5,
-  "rango_lo": 49.0,
+  "rango_lo": 48.9,
   "rango_hi": 52.1,
   "empates": 37,
   "sin_datos": 4,
@@ -85,10 +85,10 @@
     {
       "nombre": "USDIDR_otc | 1min",
       "wins": 57,
-      "total": 127,
-      "pct": 44.9,
-      "rango_lo": 36.5,
-      "rango_hi": 53.6
+      "total": 128,
+      "pct": 44.5,
+      "rango_lo": 36.2,
+      "rango_hi": 53.2
     },
     {
       "nombre": "MADUSD_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 3873,
+      "asset": "USDIDR_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-21T17:11:00+00:00",
+      "entry_price": 16873.6,
+      "exit_price": 16867.2,
+      "resultado": "PERDIDA"
+    },
+    {
       "id": 3872,
       "asset": "USDIDR_otc",
       "direction": "PUT",
@@ -481,16 +491,6 @@
       "entry_price": 16898.0,
       "exit_price": 16895.4,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 3853,
-      "asset": "USDIDR_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-21T14:49:00+00:00",
-      "entry_price": 16916.4,
-      "exit_price": 16914.4,
-      "resultado": "GANADA"
     }
   ]
 }
