@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-21T18:32:37.208564+00:00",
+  "actualizado": "2026-08-21T18:33:12.643160+00:00",
   "lectura_actual": {
     "par": "USDIDR_otc",
     "sin_datos_suficientes": false,
@@ -18,7 +18,7 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 3844,
+  "total": 3845,
   "wins": 1943,
   "pct": 50.5,
   "rango_lo": 49.0,
@@ -77,10 +77,10 @@
     {
       "nombre": "USDIDR_otc | 1min",
       "wins": 64,
-      "total": 140,
-      "pct": 45.7,
-      "rango_lo": 37.7,
-      "rango_hi": 54.0
+      "total": 141,
+      "pct": 45.4,
+      "rango_lo": 37.4,
+      "rango_hi": 53.6
     },
     {
       "nombre": "AUDNZD_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 3887,
+      "asset": "USDIDR_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-21T18:32:00+00:00",
+      "entry_price": 16818.3,
+      "exit_price": 16812.7,
+      "resultado": "PERDIDA"
+    },
+    {
       "id": 3886,
       "asset": "USDIDR_otc",
       "direction": "CALL",
@@ -480,16 +490,6 @@
       "hora": "2026-08-21T16:42:00+00:00",
       "entry_price": 16864.1,
       "exit_price": 16870.4,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 3867,
-      "asset": "USDIDR_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-21T16:37:00+00:00",
-      "entry_price": 16852.1,
-      "exit_price": 16853.2,
       "resultado": "PERDIDA"
     }
   ]
