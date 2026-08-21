@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-08-21T12:52:39.676161+00:00",
+  "actualizado": "2026-08-21T12:53:15.619697+00:00",
   "lectura_actual": {
     "par": "USDIDR_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 4,
+    "votos_put": 5,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": "PUT",
-      "BOLLINGER": null,
+      "BOLLINGER": "PUT",
       "MACD": null,
       "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
@@ -18,7 +18,7 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 3791,
+  "total": 3792,
   "wins": 1919,
   "pct": 50.6,
   "rango_lo": 49.0,
@@ -101,10 +101,10 @@
     {
       "nombre": "USDIDR_otc | 1min",
       "wins": 40,
-      "total": 87,
-      "pct": 46.0,
-      "rango_lo": 35.9,
-      "rango_hi": 56.4
+      "total": 88,
+      "pct": 45.5,
+      "rango_lo": 35.5,
+      "rango_hi": 55.8
     },
     {
       "nombre": "EURNZD_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 3832,
+      "asset": "USDIDR_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-21T12:52:00+00:00",
+      "entry_price": 16915.1,
+      "exit_price": 16924.0,
+      "resultado": "PERDIDA"
+    },
+    {
       "id": 3831,
       "asset": "USDIDR_otc",
       "direction": "PUT",
@@ -480,16 +490,6 @@
       "hora": "2026-08-21T10:45:00+00:00",
       "entry_price": 16913.0,
       "exit_price": 16914.1,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 3812,
-      "asset": "USDIDR_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-21T10:42:00+00:00",
-      "entry_price": 16917.1,
-      "exit_price": 16919.6,
       "resultado": "PERDIDA"
     }
   ]
