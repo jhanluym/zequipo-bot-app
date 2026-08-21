@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-21T17:46:40.928560+00:00",
+  "actualizado": "2026-08-21T17:47:17.030302+00:00",
   "lectura_actual": {
     "par": "USDIDR_otc",
     "sin_datos_suficientes": false,
@@ -23,7 +23,7 @@
   "pct": 50.5,
   "rango_lo": 48.9,
   "rango_hi": 52.1,
-  "empates": 37,
+  "empates": 38,
   "sin_datos": 4,
   "combos": [
     {
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 3880,
+      "asset": "USDIDR_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-21T17:46:00+00:00",
+      "entry_price": 16862.7,
+      "exit_price": 16862.7,
+      "resultado": "EMPATE"
+    },
+    {
       "id": 3879,
       "asset": "USDIDR_otc",
       "direction": "PUT",
@@ -480,16 +490,6 @@
       "hora": "2026-08-21T15:46:00+00:00",
       "entry_price": 16858.3,
       "exit_price": 16855.5,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 3860,
-      "asset": "USDIDR_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-21T15:43:00+00:00",
-      "entry_price": 16866.1,
-      "exit_price": 16862.5,
       "resultado": "PERDIDA"
     }
   ]
