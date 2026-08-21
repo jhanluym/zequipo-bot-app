@@ -1,24 +1,24 @@
 {
-  "actualizado": "2026-08-21T06:23:32.912805+00:00",
+  "actualizado": "2026-08-21T06:24:08.719398+00:00",
   "lectura_actual": {
     "par": "USDIDR_otc",
     "sin_datos_suficientes": false,
     "votos_call": 1,
-    "votos_put": 1,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": null,
-      "CRUCE_EMA": "PUT",
+      "CRUCE_EMA": null,
       "WILLIAMS_R": null,
       "CCI": "CALL"
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 3729,
+  "total": 3730,
   "wins": 1891,
   "pct": 50.7,
   "rango_lo": 49.1,
@@ -173,10 +173,10 @@
     {
       "nombre": "USDIDR_otc | 1min",
       "wins": 12,
-      "total": 25,
-      "pct": 48.0,
-      "rango_lo": 30.0,
-      "rango_hi": 66.5
+      "total": 26,
+      "pct": 46.2,
+      "rango_lo": 28.8,
+      "rango_hi": 64.5
     },
     {
       "nombre": "NGNUSD_otc | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3769,
+      "asset": "USDIDR_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-21T06:23:00+00:00",
+      "entry_price": 16880.6,
+      "exit_price": 16880.2,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 3768,
       "asset": "USDIDR_otc",
@@ -481,16 +491,6 @@
       "entry_price": 16844.4,
       "exit_price": 16851.3,
       "resultado": "GANADA"
-    },
-    {
-      "id": 3749,
-      "asset": "USDIDR_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-21T04:20:00+00:00",
-      "entry_price": 16856.2,
-      "exit_price": 16848.1,
-      "resultado": "PERDIDA"
     }
   ]
 }
