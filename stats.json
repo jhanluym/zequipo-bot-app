@@ -1,24 +1,24 @@
 {
-  "actualizado": "2026-08-21T04:20:58.873724+00:00",
+  "actualizado": "2026-08-21T04:21:33.970958+00:00",
   "lectura_actual": {
     "par": "USDIDR_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 2,
+    "votos_call": 4,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": null,
+      "RSI": "CALL",
       "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
       "WILLIAMS_R": "CALL",
-      "CCI": null
+      "CCI": "CALL"
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "CALL"
   },
-  "total": 3709,
+  "total": 3710,
   "wins": 1881,
   "pct": 50.7,
   "rango_lo": 49.1,
@@ -211,7 +211,7 @@
       "rango_hi": 76.8
     },
     {
-      "nombre": "CADCHF_otc | 1min",
+      "nombre": "USDIDR_otc | 1min",
       "wins": 2,
       "total": 6,
       "pct": 33.3,
@@ -219,12 +219,12 @@
       "rango_hi": 70.0
     },
     {
-      "nombre": "USDIDR_otc | 1min",
+      "nombre": "CADCHF_otc | 1min",
       "wins": 2,
-      "total": 5,
-      "pct": 40.0,
-      "rango_lo": 11.8,
-      "rango_hi": 76.9
+      "total": 6,
+      "pct": 33.3,
+      "rango_lo": 9.7,
+      "rango_hi": 70.0
     },
     {
       "nombre": "CADJPY | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3749,
+      "asset": "USDIDR_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-21T04:20:00+00:00",
+      "entry_price": 16856.2,
+      "exit_price": 16848.1,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 3748,
       "asset": "USDIDR_otc",
@@ -481,16 +491,6 @@
       "entry_price": 1.899604,
       "exit_price": 1.899611,
       "resultado": "GANADA"
-    },
-    {
-      "id": 3729,
-      "asset": "QARCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-21T01:57:00+00:00",
-      "entry_price": 1.899712,
-      "exit_price": 1.899649,
-      "resultado": "PERDIDA"
     }
   ]
 }
