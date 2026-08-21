@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-21T08:47:28.285013+00:00",
+  "actualizado": "2026-08-21T08:48:03.590953+00:00",
   "lectura_actual": {
     "par": "USDIDR_otc",
     "sin_datos_suficientes": false,
@@ -18,11 +18,11 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 3749,
+  "total": 3750,
   "wins": 1903,
-  "pct": 50.8,
-  "rango_lo": 49.2,
-  "rango_hi": 52.4,
+  "pct": 50.7,
+  "rango_lo": 49.1,
+  "rango_hi": 52.3,
   "empates": 36,
   "sin_datos": 4,
   "combos": [
@@ -149,10 +149,10 @@
     {
       "nombre": "USDIDR_otc | 1min",
       "wins": 24,
-      "total": 45,
-      "pct": 53.3,
-      "rango_lo": 39.1,
-      "rango_hi": 67.1
+      "total": 46,
+      "pct": 52.2,
+      "rango_lo": 38.1,
+      "rango_hi": 65.9
     },
     {
       "nombre": "EURRUB_otc | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3790,
+      "asset": "USDIDR_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-21T08:47:00+00:00",
+      "entry_price": 16929.4,
+      "exit_price": 16927.3,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 3789,
       "asset": "USDIDR_otc",
@@ -480,16 +490,6 @@
       "hora": "2026-08-21T06:33:00+00:00",
       "entry_price": 16871.3,
       "exit_price": 16873.5,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 3770,
-      "asset": "USDIDR_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-21T06:28:00+00:00",
-      "entry_price": 16871.4,
-      "exit_price": 16877.0,
       "resultado": "GANADA"
     }
   ]
