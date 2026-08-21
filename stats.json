@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-21T15:40:47.742600+00:00",
+  "actualizado": "2026-08-21T15:41:24.027431+00:00",
   "lectura_actual": {
     "par": "USDIDR_otc",
     "sin_datos_suficientes": false,
@@ -18,7 +18,7 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 3817,
+  "total": 3818,
   "wins": 1931,
   "pct": 50.6,
   "rango_lo": 49.0,
@@ -93,10 +93,10 @@
     {
       "nombre": "USDIDR_otc | 1min",
       "wins": 52,
-      "total": 113,
-      "pct": 46.0,
-      "rango_lo": 37.1,
-      "rango_hi": 55.2
+      "total": 114,
+      "pct": 45.6,
+      "rango_lo": 36.8,
+      "rango_hi": 54.8
     },
     {
       "nombre": "EURCHF_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 3859,
+      "asset": "USDIDR_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-21T15:40:00+00:00",
+      "entry_price": 16874.7,
+      "exit_price": 16871.3,
+      "resultado": "PERDIDA"
+    },
+    {
       "id": 3858,
       "asset": "USDIDR_otc",
       "direction": "CALL",
@@ -480,16 +490,6 @@
       "hora": "2026-08-21T13:35:00+00:00",
       "entry_price": 16922.9,
       "exit_price": 16924.6,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 3839,
-      "asset": "USDIDR_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-21T13:23:00+00:00",
-      "entry_price": 16936.2,
-      "exit_price": 16934.3,
       "resultado": "GANADA"
     }
   ]
