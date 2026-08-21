@@ -1,24 +1,24 @@
 {
-  "actualizado": "2026-08-21T10:15:28.283280+00:00",
+  "actualizado": "2026-08-21T10:16:03.469557+00:00",
   "lectura_actual": {
     "par": "USDIDR_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 1,
+    "votos_call": 3,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": null,
+      "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
+      "WILLIAMS_R": "CALL",
       "CCI": "CALL"
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "CALL"
   },
-  "total": 3765,
+  "total": 3766,
   "wins": 1910,
   "pct": 50.7,
   "rango_lo": 49.1,
@@ -131,20 +131,20 @@
       "rango_hi": 75.9
     },
     {
+      "nombre": "USDIDR_otc | 1min",
+      "wins": 31,
+      "total": 62,
+      "pct": 50.0,
+      "rango_lo": 37.9,
+      "rango_hi": 62.1
+    },
+    {
       "nombre": "EURHUF_otc | 1min",
       "wins": 38,
       "total": 62,
       "pct": 61.3,
       "rango_lo": 48.8,
       "rango_hi": 72.4
-    },
-    {
-      "nombre": "USDIDR_otc | 1min",
-      "wins": 31,
-      "total": 61,
-      "pct": 50.8,
-      "rango_lo": 38.6,
-      "rango_hi": 62.9
     },
     {
       "nombre": "EURJPY_otc | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3806,
+      "asset": "USDIDR_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-21T10:15:00+00:00",
+      "entry_price": 16873.7,
+      "exit_price": 16871.5,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 3805,
       "asset": "USDIDR_otc",
@@ -480,16 +490,6 @@
       "hora": "2026-08-21T08:23:00+00:00",
       "entry_price": 16930.7,
       "exit_price": 16943.9,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 3786,
-      "asset": "USDIDR_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-21T08:12:00+00:00",
-      "entry_price": 16934.7,
-      "exit_price": 16931.3,
       "resultado": "GANADA"
     }
   ]
