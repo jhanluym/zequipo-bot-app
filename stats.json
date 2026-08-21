@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-21T06:53:51.410149+00:00",
+  "actualizado": "2026-08-21T06:54:27.013799+00:00",
   "lectura_actual": {
     "par": "USDIDR_otc",
     "sin_datos_suficientes": false,
@@ -18,8 +18,8 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 3732,
-  "wins": 1893,
+  "total": 3733,
+  "wins": 1894,
   "pct": 50.7,
   "rango_lo": 49.1,
   "rango_hi": 52.3,
@@ -164,11 +164,11 @@
     },
     {
       "nombre": "USDIDR_otc | 1min",
-      "wins": 14,
-      "total": 28,
-      "pct": 50.0,
-      "rango_lo": 32.6,
-      "rango_hi": 67.4
+      "wins": 15,
+      "total": 29,
+      "pct": 51.7,
+      "rango_lo": 34.4,
+      "rango_hi": 68.6
     },
     {
       "nombre": "KESUSD_otc | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3772,
+      "asset": "USDIDR_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-21T06:53:00+00:00",
+      "entry_price": 16898.6,
+      "exit_price": 16893.8,
+      "resultado": "GANADA"
+    },
     {
       "id": 3771,
       "asset": "USDIDR_otc",
@@ -480,16 +490,6 @@
       "hora": "2026-08-21T04:34:00+00:00",
       "entry_price": 16843.6,
       "exit_price": 16841.2,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 3752,
-      "asset": "USDIDR_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-21T04:31:00+00:00",
-      "entry_price": 16836.0,
-      "exit_price": 16832.8,
       "resultado": "PERDIDA"
     }
   ]
