@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-21T08:51:33.913443+00:00",
+  "actualizado": "2026-08-21T08:52:09.319041+00:00",
   "lectura_actual": {
     "par": "USDIDR_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 3,
+    "votos_call": 1,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
+      "WILLIAMS_R": null,
       "CCI": "CALL"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 3750,
-  "wins": 1903,
-  "pct": 50.7,
-  "rango_lo": 49.1,
-  "rango_hi": 52.3,
+  "total": 3751,
+  "wins": 1904,
+  "pct": 50.8,
+  "rango_lo": 49.2,
+  "rango_hi": 52.4,
   "empates": 36,
   "sin_datos": 4,
   "combos": [
@@ -148,11 +148,11 @@
     },
     {
       "nombre": "USDIDR_otc | 1min",
-      "wins": 24,
-      "total": 46,
-      "pct": 52.2,
-      "rango_lo": 38.1,
-      "rango_hi": 65.9
+      "wins": 25,
+      "total": 47,
+      "pct": 53.2,
+      "rango_lo": 39.2,
+      "rango_hi": 66.7
     },
     {
       "nombre": "EURRUB_otc | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3791,
+      "asset": "USDIDR_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-21T08:51:00+00:00",
+      "entry_price": 16923.1,
+      "exit_price": 16923.4,
+      "resultado": "GANADA"
+    },
     {
       "id": 3790,
       "asset": "USDIDR_otc",
@@ -480,16 +490,6 @@
       "hora": "2026-08-21T06:53:00+00:00",
       "entry_price": 16898.6,
       "exit_price": 16893.8,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 3771,
-      "asset": "USDIDR_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-21T06:33:00+00:00",
-      "entry_price": 16871.3,
-      "exit_price": 16873.5,
       "resultado": "GANADA"
     }
   ]
