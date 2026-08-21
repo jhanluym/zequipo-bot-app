@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-21T00:19:29.320376+00:00",
+  "actualizado": "2026-08-21T00:20:04.889876+00:00",
   "lectura_actual": {
     "par": "QARCNY_otc",
     "sin_datos_suficientes": false,
@@ -18,9 +18,9 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 3672,
-  "wins": 1867,
-  "pct": 50.8,
+  "total": 3673,
+  "wins": 1868,
+  "pct": 50.9,
   "rango_lo": 49.2,
   "rango_hi": 52.5,
   "empates": 34,
@@ -44,11 +44,11 @@
     },
     {
       "nombre": "QARCNY_otc | 1min",
-      "wins": 210,
-      "total": 414,
-      "pct": 50.7,
-      "rango_lo": 45.9,
-      "rango_hi": 55.5
+      "wins": 211,
+      "total": 415,
+      "pct": 50.8,
+      "rango_lo": 46.0,
+      "rango_hi": 55.6
     },
     {
       "nombre": "AUDUSD_otc | 1min",
@@ -285,6 +285,16 @@
   ],
   "recientes": [
     {
+      "id": 3711,
+      "asset": "QARCNY_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-21T00:19:00+00:00",
+      "entry_price": 1.899065,
+      "exit_price": 1.899064,
+      "resultado": "GANADA"
+    },
+    {
       "id": 3710,
       "asset": "QARCNY_otc",
       "direction": "CALL",
@@ -472,16 +482,6 @@
       "hora": "2026-08-20T22:01:00+00:00",
       "entry_price": 1.899106,
       "exit_price": 1.899142,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 3691,
-      "asset": "QARCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-20T21:51:00+00:00",
-      "entry_price": 1.899215,
-      "exit_price": 1.899151,
       "resultado": "GANADA"
     }
   ]
