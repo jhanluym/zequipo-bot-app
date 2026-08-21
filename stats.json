@@ -1,27 +1,27 @@
 {
-  "actualizado": "2026-08-21T11:40:57.310726+00:00",
+  "actualizado": "2026-08-21T11:41:33.239774+00:00",
   "lectura_actual": {
     "par": "USDIDR_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 0,
+    "votos_put": 2,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": null,
+      "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
+      "WILLIAMS_R": "PUT",
       "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 3781,
+  "total": 3782,
   "wins": 1915,
   "pct": 50.6,
-  "rango_lo": 49.1,
+  "rango_lo": 49.0,
   "rango_hi": 52.2,
   "empates": 36,
   "sin_datos": 4,
@@ -99,20 +99,20 @@
       "rango_hi": 64.4
     },
     {
+      "nombre": "USDIDR_otc | 1min",
+      "wins": 36,
+      "total": 78,
+      "pct": 46.2,
+      "rango_lo": 35.5,
+      "rango_hi": 57.1
+    },
+    {
       "nombre": "EURNZD_otc | 1min",
       "wins": 44,
       "total": 78,
       "pct": 56.4,
       "rango_lo": 45.4,
       "rango_hi": 66.9
-    },
-    {
-      "nombre": "USDIDR_otc | 1min",
-      "wins": 36,
-      "total": 77,
-      "pct": 46.8,
-      "rango_lo": 36.0,
-      "rango_hi": 57.8
     },
     {
       "nombre": "EURUSD | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3822,
+      "asset": "USDIDR_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-21T11:40:00+00:00",
+      "entry_price": 16897.3,
+      "exit_price": 16900.6,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 3821,
       "asset": "USDIDR_otc",
@@ -481,16 +491,6 @@
       "entry_price": 16889.3,
       "exit_price": 16890.4,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 3802,
-      "asset": "USDIDR_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-21T09:48:00+00:00",
-      "entry_price": 16885.2,
-      "exit_price": 16880.7,
-      "resultado": "GANADA"
     }
   ]
 }
