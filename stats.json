@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-21T05:23:27.992510+00:00",
+  "actualizado": "2026-08-21T05:24:03.252182+00:00",
   "lectura_actual": {
     "par": "USDIDR_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 2,
+    "votos_call": 0,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
+      "WILLIAMS_R": null,
       "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 3719,
-  "wins": 1885,
+  "total": 3720,
+  "wins": 1886,
   "pct": 50.7,
   "rango_lo": 49.1,
   "rango_hi": 52.3,
@@ -187,20 +187,20 @@
       "rango_hi": 79.7
     },
     {
+      "nombre": "USDIDR_otc | 1min",
+      "wins": 7,
+      "total": 16,
+      "pct": 43.8,
+      "rango_lo": 23.1,
+      "rango_hi": 66.8
+    },
+    {
       "nombre": "EURUSD_otc | 5min",
       "wins": 11,
       "total": 16,
       "pct": 68.8,
       "rango_lo": 44.4,
       "rango_hi": 85.8
-    },
-    {
-      "nombre": "USDIDR_otc | 1min",
-      "wins": 6,
-      "total": 15,
-      "pct": 40.0,
-      "rango_lo": 19.8,
-      "rango_hi": 64.3
     },
     {
       "nombre": "USDDZD_otc | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3759,
+      "asset": "USDIDR_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-21T05:23:00+00:00",
+      "entry_price": 16838.6,
+      "exit_price": 16846.3,
+      "resultado": "GANADA"
+    },
     {
       "id": 3758,
       "asset": "USDIDR_otc",
@@ -480,16 +490,6 @@
       "hora": "2026-08-21T02:54:00+00:00",
       "entry_price": 1.899238,
       "exit_price": 1.899215,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 3739,
-      "asset": "QARCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-21T02:51:00+00:00",
-      "entry_price": 1.899292,
-      "exit_price": 1.899268,
       "resultado": "PERDIDA"
     }
   ]
