@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-21T04:09:26.999008+00:00",
+  "actualizado": "2026-08-21T04:10:01.964490+00:00",
   "lectura_actual": {
     "par": "USDIDR_otc",
     "sin_datos_suficientes": false,
@@ -18,8 +18,8 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 3706,
-  "wins": 1880,
+  "total": 3707,
+  "wins": 1881,
   "pct": 50.7,
   "rango_lo": 49.1,
   "rango_hi": 52.3,
@@ -227,20 +227,20 @@
       "rango_hi": 76.9
     },
     {
+      "nombre": "USDIDR_otc | 1min",
+      "wins": 2,
+      "total": 3,
+      "pct": 66.7,
+      "rango_lo": 20.8,
+      "rango_hi": 93.9
+    },
+    {
       "nombre": "AUDCAD | 1min",
       "wins": 1,
       "total": 3,
       "pct": 33.3,
       "rango_lo": 6.1,
       "rango_hi": 79.2
-    },
-    {
-      "nombre": "USDIDR_otc | 1min",
-      "wins": 1,
-      "total": 2,
-      "pct": 50.0,
-      "rango_lo": 9.5,
-      "rango_hi": 90.5
     },
     {
       "nombre": "USDDZD_otc | 5min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3746,
+      "asset": "USDIDR_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-21T04:09:00+00:00",
+      "entry_price": 16895.2,
+      "exit_price": 16887.9,
+      "resultado": "GANADA"
+    },
     {
       "id": 3745,
       "asset": "USDIDR_otc",
@@ -481,16 +491,6 @@
       "entry_price": 1.899826,
       "exit_price": 1.899847,
       "resultado": "GANADA"
-    },
-    {
-      "id": 3726,
-      "asset": "QARCNY_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-21T01:45:00+00:00",
-      "entry_price": 1.899925,
-      "exit_price": 1.899893,
-      "resultado": "PERDIDA"
     }
   ]
 }
