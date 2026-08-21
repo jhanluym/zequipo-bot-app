@@ -1,15 +1,15 @@
 {
-  "actualizado": "2026-08-21T19:30:00.021392+00:00",
+  "actualizado": "2026-08-21T19:30:36.574394+00:00",
   "lectura_actual": {
     "par": "EURUSD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 0,
+    "votos_put": 1,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": null,
+      "MACD": "PUT",
       "ESTOCASTICO": null,
       "CRUCE_EMA": null,
       "WILLIAMS_R": null,
@@ -18,9 +18,9 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 3850,
-  "wins": 1946,
-  "pct": 50.5,
+  "total": 3851,
+  "wins": 1947,
+  "pct": 50.6,
   "rango_lo": 49.0,
   "rango_hi": 52.1,
   "empates": 38,
@@ -36,11 +36,11 @@
     },
     {
       "nombre": "EURUSD_otc | 1min",
-      "wins": 345,
-      "total": 685,
+      "wins": 346,
+      "total": 686,
       "pct": 50.4,
-      "rango_lo": 46.6,
-      "rango_hi": 54.1
+      "rango_lo": 46.7,
+      "rango_hi": 54.2
     },
     {
       "nombre": "QARCNY_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 3893,
+      "asset": "EURUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-21T19:29:00+00:00",
+      "entry_price": 1.24014,
+      "exit_price": 1.23994,
+      "resultado": "GANADA"
+    },
+    {
       "id": 3892,
       "asset": "EURUSD_otc",
       "direction": "PUT",
@@ -481,16 +491,6 @@
       "entry_price": 16856.5,
       "exit_price": 16860.3,
       "resultado": "GANADA"
-    },
-    {
-      "id": 3873,
-      "asset": "USDIDR_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-21T17:11:00+00:00",
-      "entry_price": 16873.6,
-      "exit_price": 16867.2,
-      "resultado": "PERDIDA"
     }
   ]
 }
