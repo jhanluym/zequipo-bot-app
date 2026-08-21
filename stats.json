@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-21T06:11:54.438986+00:00",
+  "actualizado": "2026-08-21T06:12:30.034293+00:00",
   "lectura_actual": {
     "par": "USDIDR_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "PUT",
+      "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
+      "WILLIAMS_R": null,
       "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 3728,
-  "wins": 1890,
+  "total": 3729,
+  "wins": 1891,
   "pct": 50.7,
   "rango_lo": 49.1,
   "rango_hi": 52.3,
@@ -171,7 +171,7 @@
       "rango_hi": 66.0
     },
     {
-      "nombre": "NGNUSD_otc | 1min",
+      "nombre": "USDIDR_otc | 1min",
       "wins": 12,
       "total": 25,
       "pct": 48.0,
@@ -179,12 +179,12 @@
       "rango_hi": 66.5
     },
     {
-      "nombre": "USDIDR_otc | 1min",
-      "wins": 11,
-      "total": 24,
-      "pct": 45.8,
-      "rango_lo": 27.9,
-      "rango_hi": 64.9
+      "nombre": "NGNUSD_otc | 1min",
+      "wins": 12,
+      "total": 25,
+      "pct": 48.0,
+      "rango_lo": 30.0,
+      "rango_hi": 66.5
     },
     {
       "nombre": "EURUSD_otc | 10min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 3768,
+      "asset": "USDIDR_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-21T06:11:00+00:00",
+      "entry_price": 16905.6,
+      "exit_price": 16899.0,
+      "resultado": "GANADA"
+    },
     {
       "id": 3767,
       "asset": "USDIDR_otc",
@@ -480,16 +490,6 @@
       "hora": "2026-08-21T04:20:00+00:00",
       "entry_price": 16856.2,
       "exit_price": 16848.1,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 3748,
-      "asset": "USDIDR_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-21T04:17:00+00:00",
-      "entry_price": 16865.4,
-      "exit_price": 16862.2,
       "resultado": "PERDIDA"
     }
   ]
