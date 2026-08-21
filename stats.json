@@ -1,15 +1,15 @@
 {
-  "actualizado": "2026-08-21T08:59:46.966507+00:00",
+  "actualizado": "2026-08-21T09:00:22.774535+00:00",
   "lectura_actual": {
     "par": "USDIDR_otc",
     "sin_datos_suficientes": false,
     "votos_call": 4,
-    "votos_put": 1,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": "CALL",
-      "MACD": "PUT",
+      "MACD": null,
       "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
       "WILLIAMS_R": "CALL",
