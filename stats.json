@@ -1,13 +1,13 @@
 {
-  "actualizado": "2026-08-22T05:23:30.941615+00:00",
+  "actualizado": "2026-08-22T05:24:47.824598+00:00",
   "lectura_actual": {
     "par": "EURUSD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 3,
+    "votos_call": 4,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": null,
+      "RSI": "CALL",
       "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "CALL",
