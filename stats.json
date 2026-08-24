@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-24T16:24:52.831664+00:00",
+  "actualizado": "2026-08-24T16:25:27.420464+00:00",
   "lectura_actual": {
     "par": "AUDCHF_otc",
     "sin_datos_suficientes": false,
@@ -9,8 +9,8 @@
     "detalle": {
       "RSI_INVERTIDO": null,
       "CONFLUENCIA": null,
-      "BOLLINGER_VOLATIL": null,
-      "RSI_CRUCE": "CALL",
+      "BOLLINGER_VOLATIL": "CALL",
+      "RSI_CRUCE": null,
       "VELA_ENVOLVENTE": null
     },
     "hay_senal_activa": false,
