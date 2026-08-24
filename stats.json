@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-24T19:38:40.744967+00:00",
+  "actualizado": "2026-08-24T19:39:16.288349+00:00",
   "lectura_actual": {
     "par": "AUDCHF_otc",
     "sin_datos_suficientes": false,
@@ -16,9 +16,9 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 4141,
-  "wins": 2089,
-  "pct": 50.4,
+  "total": 4142,
+  "wins": 2090,
+  "pct": 50.5,
   "rango_lo": 48.9,
   "rango_hi": 52.0,
   "empates": 42,
@@ -122,11 +122,11 @@
     },
     {
       "nombre": "AUDCHF_otc | 1min",
-      "wins": 32,
-      "total": 73,
-      "pct": 43.8,
-      "rango_lo": 33.0,
-      "rango_hi": 55.2
+      "wins": 33,
+      "total": 74,
+      "pct": 44.6,
+      "rango_lo": 33.8,
+      "rango_hi": 55.9
     },
     {
       "nombre": "JODCNY_otc | 1min",
@@ -290,6 +290,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 4190,
+      "asset": "AUDCHF_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-24T19:38:00+00:00",
+      "entry_price": 0.47617,
+      "exit_price": 0.47562,
+      "resultado": "GANADA"
+    },
     {
       "id": 4189,
       "asset": "AUDCHF_otc",
@@ -479,16 +489,6 @@
       "entry_price": 1.23508,
       "exit_price": 1.23482,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 4170,
-      "asset": "EURUSD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-22T23:44:00+00:00",
-      "entry_price": 1.23603,
-      "exit_price": 1.23572,
-      "resultado": "GANADA"
     }
   ]
 }
