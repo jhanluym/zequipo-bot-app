@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-08-24T21:49:31.160850+00:00",
+  "actualizado": "2026-08-24T21:50:06.074251+00:00",
   "lectura_actual": {
     "par": "AUDCHF_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 2,
+    "votos_call": 1,
     "votos_put": 2,
     "consenso_necesario": 2,
     "detalle": {
@@ -11,10 +11,10 @@
       "CONFLUENCIA": "PUT",
       "BOLLINGER_VOLATIL": "PUT",
       "RSI_CRUCE": null,
-      "VELA_ENVOLVENTE": "CALL"
+      "VELA_ENVOLVENTE": null
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "PUT"
   },
   "total": 4144,
   "wins": 2091,
