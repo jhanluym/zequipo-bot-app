@@ -1,6 +1,9 @@
 {
-  "actualizado": "2026-08-24T06:54:55.527105+00:00",
-  "lectura_actual": null,
+  "actualizado": "2026-08-24T06:55:25.808458+00:00",
+  "lectura_actual": {
+    "par": "EURUSD_otc",
+    "sin_datos_suficientes": true
+  },
   "total": 4135,
   "wins": 2087,
   "pct": 50.5,
