@@ -1,22 +1,22 @@
 {
-  "actualizado": "2026-08-25T13:20:55.143879+00:00",
+  "actualizado": "2026-08-25T13:21:31.636646+00:00",
   "lectura_actual": {
     "par": "AUDCHF_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 0,
+    "votos_call": 2,
     "votos_put": 1,
     "consenso_necesario": 2,
     "detalle": {
       "RSI_INVERTIDO": "PUT",
-      "CONFLUENCIA": null,
-      "BOLLINGER_VOLATIL": null,
+      "CONFLUENCIA": "CALL",
+      "BOLLINGER_VOLATIL": "CALL",
       "RSI_CRUCE": null,
       "VELA_ENVOLVENTE": null
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "CALL"
   },
-  "total": 4168,
+  "total": 4169,
   "wins": 2106,
   "pct": 50.5,
   "rango_lo": 49.0,
@@ -99,10 +99,10 @@
     {
       "nombre": "AUDCHF_otc | 1min",
       "wins": 49,
-      "total": 100,
-      "pct": 49.0,
-      "rango_lo": 39.4,
-      "rango_hi": 58.7
+      "total": 101,
+      "pct": 48.5,
+      "rango_lo": 39.0,
+      "rango_hi": 58.1
     },
     {
       "nombre": "EURCHF_otc | 1min",
@@ -291,6 +291,16 @@
   ],
   "recientes": [
     {
+      "id": 4217,
+      "asset": "AUDCHF_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-25T13:20:00+00:00",
+      "entry_price": 0.44627,
+      "exit_price": 0.44432,
+      "resultado": "PERDIDA"
+    },
+    {
       "id": 4216,
       "asset": "AUDCHF_otc",
       "direction": "CALL",
@@ -478,16 +488,6 @@
       "hora": "2026-08-25T01:16:00+00:00",
       "entry_price": 0.45681,
       "exit_price": 0.4566,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 4197,
-      "asset": "AUDCHF_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-25T00:46:00+00:00",
-      "entry_price": 0.45385,
-      "exit_price": 0.45433,
       "resultado": "GANADA"
     }
   ]
