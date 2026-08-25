@@ -1,16 +1,16 @@
 {
-  "actualizado": "2026-08-25T01:46:33.601589+00:00",
+  "actualizado": "2026-08-25T01:47:08.223357+00:00",
   "lectura_actual": {
     "par": "AUDCHF_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 1,
-    "votos_put": 0,
+    "votos_call": 0,
+    "votos_put": 1,
     "consenso_necesario": 2,
     "detalle": {
-      "RSI_INVERTIDO": "CALL",
+      "RSI_INVERTIDO": null,
       "CONFLUENCIA": null,
       "BOLLINGER_VOLATIL": null,
-      "RSI_CRUCE": null,
+      "RSI_CRUCE": "PUT",
       "VELA_ENVOLVENTE": null
     },
     "hay_senal_activa": false,
