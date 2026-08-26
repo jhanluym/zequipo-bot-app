@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-26T16:54:55.646852+00:00",
+  "actualizado": "2026-08-26T16:55:30.117949+00:00",
   "lectura_actual": {
     "par": "EURUSD_otc",
     "sin_datos_suficientes": false,
@@ -9,11 +9,11 @@
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": null,
+      "MACD": "CALL",
       "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
       "WILLIAMS_R": "CALL",
-      "CCI": "CALL"
+      "CCI": null
     },
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
