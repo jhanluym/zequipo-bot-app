@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-26T04:03:34.957819+00:00",
+  "actualizado": "2026-08-26T04:04:10.135406+00:00",
   "lectura_actual": {
     "par": "EURUSD_otc",
     "sin_datos_suficientes": false,
@@ -18,21 +18,21 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 4258,
+  "total": 4259,
   "wins": 2144,
-  "pct": 50.4,
-  "rango_lo": 48.9,
-  "rango_hi": 51.9,
+  "pct": 50.3,
+  "rango_lo": 48.8,
+  "rango_hi": 51.8,
   "empates": 45,
   "sin_datos": 7,
   "combos": [
     {
       "nombre": "EURUSD_otc | 1min",
       "wins": 525,
-      "total": 1059,
-      "pct": 49.6,
-      "rango_lo": 46.6,
-      "rango_hi": 52.6
+      "total": 1060,
+      "pct": 49.5,
+      "rango_lo": 46.5,
+      "rango_hi": 52.5
     },
     {
       "nombre": "AEDCNY_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 4311,
+      "asset": "EURUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-26T04:03:00+00:00",
+      "entry_price": 1.17955,
+      "exit_price": 1.17912,
+      "resultado": "PERDIDA"
+    },
+    {
       "id": 4310,
       "asset": "EURUSD_otc",
       "direction": "PUT",
@@ -480,16 +490,6 @@
       "hora": "2026-08-26T02:14:00+00:00",
       "entry_price": 1.1782,
       "exit_price": 1.17778,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 4291,
-      "asset": "EURUSD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-26T02:11:00+00:00",
-      "entry_price": 1.17847,
-      "exit_price": 1.17789,
       "resultado": "PERDIDA"
     }
   ]
