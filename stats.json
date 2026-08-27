@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-27T06:20:34.818698+00:00",
+  "actualizado": "2026-08-27T06:21:09.656899+00:00",
   "lectura_actual": {
     "par": "EURUSD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 0,
-    "votos_put": 1,
+    "votos_call": 4,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": null,
-      "MACD": "PUT",
-      "ESTOCASTICO": null,
+      "BOLLINGER": "CALL",
+      "MACD": null,
+      "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
-      "CCI": null
+      "WILLIAMS_R": "CALL",
+      "CCI": "CALL"
     },
-    "hay_senal_activa": false,
-    "direccion_activa": null
+    "hay_senal_activa": true,
+    "direccion_activa": "CALL"
   },
-  "total": 4496,
-  "wins": 2264,
+  "total": 4497,
+  "wins": 2265,
   "pct": 50.4,
   "rango_lo": 48.9,
   "rango_hi": 51.8,
@@ -28,11 +28,11 @@
   "combos": [
     {
       "nombre": "EURUSD_otc | 1min",
-      "wins": 645,
-      "total": 1297,
-      "pct": 49.7,
-      "rango_lo": 47.0,
-      "rango_hi": 52.4
+      "wins": 646,
+      "total": 1298,
+      "pct": 49.8,
+      "rango_lo": 47.1,
+      "rango_hi": 52.5
     },
     {
       "nombre": "AEDCNY_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 4553,
+      "asset": "EURUSD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-27T06:20:00+00:00",
+      "entry_price": 1.17761,
+      "exit_price": 1.17707,
+      "resultado": "GANADA"
+    },
+    {
       "id": 4552,
       "asset": "EURUSD_otc",
       "direction": "PUT",
@@ -480,16 +490,6 @@
       "hora": "2026-08-27T03:38:00+00:00",
       "entry_price": 1.17722,
       "exit_price": 1.17705,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 4533,
-      "asset": "EURUSD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-27T03:27:00+00:00",
-      "entry_price": 1.17654,
-      "exit_price": 1.17627,
       "resultado": "GANADA"
     }
   ]
