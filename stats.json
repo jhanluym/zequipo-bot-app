@@ -1,22 +1,22 @@
 {
-  "actualizado": "2026-08-27T00:05:49.821149+00:00",
+  "actualizado": "2026-08-27T00:06:20.655908+00:00",
   "lectura_actual": {
     "par": "EURUSD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
-    "votos_put": 1,
+    "votos_call": 2,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": "CALL",
-      "MACD": "PUT",
-      "ESTOCASTICO": "CALL",
+      "BOLLINGER": null,
+      "MACD": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
+      "WILLIAMS_R": null,
       "CCI": "CALL"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
   "total": 4443,
   "wins": 2237,
