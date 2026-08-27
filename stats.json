@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-27T19:15:36.824880+00:00",
+  "actualizado": "2026-08-27T19:16:12.384289+00:00",
   "lectura_actual": {
     "par": "EURUSD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 1,
-    "votos_put": 0,
+    "votos_call": 0,
+    "votos_put": 2,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": "CALL",
-      "ESTOCASTICO": null,
+      "MACD": null,
+      "ESTOCASTICO": "PUT",
       "CRUCE_EMA": null,
-      "WILLIAMS_R": null,
+      "WILLIAMS_R": "PUT",
       "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 4617,
-  "wins": 2325,
+  "total": 4618,
+  "wins": 2326,
   "pct": 50.4,
   "rango_lo": 48.9,
   "rango_hi": 51.8,
@@ -28,8 +28,8 @@
   "combos": [
     {
       "nombre": "EURUSD_otc | 1min",
-      "wins": 706,
-      "total": 1418,
+      "wins": 707,
+      "total": 1419,
       "pct": 49.8,
       "rango_lo": 47.2,
       "rango_hi": 52.4
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 4674,
+      "asset": "EURUSD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-27T19:15:00+00:00",
+      "entry_price": 1.18152,
+      "exit_price": 1.18179,
+      "resultado": "GANADA"
+    },
+    {
       "id": 4673,
       "asset": "EURUSD_otc",
       "direction": "CALL",
@@ -481,16 +491,6 @@
       "entry_price": 1.17882,
       "exit_price": 1.17921,
       "resultado": "GANADA"
-    },
-    {
-      "id": 4654,
-      "asset": "EURUSD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-27T16:54:00+00:00",
-      "entry_price": 1.17962,
-      "exit_price": 1.17986,
-      "resultado": "PERDIDA"
     }
   ]
 }
