@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-28T07:03:46.014453+00:00",
+  "actualizado": "2026-08-28T07:04:21.027396+00:00",
   "lectura_actual": {
     "par": "AUDNZD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
-      "CCI": "PUT"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 4728,
-  "wins": 2380,
+  "total": 4729,
+  "wins": 2381,
   "pct": 50.3,
   "rango_lo": 48.9,
   "rango_hi": 51.8,
@@ -67,20 +67,20 @@
       "rango_hi": 55.0
     },
     {
+      "nombre": "AUDNZD_otc | 1min",
+      "wins": 107,
+      "total": 220,
+      "pct": 48.6,
+      "rango_lo": 42.1,
+      "rango_hi": 55.2
+    },
+    {
       "nombre": "AUDCAD_otc | 1min",
       "wins": 118,
       "total": 220,
       "pct": 53.6,
       "rango_lo": 47.0,
       "rango_hi": 60.1
-    },
-    {
-      "nombre": "AUDNZD_otc | 1min",
-      "wins": 106,
-      "total": 219,
-      "pct": 48.4,
-      "rango_lo": 41.9,
-      "rango_hi": 55.0
     },
     {
       "nombre": "USDIDR_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 4786,
+      "asset": "AUDNZD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-28T07:03:00+00:00",
+      "entry_price": 1.19483,
+      "exit_price": 1.19379,
+      "resultado": "GANADA"
+    },
+    {
       "id": 4785,
       "asset": "AUDNZD_otc",
       "direction": "PUT",
@@ -481,16 +491,6 @@
       "entry_price": 1.19226,
       "exit_price": 1.19048,
       "resultado": "GANADA"
-    },
-    {
-      "id": 4766,
-      "asset": "AUDNZD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-28T05:08:00+00:00",
-      "entry_price": 1.19102,
-      "exit_price": 1.19213,
-      "resultado": "PERDIDA"
     }
   ]
 }
