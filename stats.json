@@ -1,13 +1,13 @@
 {
-  "actualizado": "2026-08-28T17:28:31.095073+00:00",
+  "actualizado": "2026-08-28T17:29:09.264092+00:00",
   "lectura_actual": {
     "par": "AUDNZD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 4,
+    "votos_put": 5,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": null,
+      "RSI": "PUT",
       "BOLLINGER": "PUT",
       "MACD": null,
       "ESTOCASTICO": "PUT",
