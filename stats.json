@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-28T10:05:55.222929+00:00",
+  "actualizado": "2026-08-28T10:06:30.362348+00:00",
   "lectura_actual": {
     "par": "AUDNZD_otc",
     "sin_datos_suficientes": false,
@@ -18,8 +18,8 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 4760,
-  "wins": 2397,
+  "total": 4761,
+  "wins": 2398,
   "pct": 50.4,
   "rango_lo": 48.9,
   "rango_hi": 51.8,
@@ -60,11 +60,11 @@
     },
     {
       "nombre": "AUDNZD_otc | 1min",
-      "wins": 123,
-      "total": 251,
-      "pct": 49.0,
-      "rango_lo": 42.9,
-      "rango_hi": 55.2
+      "wins": 124,
+      "total": 252,
+      "pct": 49.2,
+      "rango_lo": 43.1,
+      "rango_hi": 55.3
     },
     {
       "nombre": "USDJPY_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 4818,
+      "asset": "AUDNZD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-28T10:05:00+00:00",
+      "entry_price": 1.16937,
+      "exit_price": 1.17036,
+      "resultado": "GANADA"
+    },
+    {
       "id": 4817,
       "asset": "AUDNZD_otc",
       "direction": "CALL",
@@ -481,16 +491,6 @@
       "entry_price": 1.18613,
       "exit_price": 1.18848,
       "resultado": "GANADA"
-    },
-    {
-      "id": 4798,
-      "asset": "AUDNZD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-28T08:18:00+00:00",
-      "entry_price": 1.18668,
-      "exit_price": 1.18549,
-      "resultado": "PERDIDA"
     }
   ]
 }
