@@ -1,27 +1,27 @@
 {
-  "actualizado": "2026-08-28T19:39:45.931648+00:00",
+  "actualizado": "2026-08-28T19:40:20.983699+00:00",
   "lectura_actual": {
     "par": "AUDNZD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 1,
-    "votos_put": 4,
+    "votos_put": 1,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": "PUT",
-      "MACD": null,
-      "ESTOCASTICO": "PUT",
-      "CRUCE_EMA": "CALL",
-      "WILLIAMS_R": "PUT",
+      "BOLLINGER": null,
+      "MACD": "CALL",
+      "ESTOCASTICO": null,
+      "CRUCE_EMA": null,
+      "WILLIAMS_R": null,
       "CCI": "PUT"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 4853,
+  "total": 4854,
   "wins": 2439,
-  "pct": 50.3,
-  "rango_lo": 48.9,
+  "pct": 50.2,
+  "rango_lo": 48.8,
   "rango_hi": 51.7,
   "empates": 50,
   "sin_datos": 7,
@@ -53,10 +53,10 @@
     {
       "nombre": "AUDNZD_otc | 1min",
       "wins": 165,
-      "total": 344,
-      "pct": 48.0,
-      "rango_lo": 42.7,
-      "rango_hi": 53.2
+      "total": 345,
+      "pct": 47.8,
+      "rango_lo": 42.6,
+      "rango_hi": 53.1
     },
     {
       "nombre": "AUDUSD_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 4911,
+      "asset": "AUDNZD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-28T19:39:00+00:00",
+      "entry_price": 1.19164,
+      "exit_price": 1.18964,
+      "resultado": "PERDIDA"
+    },
+    {
       "id": 4910,
       "asset": "AUDNZD_otc",
       "direction": "PUT",
@@ -480,16 +490,6 @@
       "hora": "2026-08-28T17:52:00+00:00",
       "entry_price": 1.17988,
       "exit_price": 1.17975,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 4891,
-      "asset": "AUDNZD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-28T17:43:00+00:00",
-      "entry_price": 1.18194,
-      "exit_price": 1.18219,
       "resultado": "PERDIDA"
     }
   ]
