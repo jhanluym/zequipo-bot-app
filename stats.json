@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-29T07:18:42.990898+00:00",
+  "actualizado": "2026-08-29T07:19:18.011546+00:00",
   "lectura_actual": {
     "par": "AUDNZD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 3,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
-      "CCI": "PUT"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 4966,
-  "wins": 2493,
+  "total": 4967,
+  "wins": 2494,
   "pct": 50.2,
   "rango_lo": 48.8,
   "rango_hi": 51.6,
@@ -44,11 +44,11 @@
     },
     {
       "nombre": "AUDNZD_otc | 1min",
-      "wins": 219,
-      "total": 457,
-      "pct": 47.9,
-      "rango_lo": 43.4,
-      "rango_hi": 52.5
+      "wins": 220,
+      "total": 458,
+      "pct": 48.0,
+      "rango_lo": 43.5,
+      "rango_hi": 52.6
     },
     {
       "nombre": "QARCNY_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 5024,
+      "asset": "AUDNZD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-29T07:18:00+00:00",
+      "entry_price": 1.15511,
+      "exit_price": 1.1541,
+      "resultado": "GANADA"
+    },
+    {
       "id": 5023,
       "asset": "AUDNZD_otc",
       "direction": "PUT",
@@ -481,16 +491,6 @@
       "entry_price": 1.16079,
       "exit_price": 1.16232,
       "resultado": "GANADA"
-    },
-    {
-      "id": 5004,
-      "asset": "AUDNZD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-29T05:20:00+00:00",
-      "entry_price": 1.16103,
-      "exit_price": 1.16022,
-      "resultado": "PERDIDA"
     }
   ]
 }
