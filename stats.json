@@ -1,10 +1,10 @@
 {
-  "actualizado": "2026-08-29T21:20:35.720930+00:00",
+  "actualizado": "2026-08-29T21:21:10.622536+00:00",
   "lectura_actual": {
     "par": "CADCHF_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 1,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
@@ -13,13 +13,13 @@
       "ESTOCASTICO": null,
       "CRUCE_EMA": null,
       "WILLIAMS_R": null,
-      "CCI": "PUT"
+      "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 5006,
-  "wins": 2514,
+  "total": 5007,
+  "wins": 2515,
   "pct": 50.2,
   "rango_lo": 48.8,
   "rango_hi": 51.6,
@@ -220,11 +220,11 @@
     },
     {
       "nombre": "CADCHF_otc | 1min",
-      "wins": 3,
-      "total": 9,
-      "pct": 33.3,
-      "rango_lo": 12.1,
-      "rango_hi": 64.6
+      "wins": 4,
+      "total": 10,
+      "pct": 40.0,
+      "rango_lo": 16.8,
+      "rango_hi": 68.7
     },
     {
       "nombre": "CADJPY | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 5065,
+      "asset": "CADCHF_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-29T21:20:00+00:00",
+      "entry_price": 0.55683,
+      "exit_price": 0.55589,
+      "resultado": "GANADA"
+    },
     {
       "id": 5064,
       "asset": "CADCHF_otc",
@@ -481,16 +491,6 @@
       "entry_price": 1.13719,
       "exit_price": 1.13532,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 5045,
-      "asset": "AUDNZD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-29T09:26:00+00:00",
-      "entry_price": 1.13756,
-      "exit_price": 1.13849,
-      "resultado": "GANADA"
     }
   ]
 }
