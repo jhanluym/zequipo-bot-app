@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-29T23:52:38.715877+00:00",
+  "actualizado": "2026-08-29T23:53:13.694797+00:00",
   "lectura_actual": {
     "par": "CADCHF_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 2,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
+      "WILLIAMS_R": null,
       "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 5023,
-  "wins": 2526,
+  "total": 5024,
+  "wins": 2527,
   "pct": 50.3,
   "rango_lo": 48.9,
   "rango_hi": 51.7,
@@ -171,20 +171,20 @@
       "rango_hi": 46.6
     },
     {
+      "nombre": "CADCHF_otc | 1min",
+      "wins": 16,
+      "total": 27,
+      "pct": 59.3,
+      "rango_lo": 40.7,
+      "rango_hi": 75.5
+    },
+    {
       "nombre": "KESUSD_otc | 1min",
       "wins": 13,
       "total": 27,
       "pct": 48.1,
       "rango_lo": 30.7,
       "rango_hi": 66.0
-    },
-    {
-      "nombre": "CADCHF_otc | 1min",
-      "wins": 15,
-      "total": 26,
-      "pct": 57.7,
-      "rango_lo": 38.9,
-      "rango_hi": 74.5
     },
     {
       "nombre": "NGNUSD_otc | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 5082,
+      "asset": "CADCHF_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-29T23:52:00+00:00",
+      "entry_price": 0.55425,
+      "exit_price": 0.55405,
+      "resultado": "GANADA"
+    },
     {
       "id": 5081,
       "asset": "CADCHF_otc",
@@ -481,16 +491,6 @@
       "entry_price": 0.55664,
       "exit_price": 0.55645,
       "resultado": "GANADA"
-    },
-    {
-      "id": 5062,
-      "asset": "CADCHF_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-29T21:06:00+00:00",
-      "entry_price": 0.55311,
-      "exit_price": 0.55325,
-      "resultado": "PERDIDA"
     }
   ]
 }
