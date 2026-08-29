@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-29T23:40:32.463697+00:00",
+  "actualizado": "2026-08-29T23:41:07.299023+00:00",
   "lectura_actual": {
     "par": "CADCHF_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 1,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": "CALL",
+      "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
+      "WILLIAMS_R": null,
       "CCI": "CALL"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 5021,
-  "wins": 2525,
+  "total": 5022,
+  "wins": 2526,
   "pct": 50.3,
   "rango_lo": 48.9,
   "rango_hi": 51.7,
@@ -179,20 +179,20 @@
       "rango_hi": 66.0
     },
     {
+      "nombre": "CADCHF_otc | 1min",
+      "wins": 15,
+      "total": 25,
+      "pct": 60.0,
+      "rango_lo": 40.7,
+      "rango_hi": 76.6
+    },
+    {
       "nombre": "NGNUSD_otc | 1min",
       "wins": 12,
       "total": 25,
       "pct": 48.0,
       "rango_lo": 30.0,
       "rango_hi": 66.5
-    },
-    {
-      "nombre": "CADCHF_otc | 1min",
-      "wins": 14,
-      "total": 24,
-      "pct": 58.3,
-      "rango_lo": 38.8,
-      "rango_hi": 75.5
     },
     {
       "nombre": "EURUSD_otc | 10min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 5080,
+      "asset": "CADCHF_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-29T23:40:00+00:00",
+      "entry_price": 0.55059,
+      "exit_price": 0.55202,
+      "resultado": "GANADA"
+    },
     {
       "id": 5079,
       "asset": "CADCHF_otc",
@@ -481,16 +491,6 @@
       "entry_price": null,
       "exit_price": null,
       "resultado": "SIN_DATOS"
-    },
-    {
-      "id": 5060,
-      "asset": "AUDNZD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-29T11:00:00+00:00",
-      "entry_price": 1.13475,
-      "exit_price": 1.13376,
-      "resultado": "PERDIDA"
     }
   ]
 }
