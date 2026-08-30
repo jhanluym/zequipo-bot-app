@@ -1,13 +1,13 @@
 {
-  "actualizado": "2026-08-30T03:20:59.687914+00:00",
+  "actualizado": "2026-08-30T03:21:34.324087+00:00",
   "lectura_actual": {
     "par": "CADCHF_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 5,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": null,
+      "RSI": "CALL",
       "BOLLINGER": "CALL",
       "MACD": null,
       "ESTOCASTICO": "CALL",
