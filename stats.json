@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-30T10:58:28.146357+00:00",
+  "actualizado": "2026-08-30T10:59:04.164992+00:00",
   "lectura_actual": {
     "par": "AUDCAD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 4,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "PUT",
+      "RSI": null,
       "BOLLINGER": null,
-      "MACD": "PUT",
-      "ESTOCASTICO": "PUT",
+      "MACD": null,
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
+      "WILLIAMS_R": null,
       "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 5125,
-  "wins": 2577,
+  "total": 5126,
+  "wins": 2578,
   "pct": 50.3,
   "rango_lo": 48.9,
   "rango_hi": 51.7,
@@ -68,11 +68,11 @@
     },
     {
       "nombre": "AUDCAD_otc | 1min",
-      "wins": 138,
-      "total": 265,
-      "pct": 52.1,
-      "rango_lo": 46.1,
-      "rango_hi": 58.0
+      "wins": 139,
+      "total": 266,
+      "pct": 52.3,
+      "rango_lo": 46.3,
+      "rango_hi": 58.2
     },
     {
       "nombre": "USDJPY_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 5184,
+      "asset": "AUDCAD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-30T10:58:00+00:00",
+      "entry_price": 0.98148,
+      "exit_price": 0.98068,
+      "resultado": "GANADA"
+    },
+    {
       "id": 5183,
       "asset": "AUDCAD_otc",
       "direction": "PUT",
@@ -481,16 +491,6 @@
       "entry_price": 0.9701,
       "exit_price": 0.96937,
       "resultado": "GANADA"
-    },
-    {
-      "id": 5164,
-      "asset": "AUDCAD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-30T09:04:00+00:00",
-      "entry_price": 0.96889,
-      "exit_price": 0.96946,
-      "resultado": "PERDIDA"
     }
   ]
 }
