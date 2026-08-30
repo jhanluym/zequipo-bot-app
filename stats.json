@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-30T00:49:59.007573+00:00",
+  "actualizado": "2026-08-30T00:50:34.296361+00:00",
   "lectura_actual": {
     "par": "CADCHF_otc",
     "sin_datos_suficientes": false,
@@ -18,7 +18,7 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 5032,
+  "total": 5033,
   "wins": 2531,
   "pct": 50.3,
   "rango_lo": 48.9,
@@ -157,10 +157,10 @@
     {
       "nombre": "CADCHF_otc | 1min",
       "wins": 20,
-      "total": 35,
-      "pct": 57.1,
-      "rango_lo": 40.9,
-      "rango_hi": 72.0
+      "total": 36,
+      "pct": 55.6,
+      "rango_lo": 39.6,
+      "rango_hi": 70.5
     },
     {
       "nombre": "EURRUB_otc | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 5091,
+      "asset": "CADCHF_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-30T00:49:00+00:00",
+      "entry_price": 0.55381,
+      "exit_price": 0.55373,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 5090,
       "asset": "CADCHF_otc",
@@ -480,16 +490,6 @@
       "hora": "2026-08-29T22:39:00+00:00",
       "entry_price": 0.55273,
       "exit_price": 0.5532,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 5071,
-      "asset": "CADCHF_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-29T22:15:00+00:00",
-      "entry_price": 0.55443,
-      "exit_price": 0.55505,
       "resultado": "GANADA"
     }
   ]
