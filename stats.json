@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-08-30T09:17:42.906017+00:00",
+  "actualizado": "2026-08-30T09:18:17.978678+00:00",
   "lectura_actual": {
     "par": "AUDCAD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 3,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": "CALL",
+      "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
@@ -18,9 +18,9 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 5107,
-  "wins": 2571,
-  "pct": 50.3,
+  "total": 5108,
+  "wins": 2572,
+  "pct": 50.4,
   "rango_lo": 49.0,
   "rango_hi": 51.7,
   "empates": 50,
@@ -67,20 +67,20 @@
       "rango_hi": 55.3
     },
     {
+      "nombre": "AUDCAD_otc | 1min",
+      "wins": 133,
+      "total": 248,
+      "pct": 53.6,
+      "rango_lo": 47.4,
+      "rango_hi": 59.7
+    },
+    {
       "nombre": "USDJPY_otc | 1min",
       "wins": 121,
       "total": 248,
       "pct": 48.8,
       "rango_lo": 42.6,
       "rango_hi": 55.0
-    },
-    {
-      "nombre": "AUDCAD_otc | 1min",
-      "wins": 132,
-      "total": 247,
-      "pct": 53.4,
-      "rango_lo": 47.2,
-      "rango_hi": 59.6
     },
     {
       "nombre": "USDIDR_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 5166,
+      "asset": "AUDCAD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-30T09:17:00+00:00",
+      "entry_price": 0.96656,
+      "exit_price": 0.96711,
+      "resultado": "GANADA"
+    },
+    {
       "id": 5165,
       "asset": "AUDCAD_otc",
       "direction": "PUT",
@@ -481,16 +491,6 @@
       "entry_price": 0.97542,
       "exit_price": 0.97549,
       "resultado": "GANADA"
-    },
-    {
-      "id": 5146,
-      "asset": "AUDCAD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-30T07:29:00+00:00",
-      "entry_price": 0.97767,
-      "exit_price": 0.97745,
-      "resultado": "PERDIDA"
     }
   ]
 }
