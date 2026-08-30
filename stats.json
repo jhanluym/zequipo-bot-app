@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-30T00:29:43.869544+00:00",
+  "actualizado": "2026-08-30T00:30:18.844807+00:00",
   "lectura_actual": {
     "par": "CADCHF_otc",
     "sin_datos_suficientes": false,
@@ -18,7 +18,7 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 5028,
+  "total": 5029,
   "wins": 2529,
   "pct": 50.3,
   "rango_lo": 48.9,
@@ -165,10 +165,10 @@
     {
       "nombre": "CADCHF_otc | 1min",
       "wins": 18,
-      "total": 31,
-      "pct": 58.1,
-      "rango_lo": 40.8,
-      "rango_hi": 73.6
+      "total": 32,
+      "pct": 56.2,
+      "rango_lo": 39.3,
+      "rango_hi": 71.8
     },
     {
       "nombre": "CHFNOK_otc | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 5087,
+      "asset": "CADCHF_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-30T00:29:00+00:00",
+      "entry_price": 0.55673,
+      "exit_price": 0.55727,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 5086,
       "asset": "CADCHF_otc",
@@ -481,16 +491,6 @@
       "entry_price": 0.55982,
       "exit_price": 0.56015,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 5067,
-      "asset": "CADCHF_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-29T21:37:00+00:00",
-      "entry_price": 0.55692,
-      "exit_price": 0.55768,
-      "resultado": "GANADA"
     }
   ]
 }
