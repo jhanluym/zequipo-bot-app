@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-30T00:07:44.787953+00:00",
+  "actualizado": "2026-08-30T00:08:20.076546+00:00",
   "lectura_actual": {
     "par": "CADCHF_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 1,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": "CALL",
+      "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
+      "WILLIAMS_R": null,
       "CCI": "CALL"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 5025,
-  "wins": 2527,
+  "total": 5026,
+  "wins": 2528,
   "pct": 50.3,
   "rango_lo": 48.9,
   "rango_hi": 51.7,
@@ -172,11 +172,11 @@
     },
     {
       "nombre": "CADCHF_otc | 1min",
-      "wins": 16,
-      "total": 28,
-      "pct": 57.1,
-      "rango_lo": 39.1,
-      "rango_hi": 73.5
+      "wins": 17,
+      "total": 29,
+      "pct": 58.6,
+      "rango_lo": 40.7,
+      "rango_hi": 74.5
     },
     {
       "nombre": "KESUSD_otc | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 5084,
+      "asset": "CADCHF_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-30T00:07:00+00:00",
+      "entry_price": 0.5517,
+      "exit_price": 0.55206,
+      "resultado": "GANADA"
+    },
     {
       "id": 5083,
       "asset": "CADCHF_otc",
@@ -481,16 +491,6 @@
       "entry_price": 0.55683,
       "exit_price": 0.55589,
       "resultado": "GANADA"
-    },
-    {
-      "id": 5064,
-      "asset": "CADCHF_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-29T21:16:00+00:00",
-      "entry_price": 0.55546,
-      "exit_price": 0.55621,
-      "resultado": "PERDIDA"
     }
   ]
 }
