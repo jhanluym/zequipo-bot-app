@@ -1,15 +1,15 @@
 {
-  "actualizado": "2026-08-30T07:47:00.432421+00:00",
+  "actualizado": "2026-08-30T07:47:32.424228+00:00",
   "lectura_actual": {
     "par": "AUDCAD_otc",
     "sin_datos_suficientes": false,
     "votos_call": 5,
-    "votos_put": 0,
+    "votos_put": 1,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": "CALL",
       "BOLLINGER": "CALL",
-      "MACD": null,
+      "MACD": "PUT",
       "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
       "WILLIAMS_R": "CALL",
