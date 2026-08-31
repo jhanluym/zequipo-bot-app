@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-31T17:59:42.591366+00:00",
+  "actualizado": "2026-08-31T18:00:18.235963+00:00",
   "lectura_actual": {
     "par": "AUDCAD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 3,
+    "votos_call": 0,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
-      "CCI": "CALL"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 5412,
-  "wins": 2720,
+  "total": 5413,
+  "wins": 2721,
   "pct": 50.3,
   "rango_lo": 48.9,
   "rango_hi": 51.6,
@@ -44,10 +44,10 @@
     },
     {
       "nombre": "AUDCAD_otc | 1min",
-      "wins": 281,
-      "total": 552,
-      "pct": 50.9,
-      "rango_lo": 46.7,
+      "wins": 282,
+      "total": 553,
+      "pct": 51.0,
+      "rango_lo": 46.8,
       "rango_hi": 55.1
     },
     {
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 5474,
+      "asset": "AUDCAD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-31T17:59:00+00:00",
+      "entry_price": 0.96528,
+      "exit_price": 0.96576,
+      "resultado": "GANADA"
+    },
+    {
       "id": 5473,
       "asset": "AUDCAD_otc",
       "direction": "PUT",
@@ -481,16 +491,6 @@
       "entry_price": 0.96214,
       "exit_price": 0.96276,
       "resultado": "GANADA"
-    },
-    {
-      "id": 5454,
-      "asset": "AUDCAD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-31T15:04:00+00:00",
-      "entry_price": 0.96359,
-      "exit_price": 0.96262,
-      "resultado": "PERDIDA"
     }
   ]
 }
