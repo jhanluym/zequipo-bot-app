@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-31T17:26:29.931470+00:00",
+  "actualizado": "2026-08-31T17:27:05.391730+00:00",
   "lectura_actual": {
     "par": "AUDCAD_otc",
     "sin_datos_suficientes": false,
@@ -18,9 +18,9 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 5408,
+  "total": 5409,
   "wins": 2718,
-  "pct": 50.3,
+  "pct": 50.2,
   "rango_lo": 48.9,
   "rango_hi": 51.6,
   "empates": 53,
@@ -45,10 +45,10 @@
     {
       "nombre": "AUDCAD_otc | 1min",
       "wins": 279,
-      "total": 548,
-      "pct": 50.9,
-      "rango_lo": 46.7,
-      "rango_hi": 55.1
+      "total": 549,
+      "pct": 50.8,
+      "rango_lo": 46.6,
+      "rango_hi": 55.0
     },
     {
       "nombre": "AUDNZD_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 5470,
+      "asset": "AUDCAD_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-08-31T17:26:00+00:00",
+      "entry_price": 0.96736,
+      "exit_price": 0.96751,
+      "resultado": "PERDIDA"
+    },
+    {
       "id": 5469,
       "asset": "AUDCAD_otc",
       "direction": "PUT",
@@ -481,16 +491,6 @@
       "entry_price": 0.96664,
       "exit_price": 0.96708,
       "resultado": "GANADA"
-    },
-    {
-      "id": 5450,
-      "asset": "AUDCAD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-31T14:44:00+00:00",
-      "entry_price": 0.96972,
-      "exit_price": 0.96875,
-      "resultado": "PERDIDA"
     }
   ]
 }
