@@ -1,28 +1,28 @@
 {
-  "actualizado": "2026-08-31T16:01:37.351758+00:00",
+  "actualizado": "2026-08-31T16:02:12.827482+00:00",
   "lectura_actual": {
     "par": "AUDCAD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 5,
+    "votos_call": 1,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "CALL",
-      "BOLLINGER": "CALL",
+      "RSI": null,
+      "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
+      "WILLIAMS_R": null,
       "CCI": "CALL"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 5397,
-  "wins": 2710,
+  "total": 5398,
+  "wins": 2711,
   "pct": 50.2,
   "rango_lo": 48.9,
-  "rango_hi": 51.5,
+  "rango_hi": 51.6,
   "empates": 53,
   "sin_datos": 8,
   "combos": [
@@ -44,11 +44,11 @@
     },
     {
       "nombre": "AUDCAD_otc | 1min",
-      "wins": 271,
-      "total": 537,
-      "pct": 50.5,
-      "rango_lo": 46.2,
-      "rango_hi": 54.7
+      "wins": 272,
+      "total": 538,
+      "pct": 50.6,
+      "rango_lo": 46.3,
+      "rango_hi": 54.8
     },
     {
       "nombre": "AUDNZD_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 5459,
+      "asset": "AUDCAD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-31T16:01:00+00:00",
+      "entry_price": 0.95989,
+      "exit_price": 0.96022,
+      "resultado": "GANADA"
+    },
+    {
       "id": 5458,
       "asset": "AUDCAD_otc",
       "direction": "CALL",
@@ -481,16 +491,6 @@
       "entry_price": 0.97633,
       "exit_price": 0.97658,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 5439,
-      "asset": "AUDCAD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-31T13:49:00+00:00",
-      "entry_price": 0.97534,
-      "exit_price": 0.97605,
-      "resultado": "GANADA"
     }
   ]
 }
