@@ -1,13 +1,13 @@
 {
-  "actualizado": "2026-08-31T13:17:53.998943+00:00",
+  "actualizado": "2026-08-31T13:18:28.557299+00:00",
   "lectura_actual": {
     "par": "AUDCAD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 3,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "CALL",
+      "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "CALL",
