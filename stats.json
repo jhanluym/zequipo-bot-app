@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-08-31T23:52:41.814449+00:00",
+  "actualizado": "2026-08-31T23:53:17.104840+00:00",
   "lectura_actual": {
     "par": "CHFNOK_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 3,
+    "votos_call": 0,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
-      "CCI": "CALL"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 5455,
-  "wins": 2742,
+  "total": 5456,
+  "wins": 2743,
   "pct": 50.3,
   "rango_lo": 48.9,
   "rango_hi": 51.6,
@@ -164,11 +164,11 @@
     },
     {
       "nombre": "CHFNOK_otc | 1min",
-      "wins": 15,
-      "total": 46,
-      "pct": 32.6,
-      "rango_lo": 20.9,
-      "rango_hi": 47.0
+      "wins": 16,
+      "total": 47,
+      "pct": 34.0,
+      "rango_lo": 22.2,
+      "rango_hi": 48.3
     },
     {
       "nombre": "EURRUB_otc | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 5517,
+      "asset": "CHFNOK_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-31T23:52:00+00:00",
+      "entry_price": 12.007,
+      "exit_price": 12.038,
+      "resultado": "GANADA"
+    },
     {
       "id": 5516,
       "asset": "CHFNOK_otc",
@@ -481,16 +491,6 @@
       "entry_price": 1.16145,
       "exit_price": 1.16143,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 5497,
-      "asset": "EURUSD_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-31T21:04:00+00:00",
-      "entry_price": 1.16114,
-      "exit_price": 1.16116,
-      "resultado": "GANADA"
     }
   ]
 }
