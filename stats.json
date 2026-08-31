@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-08-31T08:55:33.670117+00:00",
+  "actualizado": "2026-08-31T08:56:09.843215+00:00",
   "lectura_actual": {
     "par": "AUDCAD_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 5,
+    "votos_call": 4,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": "CALL",
-      "BOLLINGER": "CALL",
+      "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
@@ -18,9 +18,9 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 5324,
+  "total": 5325,
   "wins": 2681,
-  "pct": 50.4,
+  "pct": 50.3,
   "rango_lo": 49.0,
   "rango_hi": 51.7,
   "empates": 52,
@@ -53,10 +53,10 @@
     {
       "nombre": "AUDCAD_otc | 1min",
       "wins": 242,
-      "total": 464,
-      "pct": 52.2,
-      "rango_lo": 47.6,
-      "rango_hi": 56.7
+      "total": 465,
+      "pct": 52.0,
+      "rango_lo": 47.5,
+      "rango_hi": 56.5
     },
     {
       "nombre": "QARCNY_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 5385,
+      "asset": "AUDCAD_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-08-31T08:55:00+00:00",
+      "entry_price": 0.9917,
+      "exit_price": 0.99142,
+      "resultado": "PERDIDA"
+    },
+    {
       "id": 5384,
       "asset": "AUDCAD_otc",
       "direction": "CALL",
@@ -480,16 +490,6 @@
       "hora": "2026-08-31T06:46:00+00:00",
       "entry_price": 0.99562,
       "exit_price": 0.99625,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 5365,
-      "asset": "AUDCAD_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-31T06:43:00+00:00",
-      "entry_price": 0.99517,
-      "exit_price": 0.99576,
       "resultado": "PERDIDA"
     }
   ]
