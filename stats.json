@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-09-01T02:52:54.714002+00:00",
+  "actualizado": "2026-09-01T02:53:29.836884+00:00",
   "lectura_actual": {
     "par": "CHFNOK_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 5,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": "CALL",
-      "BOLLINGER": null,
+      "BOLLINGER": "CALL",
       "MACD": null,
       "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
@@ -18,7 +18,7 @@
     "hay_senal_activa": true,
     "direccion_activa": "CALL"
   },
-  "total": 5481,
+  "total": 5482,
   "wins": 2755,
   "pct": 50.3,
   "rango_lo": 48.9,
@@ -133,10 +133,10 @@
     {
       "nombre": "CHFNOK_otc | 1min",
       "wins": 28,
-      "total": 72,
-      "pct": 38.9,
-      "rango_lo": 28.5,
-      "rango_hi": 50.4
+      "total": 73,
+      "pct": 38.4,
+      "rango_lo": 28.1,
+      "rango_hi": 49.8
     },
     {
       "nombre": "JODCNY_otc | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 5544,
+      "asset": "CHFNOK_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-09-01T02:52:00+00:00",
+      "entry_price": 11.282,
+      "exit_price": 11.216,
+      "resultado": "PERDIDA"
+    },
     {
       "id": 5543,
       "asset": "CHFNOK_otc",
@@ -481,16 +491,6 @@
       "entry_price": 11.595,
       "exit_price": 11.596,
       "resultado": "GANADA"
-    },
-    {
-      "id": 5524,
-      "asset": "CHFNOK_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-09-01T00:31:00+00:00",
-      "entry_price": 11.645,
-      "exit_price": 11.632,
-      "resultado": "PERDIDA"
     }
   ]
 }
