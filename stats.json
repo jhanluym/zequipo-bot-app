@@ -1,15 +1,15 @@
 {
-  "actualizado": "2026-09-01T00:57:53.484749+00:00",
+  "actualizado": "2026-09-01T00:58:30.033681+00:00",
   "lectura_actual": {
     "par": "CHFNOK_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 0,
+    "votos_call": 1,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": null,
+      "MACD": "CALL",
       "ESTOCASTICO": null,
       "CRUCE_EMA": null,
       "WILLIAMS_R": null,
@@ -18,8 +18,8 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 5467,
-  "wins": 2748,
+  "total": 5468,
+  "wins": 2749,
   "pct": 50.3,
   "rango_lo": 48.9,
   "rango_hi": 51.6,
@@ -155,20 +155,20 @@
       "rango_hi": 72.9
     },
     {
+      "nombre": "CHFNOK_otc | 1min",
+      "wins": 22,
+      "total": 59,
+      "pct": 37.3,
+      "rango_lo": 26.1,
+      "rango_hi": 50.0
+    },
+    {
       "nombre": "EURJPY_otc | 1min",
       "wins": 35,
       "total": 59,
       "pct": 59.3,
       "rango_lo": 46.6,
       "rango_hi": 70.9
-    },
-    {
-      "nombre": "CHFNOK_otc | 1min",
-      "wins": 21,
-      "total": 58,
-      "pct": 36.2,
-      "rango_lo": 25.1,
-      "rango_hi": 49.1
     },
     {
       "nombre": "EURRUB_otc | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 5529,
+      "asset": "CHFNOK_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-09-01T00:57:00+00:00",
+      "entry_price": 11.508,
+      "exit_price": 11.53,
+      "resultado": "GANADA"
+    },
     {
       "id": 5528,
       "asset": "CHFNOK_otc",
@@ -480,16 +490,6 @@
       "hora": "2026-08-31T22:54:00+00:00",
       "entry_price": 11.968,
       "exit_price": 11.972,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 5509,
-      "asset": "CHFNOK_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-08-31T22:40:00+00:00",
-      "entry_price": 11.939,
-      "exit_price": 11.928,
       "resultado": "PERDIDA"
     }
   ]
