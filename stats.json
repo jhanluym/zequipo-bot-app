@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-01T04:21:39.502285+00:00",
+  "actualizado": "2026-09-01T04:22:14.920717+00:00",
   "lectura_actual": {
     "par": "CHFNOK_otc",
     "sin_datos_suficientes": false,
@@ -18,8 +18,8 @@
     "hay_senal_activa": true,
     "direccion_activa": "PUT"
   },
-  "total": 5500,
-  "wins": 2765,
+  "total": 5501,
+  "wins": 2766,
   "pct": 50.3,
   "rango_lo": 49.0,
   "rango_hi": 51.6,
@@ -116,11 +116,11 @@
     },
     {
       "nombre": "CHFNOK_otc | 1min",
-      "wins": 38,
-      "total": 91,
-      "pct": 41.8,
-      "rango_lo": 32.2,
-      "rango_hi": 52.0
+      "wins": 39,
+      "total": 92,
+      "pct": 42.4,
+      "rango_lo": 32.8,
+      "rango_hi": 52.6
     },
     {
       "nombre": "EURNZD_otc | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 5563,
+      "asset": "CHFNOK_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-09-01T04:21:00+00:00",
+      "entry_price": 11.719,
+      "exit_price": 11.714,
+      "resultado": "GANADA"
+    },
     {
       "id": 5562,
       "asset": "CHFNOK_otc",
@@ -481,16 +491,6 @@
       "entry_price": 11.282,
       "exit_price": 11.216,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 5543,
-      "asset": "CHFNOK_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-09-01T02:45:00+00:00",
-      "entry_price": 11.361,
-      "exit_price": 11.382,
-      "resultado": "GANADA"
     }
   ]
 }
