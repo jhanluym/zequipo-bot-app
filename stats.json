@@ -1,26 +1,26 @@
 {
-  "actualizado": "2026-09-01T08:56:59.556128+00:00",
+  "actualizado": "2026-09-01T08:57:33.269897+00:00",
   "lectura_actual": {
     "par": "AEDCNY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 3,
+    "votos_call": 0,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": "CALL",
-      "ESTOCASTICO": "CALL",
+      "MACD": null,
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
+      "WILLIAMS_R": null,
       "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 5539,
-  "wins": 2783,
-  "pct": 50.2,
+  "total": 5540,
+  "wins": 2784,
+  "pct": 50.3,
   "rango_lo": 48.9,
   "rango_hi": 51.6,
   "empates": 54,
@@ -36,11 +36,11 @@
     },
     {
       "nombre": "AEDCNY_otc | 1min",
-      "wins": 419,
-      "total": 856,
-      "pct": 48.9,
-      "rango_lo": 45.6,
-      "rango_hi": 52.3
+      "wins": 420,
+      "total": 857,
+      "pct": 49.0,
+      "rango_lo": 45.7,
+      "rango_hi": 52.4
     },
     {
       "nombre": "AUDCAD_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 5602,
+      "asset": "AEDCNY_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-09-01T08:56:00+00:00",
+      "entry_price": 1.90481,
+      "exit_price": 1.90587,
+      "resultado": "GANADA"
+    },
+    {
       "id": 5601,
       "asset": "AEDCNY_otc",
       "direction": "CALL",
@@ -480,16 +490,6 @@
       "hora": "2026-09-01T07:04:00+00:00",
       "entry_price": 1.92052,
       "exit_price": 1.91933,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 5582,
-      "asset": "AEDCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-09-01T07:01:00+00:00",
-      "entry_price": 1.91881,
-      "exit_price": 1.91882,
       "resultado": "PERDIDA"
     }
   ]
