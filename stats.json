@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-09-01T06:35:28.835736+00:00",
+  "actualizado": "2026-09-01T06:36:03.401628+00:00",
   "lectura_actual": {
     "par": "AEDCNY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 2,
+    "votos_put": 1,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": "PUT",
+      "BOLLINGER": null,
       "MACD": null,
       "ESTOCASTICO": null,
       "CRUCE_EMA": null,
