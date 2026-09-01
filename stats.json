@@ -1,18 +1,18 @@
 {
-  "actualizado": "2026-09-01T19:02:36.430887+00:00",
+  "actualizado": "2026-09-01T19:03:14.383943+00:00",
   "lectura_actual": {
     "par": "AEDCNY_otc",
     "sin_datos_suficientes": false,
     "votos_call": 1,
-    "votos_put": 2,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": "CALL",
-      "ESTOCASTICO": "PUT",
-      "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
+      "MACD": null,
+      "ESTOCASTICO": null,
+      "CRUCE_EMA": "CALL",
+      "WILLIAMS_R": null,
       "CCI": null
     },
     "hay_senal_activa": false,
