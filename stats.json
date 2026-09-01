@@ -1,27 +1,27 @@
 {
-  "actualizado": "2026-09-01T01:15:54.209452+00:00",
+  "actualizado": "2026-09-01T01:16:29.652549+00:00",
   "lectura_actual": {
     "par": "CHFNOK_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 1,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": "CALL",
+      "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
+      "WILLIAMS_R": null,
       "CCI": "CALL"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 5468,
-  "wins": 2749,
+  "total": 5469,
+  "wins": 2750,
   "pct": 50.3,
-  "rango_lo": 48.9,
+  "rango_lo": 49.0,
   "rango_hi": 51.6,
   "empates": 53,
   "sin_datos": 8,
@@ -147,20 +147,20 @@
       "rango_hi": 72.4
     },
     {
+      "nombre": "CHFNOK_otc | 1min",
+      "wins": 23,
+      "total": 60,
+      "pct": 38.3,
+      "rango_lo": 27.1,
+      "rango_hi": 51.0
+    },
+    {
       "nombre": "CADCHF_otc | 1min",
       "wins": 37,
       "total": 60,
       "pct": 61.7,
       "rango_lo": 49.0,
       "rango_hi": 72.9
-    },
-    {
-      "nombre": "CHFNOK_otc | 1min",
-      "wins": 22,
-      "total": 59,
-      "pct": 37.3,
-      "rango_lo": 26.1,
-      "rango_hi": 50.0
     },
     {
       "nombre": "EURJPY_otc | 1min",
@@ -292,6 +292,16 @@
     }
   ],
   "recientes": [
+    {
+      "id": 5530,
+      "asset": "CHFNOK_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-09-01T01:15:00+00:00",
+      "entry_price": 11.461,
+      "exit_price": 11.494,
+      "resultado": "GANADA"
+    },
     {
       "id": 5529,
       "asset": "CHFNOK_otc",
@@ -480,16 +490,6 @@
       "hora": "2026-08-31T23:05:00+00:00",
       "entry_price": 11.977,
       "exit_price": 12.016,
-      "resultado": "PERDIDA"
-    },
-    {
-      "id": 5510,
-      "asset": "CHFNOK_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-08-31T22:54:00+00:00",
-      "entry_price": 11.968,
-      "exit_price": 11.972,
       "resultado": "PERDIDA"
     }
   ]
