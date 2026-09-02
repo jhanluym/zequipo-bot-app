@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-02T17:22:46.492919+00:00",
+  "actualizado": "2026-09-02T17:23:21.182343+00:00",
   "lectura_actual": {
     "par": "CHFNOK_otc",
     "sin_datos_suficientes": false,
@@ -9,11 +9,11 @@
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": null,
+      "MACD": "PUT",
       "ESTOCASTICO": null,
       "CRUCE_EMA": null,
       "WILLIAMS_R": null,
-      "CCI": "PUT"
+      "CCI": null
     },
     "hay_senal_activa": false,
     "direccion_activa": null
