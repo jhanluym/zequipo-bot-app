@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-09-02T11:18:49.584686+00:00",
+  "actualizado": "2026-09-02T11:19:25.023560+00:00",
   "lectura_actual": {
     "par": "AEDCNY_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
+    "votos_call": 1,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
-      "BOLLINGER": "CALL",
+      "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
+      "WILLIAMS_R": null,
       "CCI": "CALL"
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 5781,
-  "wins": 2901,
+  "total": 5782,
+  "wins": 2902,
   "pct": 50.2,
   "rango_lo": 48.9,
   "rango_hi": 51.5,
@@ -36,9 +36,9 @@
     },
     {
       "nombre": "AEDCNY_otc | 1min",
-      "wins": 537,
-      "total": 1098,
-      "pct": 48.9,
+      "wins": 538,
+      "total": 1099,
+      "pct": 49.0,
       "rango_lo": 46.0,
       "rango_hi": 51.9
     },
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 5846,
+      "asset": "AEDCNY_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-09-02T11:18:00+00:00",
+      "entry_price": 1.99572,
+      "exit_price": 1.99718,
+      "resultado": "GANADA"
+    },
+    {
       "id": 5845,
       "asset": "AEDCNY_otc",
       "direction": "PUT",
@@ -481,16 +491,6 @@
       "entry_price": 1.98925,
       "exit_price": 1.98819,
       "resultado": "GANADA"
-    },
-    {
-      "id": 5826,
-      "asset": "AEDCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-09-02T09:04:00+00:00",
-      "entry_price": 1.98867,
-      "exit_price": 1.98962,
-      "resultado": "PERDIDA"
     }
   ]
 }
