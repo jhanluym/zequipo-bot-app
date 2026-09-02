@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-09-02T13:49:41.074987+00:00",
+  "actualizado": "2026-09-02T13:50:16.496816+00:00",
   "lectura_actual": {
     "par": "CHFNOK_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 4,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": "PUT",
+      "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "PUT",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "PUT",
-      "CCI": "PUT"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "PUT"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 5800,
-  "wins": 2912,
+  "total": 5801,
+  "wins": 2913,
   "pct": 50.2,
   "rango_lo": 48.9,
   "rango_hi": 51.5,
@@ -92,11 +92,11 @@
     },
     {
       "nombre": "CHFNOK_otc | 1min",
-      "wins": 54,
-      "total": 124,
-      "pct": 43.5,
-      "rango_lo": 35.1,
-      "rango_hi": 52.3
+      "wins": 55,
+      "total": 125,
+      "pct": 44.0,
+      "rango_lo": 35.6,
+      "rango_hi": 52.8
     },
     {
       "nombre": "MADUSD_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 5865,
+      "asset": "CHFNOK_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-09-02T13:49:00+00:00",
+      "entry_price": 11.306,
+      "exit_price": 11.272,
+      "resultado": "GANADA"
+    },
+    {
       "id": 5864,
       "asset": "CHFNOK_otc",
       "direction": "PUT",
@@ -480,16 +490,6 @@
       "hora": "2026-09-02T11:18:00+00:00",
       "entry_price": 1.99572,
       "exit_price": 1.99718,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 5845,
-      "asset": "AEDCNY_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-09-02T11:04:00+00:00",
-      "entry_price": 2.00226,
-      "exit_price": 2.00036,
       "resultado": "GANADA"
     }
   ]
