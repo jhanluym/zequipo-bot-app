@@ -1,15 +1,15 @@
 {
-  "actualizado": "2026-09-02T13:58:34.317096+00:00",
+  "actualizado": "2026-09-02T13:59:10.116254+00:00",
   "lectura_actual": {
     "par": "CHFNOK_otc",
     "sin_datos_suficientes": false,
     "votos_call": 0,
-    "votos_put": 1,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
-      "MACD": "PUT",
+      "MACD": null,
       "ESTOCASTICO": null,
       "CRUCE_EMA": null,
       "WILLIAMS_R": null,
@@ -18,8 +18,8 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 5802,
-  "wins": 2913,
+  "total": 5803,
+  "wins": 2914,
   "pct": 50.2,
   "rango_lo": 48.9,
   "rango_hi": 51.5,
@@ -92,11 +92,11 @@
     },
     {
       "nombre": "CHFNOK_otc | 1min",
-      "wins": 55,
-      "total": 126,
-      "pct": 43.7,
-      "rango_lo": 35.3,
-      "rango_hi": 52.4
+      "wins": 56,
+      "total": 127,
+      "pct": 44.1,
+      "rango_lo": 35.8,
+      "rango_hi": 52.8
     },
     {
       "nombre": "MADUSD_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 5867,
+      "asset": "CHFNOK_otc",
+      "direction": "PUT",
+      "horizon_min": 1,
+      "hora": "2026-09-02T13:58:00+00:00",
+      "entry_price": 11.307,
+      "exit_price": 11.268,
+      "resultado": "GANADA"
+    },
+    {
       "id": 5866,
       "asset": "CHFNOK_otc",
       "direction": "PUT",
@@ -480,16 +490,6 @@
       "hora": "2026-09-02T11:39:00+00:00",
       "entry_price": 10.886,
       "exit_price": 10.926,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 5847,
-      "asset": "CHFNOK_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-09-02T11:36:00+00:00",
-      "entry_price": 10.844,
-      "exit_price": 10.861,
       "resultado": "GANADA"
     }
   ]
