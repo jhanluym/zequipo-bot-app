@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-09-03T05:16:24.957170+00:00",
+  "actualizado": "2026-09-03T05:17:03.551589+00:00",
   "lectura_actual": {
     "par": "CHFNOK_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 3,
+    "votos_call": 0,
     "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
       "RSI": null,
       "BOLLINGER": null,
       "MACD": null,
-      "ESTOCASTICO": "CALL",
+      "ESTOCASTICO": null,
       "CRUCE_EMA": null,
-      "WILLIAMS_R": "CALL",
-      "CCI": "CALL"
+      "WILLIAMS_R": null,
+      "CCI": null
     },
-    "hay_senal_activa": true,
-    "direccion_activa": "CALL"
+    "hay_senal_activa": false,
+    "direccion_activa": null
   },
-  "total": 5923,
-  "wins": 2968,
+  "total": 5924,
+  "wins": 2969,
   "pct": 50.1,
   "rango_lo": 48.8,
   "rango_hi": 51.4,
@@ -75,20 +75,20 @@
       "rango_hi": 55.3
     },
     {
+      "nombre": "CHFNOK_otc | 1min",
+      "wins": 111,
+      "total": 248,
+      "pct": 44.8,
+      "rango_lo": 38.7,
+      "rango_hi": 51.0
+    },
+    {
       "nombre": "USDJPY_otc | 1min",
       "wins": 121,
       "total": 248,
       "pct": 48.8,
       "rango_lo": 42.6,
       "rango_hi": 55.0
-    },
-    {
-      "nombre": "CHFNOK_otc | 1min",
-      "wins": 110,
-      "total": 247,
-      "pct": 44.5,
-      "rango_lo": 38.5,
-      "rango_hi": 50.8
     },
     {
       "nombre": "USDIDR_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 5989,
+      "asset": "CHFNOK_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-09-03T05:16:00+00:00",
+      "entry_price": 10.828,
+      "exit_price": 10.874,
+      "resultado": "GANADA"
+    },
+    {
       "id": 5988,
       "asset": "CHFNOK_otc",
       "direction": "CALL",
@@ -481,16 +491,6 @@
       "entry_price": 11.235,
       "exit_price": 11.266,
       "resultado": "PERDIDA"
-    },
-    {
-      "id": 5969,
-      "asset": "CHFNOK_otc",
-      "direction": "CALL",
-      "horizon_min": 1,
-      "hora": "2026-09-03T03:08:00+00:00",
-      "entry_price": 11.126,
-      "exit_price": 11.148,
-      "resultado": "GANADA"
     }
   ]
 }
