@@ -1,15 +1,15 @@
 {
-  "actualizado": "2026-09-03T04:49:01.594326+00:00",
+  "actualizado": "2026-09-03T04:49:35.840813+00:00",
   "lectura_actual": {
     "par": "CHFNOK_otc",
     "sin_datos_suficientes": false,
-    "votos_call": 4,
-    "votos_put": 1,
+    "votos_call": 5,
+    "votos_put": 0,
     "consenso_necesario": 3,
     "detalle": {
-      "RSI": null,
+      "RSI": "CALL",
       "BOLLINGER": "CALL",
-      "MACD": "PUT",
+      "MACD": null,
       "ESTOCASTICO": "CALL",
       "CRUCE_EMA": null,
       "WILLIAMS_R": "CALL",
