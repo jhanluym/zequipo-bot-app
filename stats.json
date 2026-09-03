@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-03T15:06:59.667290+00:00",
+  "actualizado": "2026-09-03T15:07:35.667529+00:00",
   "lectura_actual": {
     "par": "CHFNOK_otc",
     "sin_datos_suficientes": false,
@@ -18,8 +18,8 @@
     "hay_senal_activa": false,
     "direccion_activa": null
   },
-  "total": 5995,
-  "wins": 3005,
+  "total": 5996,
+  "wins": 3006,
   "pct": 50.1,
   "rango_lo": 48.9,
   "rango_hi": 51.4,
@@ -76,11 +76,11 @@
     },
     {
       "nombre": "CHFNOK_otc | 1min",
-      "wins": 147,
-      "total": 319,
-      "pct": 46.1,
-      "rango_lo": 40.7,
-      "rango_hi": 51.6
+      "wins": 148,
+      "total": 320,
+      "pct": 46.2,
+      "rango_lo": 40.9,
+      "rango_hi": 51.7
     },
     {
       "nombre": "USDJPY_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 6064,
+      "asset": "CHFNOK_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-09-03T15:06:00+00:00",
+      "entry_price": 11.376,
+      "exit_price": 11.384,
+      "resultado": "GANADA"
+    },
+    {
       "id": 6063,
       "asset": "CHFNOK_otc",
       "direction": "CALL",
@@ -480,16 +490,6 @@
       "hora": "2026-09-03T13:11:00+00:00",
       "entry_price": 11.949,
       "exit_price": 11.958,
-      "resultado": "GANADA"
-    },
-    {
-      "id": 6044,
-      "asset": "CHFNOK_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-09-03T13:01:00+00:00",
-      "entry_price": 12.064,
-      "exit_price": 12.018,
       "resultado": "GANADA"
     }
   ]
