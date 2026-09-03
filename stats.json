@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-03T08:08:27.215723+00:00",
+  "actualizado": "2026-09-03T08:09:02.376969+00:00",
   "lectura_actual": {
     "par": "CHFNOK_otc",
     "sin_datos_suficientes": false,
@@ -24,7 +24,7 @@
   "rango_lo": 48.8,
   "rango_hi": 51.4,
   "empates": 57,
-  "sin_datos": 9,
+  "sin_datos": 10,
   "combos": [
     {
       "nombre": "EURUSD_otc | 1min",
@@ -293,6 +293,16 @@
   ],
   "recientes": [
     {
+      "id": 6014,
+      "asset": "CHFNOK_otc",
+      "direction": "CALL",
+      "horizon_min": 1,
+      "hora": "2026-09-03T07:54:00+00:00",
+      "entry_price": null,
+      "exit_price": null,
+      "resultado": "SIN_DATOS"
+    },
+    {
       "id": 6013,
       "asset": "CHFNOK_otc",
       "direction": "CALL",
@@ -481,16 +491,6 @@
       "entry_price": 11.049,
       "exit_price": 11.046,
       "resultado": "GANADA"
-    },
-    {
-      "id": 5994,
-      "asset": "CHFNOK_otc",
-      "direction": "PUT",
-      "horizon_min": 1,
-      "hora": "2026-09-03T05:50:00+00:00",
-      "entry_price": 11.068,
-      "exit_price": 11.073,
-      "resultado": "PERDIDA"
     }
   ]
 }
